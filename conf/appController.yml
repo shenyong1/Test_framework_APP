@@ -1,0 +1,60 @@
+tester:
+# ----------------通用的配置-------------
+    # appium专用输入法
+    unicodeKeyboard: True
+    # 结束运行后重置为原来的输入法
+    resetKeyboard: True
+    #　是否清楚数据启动
+    noReset: False
+
+
+# ----------------app------------
+# qq
+#    appPackage: com.tencent.mobileqq
+#    appActivity: com.tencent.mobileqq.activity.SplashActivity
+
+#手机浏览器
+#    appPackage: com.android.browser
+#    appActivity: .BrowserActivity
+
+# 米家
+#    appPackage: com.xiaomi.smarthome
+#    appActivity: .SmartHomeMainActivity
+
+# 叮当管家
+    appPackage: com.sankuai.pms
+    appActivity: com.sankuai.pms.WelcomeActivity
+
+# ------操作系统-------
+device_type: android
+
+# -----手机---------
+devices:
+  android:
+
+#三星手机（s）
+#    - platformName: Android
+#      platformVersion: 5.1.1
+#      ip: 127.0.0.1
+#      port: 4727
+#      udid: 5e25d38e
+#      deviceName: 5e25d38e
+#      name: 三星手机
+
+#模拟器1
+    - platformName: Android
+      platformVersion: 5.1.1
+      ip: 127.0.0.1
+      port: 4725
+      udid: emulator-5554
+      deviceName: emulator-5554
+      name: 雷电模拟器1
+
+#模拟器2
+    - platformName: Android
+      platformVersion: 5.1.1
+      ip: 127.0.0.1
+      port: 4726
+      udid: emulator-5556
+      deviceName: emulator-5556
+      name: 雷电模拟器2

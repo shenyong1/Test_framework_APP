@@ -1,0 +1,750 @@
+Tried to attach logging to file E:\Test_framework_APP\log\雷电模拟器2.log but an error occurred: undefined
+Tried to attach logging to file E:\Test_framework_APP\log\雷电模拟器2.log but an error occurred: undefined
+[36minfo[39m: Welcome to Appium v1.4.16 (REV ae6877eff263066b26328d457bd285c0cc62430d)
+[36minfo[39m: Appium REST http interface listener started on 127.0.0.1:4724
+[36minfo[39m: [debug] Non-default server args: {"udid":"127.0.0.1:5557","address":"127.0.0.1","port":4724,"log":"E:\\Test_framework_APP\\log\\雷电模拟器2.log"}
+[36minfo[39m: Console LogLevel: debug
+[36minfo[39m: [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m [90m{"capabilities":{"firstMatch":[{}],"alwaysMatch":{"platformName":"Android"}},"desiredCapabilities":{"udid":"127.0.0.1:5557","appActivity":"com.sankuai.pms.WelcomeActivity","resetKeyboard":true,"platformName":"Android","noReset":false,"name":"雷电模拟器2","ip":"127.0.0.1","deviceName":"tester002","log_path":"E:\\Test_framework_APP\\log\\雷电模拟器2.log","platformVersion":"5.1.1","port":4724,"unicodeKeyboard":true,"appPackage":"com.sankuai.pms"}}[39m
+[36minfo[39m: Client User-Agent string: Python http auth
+[36minfo[39m: [debug] The following desired capabilities were provided, but not recognized by appium. They will be passed on to any other services running on this server. : name, ip, log_path, port
+[36minfo[39m: [debug] Didn't get app but did get Android package, will attempt to launch it on the device
+[36minfo[39m: [debug] Creating new appium session e656162d-bef8-4c73-a145-abc9d52b813b
+[36minfo[39m: Starting android appium
+[36minfo[39m: [debug] Getting Java version
+[36minfo[39m: Java version is: 1.8.0_171
+[36minfo[39m: [debug] Checking whether adb is present
+[36minfo[39m: [debug] Using adb from D:\android-sdk\sdk\platform-tools\adb.exe
+[33mwarn[39m: No app capability, can't parse package/activity
+[36minfo[39m: [debug] Using fast reset? true
+[36minfo[39m: [debug] Preparing device for session
+[36minfo[39m: [debug] Not checking whether app is present since we are assuming it's already on the device
+[36minfo[39m: Retrieving device
+[36minfo[39m: [debug] Trying to find a connected android device
+[36minfo[39m: [debug] Getting connected devices...
+[36minfo[39m: [debug] executing cmd: D:\android-sdk\sdk\platform-tools\adb.exe devices
+[36minfo[39m: [debug] 2 device(s) connected
+[36minfo[39m: [debug] Sent shutdown command, waiting for UiAutomator to stop...
+[33mwarn[39m: UiAutomator did not shut down fast enough, calling it gone
+[36minfo[39m: [debug] Cleaning up android objects
+[36minfo[39m: [debug] Cleaning up appium session
+[36minfo[39m: [debug] Error: Device 127.0.0.1:5557 was not in the list of connected devices
+    at Android.<anonymous> (D:\Program Files (x86)\Appium\node_modules\appium\lib\devices\android\android-common.js:405:19)
+    at ADB.<anonymous> (D:\Program Files (x86)\Appium\node_modules\appium\node_modules\appium-adb\lib\adb.js:621:9)
+    at ADB.<anonymous> (D:\Program Files (x86)\Appium\node_modules\appium\node_modules\appium-adb\lib\adb.js:853:7)
+    at ADB.<anonymous> (D:\Program Files (x86)\Appium\node_modules\appium\node_modules\appium-adb\lib\adb.js:180:9)
+    at ChildProcess.exithandler (child_process.js:195:7)
+    at emitTwo (events.js:106:13)
+    at ChildProcess.emit (events.js:191:7)
+    at maybeClose (internal/child_process.js:886:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+[36minfo[39m: [debug] Responding to client with error: {"status":33,"value":{"message":"A new session could not be created. (Original error: Device 127.0.0.1:5557 was not in the list of connected devices)","origValue":"Device 127.0.0.1:5557 was not in the list of connected devices"},"sessionId":null}
+[36minfo[39m: [37m<-- POST /wd/hub/session [39m[31m500[39m[90m 11734.633 ms - 246[39m [90m[39m
+Tried to attach logging to file E:\Test_framework_APP\log\雷电模拟器2.log but an error occurred: undefined
+[36minfo[39m: Welcome to Appium v1.4.16 (REV ae6877eff263066b26328d457bd285c0cc62430d)
+[36minfo[39m: Appium REST http interface listener started on 127.0.0.1:4724
+[36minfo[39m: [debug] Non-default server args: {"udid":"127.0.0.1:5557","address":"127.0.0.1","port":4724,"log":"E:\\Test_framework_APP\\log\\雷电模拟器2.log"}
+[36minfo[39m: Console LogLevel: debug
+[36minfo[39m: [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m [90m{"desiredCapabilities":{"platformName":"Android","noReset":false,"name":"雷电模拟器2","platformVersion":"5.1.1","appActivity":"com.sankuai.pms.WelcomeActivity","port":4724,"unicodeKeyboard":true,"ip":"127.0.0.1","udid":"127.0.0.1:5557","resetKeyboard":true,"deviceName":"tester002","appPackage":"com.sankuai.pms","log_path":"E:\\Test_framework_APP\\log\\雷电模拟器2.log"},"capabilities":{"firstMatch":[{}],"alwaysMatch":{"platformName":"Android"}}}[39m
+[36minfo[39m: Client User-Agent string: Python http auth
+[36minfo[39m: [debug] The following desired capabilities were provided, but not recognized by appium. They will be passed on to any other services running on this server. : name, port, ip, log_path
+[36minfo[39m: [debug] Didn't get app but did get Android package, will attempt to launch it on the device
+[36minfo[39m: [debug] Creating new appium session 4897d8b2-4b3e-441c-bb17-21e4e7d27cbc
+[36minfo[39m: Starting android appium
+[36minfo[39m: [debug] Getting Java version
+[36minfo[39m: Java version is: 1.8.0_171
+[36minfo[39m: [debug] Checking whether adb is present
+[36minfo[39m: [debug] Using adb from D:\android-sdk\sdk\platform-tools\adb.exe
+[33mwarn[39m: No app capability, can't parse package/activity
+[36minfo[39m: [debug] Using fast reset? true
+[36minfo[39m: [debug] Preparing device for session
+[36minfo[39m: [debug] Not checking whether app is present since we are assuming it's already on the device
+[36minfo[39m: Retrieving device
+[36minfo[39m: [debug] Trying to find a connected android device
+[36minfo[39m: [debug] Getting connected devices...
+[36minfo[39m: [debug] executing cmd: D:\android-sdk\sdk\platform-tools\adb.exe devices
+[36minfo[39m: [debug] 2 device(s) connected
+[36minfo[39m: [debug] Sent shutdown command, waiting for UiAutomator to stop...
+[33mwarn[39m: UiAutomator did not shut down fast enough, calling it gone
+[36minfo[39m: [debug] Cleaning up android objects
+[36minfo[39m: [debug] Cleaning up appium session
+[36minfo[39m: [debug] Error: Device 127.0.0.1:5557 was not in the list of connected devices
+    at Android.<anonymous> (D:\Program Files (x86)\Appium\node_modules\appium\lib\devices\android\android-common.js:405:19)
+    at ADB.<anonymous> (D:\Program Files (x86)\Appium\node_modules\appium\node_modules\appium-adb\lib\adb.js:621:9)
+    at ADB.<anonymous> (D:\Program Files (x86)\Appium\node_modules\appium\node_modules\appium-adb\lib\adb.js:853:7)
+    at ADB.<anonymous> (D:\Program Files (x86)\Appium\node_modules\appium\node_modules\appium-adb\lib\adb.js:180:9)
+    at ChildProcess.exithandler (child_process.js:195:7)
+    at emitTwo (events.js:106:13)
+    at ChildProcess.emit (events.js:191:7)
+    at maybeClose (internal/child_process.js:886:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+[36minfo[39m: [debug] Responding to client with error: {"status":33,"value":{"message":"A new session could not be created. (Original error: Device 127.0.0.1:5557 was not in the list of connected devices)","origValue":"Device 127.0.0.1:5557 was not in the list of connected devices"},"sessionId":null}
+[36minfo[39m: [37m<-- POST /wd/hub/session [39m[31m500[39m[90m 11354.042 ms - 246[39m [90m[39m
+Tried to attach logging to file E:\Test_framework_APP\log\雷电模拟器2.log but an error occurred: undefined
+[36minfo[39m: Welcome to Appium v1.4.16 (REV ae6877eff263066b26328d457bd285c0cc62430d)
+[36minfo[39m: Appium REST http interface listener started on 127.0.0.1:4724
+[36minfo[39m: [debug] Non-default server args: {"udid":"emulator-5556","address":"127.0.0.1","port":4724,"log":"E:\\Test_framework_APP\\log\\雷电模拟器2.log"}
+[36minfo[39m: Console LogLevel: debug
+[36minfo[39m: [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m [90m{"capabilities":{"alwaysMatch":{"platformName":"Android"},"firstMatch":[{}]},"desiredCapabilities":{"deviceName":"emulator-5556","log_path":"E:\\Test_framework_APP\\log\\雷电模拟器2.log","platformVersion":"5.1.1","port":4724,"unicodeKeyboard":true,"appPackage":"com.sankuai.pms","appActivity":"com.sankuai.pms.WelcomeActivity","noReset":false,"udid":"emulator-5556","resetKeyboard":true,"ip":"127.0.0.1","name":"雷电模拟器2","platformName":"Android"}}[39m
+[36minfo[39m: Client User-Agent string: Python http auth
+[36minfo[39m: [debug] The following desired capabilities were provided, but not recognized by appium. They will be passed on to any other services running on this server. : log_path, port, ip, name
+[36minfo[39m: [debug] Didn't get app but did get Android package, will attempt to launch it on the device
+[36minfo[39m: [debug] Creating new appium session c402aaea-1576-449f-8260-182d04eed6a0
+[36minfo[39m: Starting android appium
+[36minfo[39m: [debug] Getting Java version
+[36minfo[39m: Java version is: 1.8.0_171
+[36minfo[39m: [debug] Checking whether adb is present
+[36minfo[39m: [debug] Using adb from D:\android-sdk\sdk\platform-tools\adb.exe
+[33mwarn[39m: No app capability, can't parse package/activity
+[36minfo[39m: [debug] Using fast reset? true
+[36minfo[39m: [debug] Preparing device for session
+[36minfo[39m: [debug] Not checking whether app is present since we are assuming it's already on the device
+[36minfo[39m: Retrieving device
+[36minfo[39m: [debug] Trying to find a connected android device
+[36minfo[39m: [debug] Getting connected devices...
+[36minfo[39m: [debug] executing cmd: D:\android-sdk\sdk\platform-tools\adb.exe devices
+[36minfo[39m: [debug] 2 device(s) connected
+[36minfo[39m: Found device emulator-5556
+[36minfo[39m: [debug] Setting device id to emulator-5556
+[36minfo[39m: [debug] Waiting for device to be ready and to respond to shell commands (timeout = 5)
+[36minfo[39m: [debug] executing cmd: D:\android-sdk\sdk\platform-tools\adb.exe -s emulator-5556 wait-for-device
+[36minfo[39m: [debug] executing cmd: D:\android-sdk\sdk\platform-tools\adb.exe -s emulator-5556 shell "echo 'ready'"
+[36minfo[39m: [debug] Starting logcat capture
+[36minfo[39m: [debug] Getting device API level
+[36minfo[39m: [debug] executing cmd: D:\android-sdk\sdk\platform-tools\adb.exe -s emulator-5556 shell "getprop ro.build.version.sdk"
+[36minfo[39m: [debug] Device is at API Level 22
+[36minfo[39m: Device API level is: 22
+[36minfo[39m: [debug] Extracting strings for language: default
+[36minfo[39m: [debug] Apk doesn't exist locally
+[36minfo[39m: [debug] Could not get strings, but it looks like we had an old strings file anyway, so ignoring
+[36minfo[39m: [debug] executing cmd: D:\android-sdk\sdk\platform-tools\adb.exe -s emulator-5556 shell "rm -rf /data/local/tmp/strings.json"
+[36minfo[39m: [debug] Not uninstalling app since server not started with --full-reset
+[36minfo[39m: [debug] Skipping install since we launched with a package instead of an app path
+[36minfo[39m: [debug] Forwarding system:4724 to device:4724
+[36minfo[39m: [debug] executing cmd: D:\android-sdk\sdk\platform-tools\adb.exe -s emulator-5556 forward tcp:4724 tcp:4724
+[36minfo[39m: [debug] Stopping logcat capture
+[36minfo[39m: [debug] Logcat terminated with code null, signal SIGTERM
+[36minfo[39m: [debug] Sent shutdown command, waiting for UiAutomator to stop...
+[33mwarn[39m: UiAutomator did not shut down fast enough, calling it gone
+[36minfo[39m: [debug] Cleaning up android objects
+[36minfo[39m: [debug] Cleaning up appium session
+[36minfo[39m: [debug] Error: Command failed: D:\android-sdk\sdk\platform-tools\adb.exe -s emulator-5556 forward tcp:4724 tcp:4724
+error: cannot bind to socket
+
+    at ChildProcess.exithandler (child_process.js:204:12)
+    at emitTwo (events.js:106:13)
+    at ChildProcess.emit (events.js:191:7)
+    at maybeClose (internal/child_process.js:886:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+[36minfo[39m: [debug] Responding to client with error: {"status":33,"value":{"message":"A new session could not be created. (Original error: Command failed: D:\\android-sdk\\sdk\\platform-tools\\adb.exe -s emulator-5556 forward tcp:4724 tcp:4724\nerror: cannot bind to socket\r\n)","killed":false,"code":1,"signal":null,"cmd":"D:\\android-sdk\\sdk\\platform-tools\\adb.exe -s emulator-5556 forward tcp:4724 tcp:4724","origValue":"Command failed: D:\\android-sdk\\sdk\\platform-tools\\adb.exe -s emulator-5556 forward tcp:4724 tcp:4724\nerror: cannot bind to socket\r\n"},"sessionId":null}
+[36minfo[39m: [37m<-- POST /wd/hub/session [39m[31m500[39m[90m 11880.681 ms - 533[39m [90m[39m
+Tried to attach logging to file E:\Test_framework_APP\log\雷电模拟器2.log but an error occurred: undefined
+[36minfo[39m: Welcome to Appium v1.4.16 (REV ae6877eff263066b26328d457bd285c0cc62430d)
+[36minfo[39m: Appium REST http interface listener started on 127.0.0.1:4724
+[36minfo[39m: [debug] Non-default server args: {"udid":"emulator-5556","address":"127.0.0.1","port":4724,"log":"E:\\Test_framework_APP\\log\\雷电模拟器2.log"}
+[36minfo[39m: Console LogLevel: debug
+[36minfo[39m: [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m [90m{"desiredCapabilities":{"ip":"127.0.0.1","deviceName":"emulator-5556","noReset":false,"log_path":"E:\\Test_framework_APP\\log\\雷电模拟器2.log","name":"雷电模拟器2","resetKeyboard":true,"udid":"emulator-5556","appPackage":"com.sankuai.pms","appActivity":"com.sankuai.pms.WelcomeActivity","platformName":"Android","unicodeKeyboard":true,"port":4724,"platformVersion":"5.1.1"},"capabilities":{"alwaysMatch":{"platformName":"Android"},"firstMatch":[{}]}}[39m
+[36minfo[39m: Client User-Agent string: Python http auth
+[36minfo[39m: [debug] The following desired capabilities were provided, but not recognized by appium. They will be passed on to any other services running on this server. : ip, log_path, name, port
+[36minfo[39m: [debug] Didn't get app but did get Android package, will attempt to launch it on the device
+[36minfo[39m: [debug] Creating new appium session e8f625fb-890f-4deb-b4a5-0852e49c24e1
+[36minfo[39m: Starting android appium
+[36minfo[39m: [debug] Getting Java version
+[36minfo[39m: Java version is: 1.8.0_171
+[36minfo[39m: [debug] Checking whether adb is present
+[36minfo[39m: [debug] Using adb from D:\android-sdk\sdk\platform-tools\adb.exe
+[33mwarn[39m: No app capability, can't parse package/activity
+[36minfo[39m: [debug] Using fast reset? true
+[36minfo[39m: [debug] Preparing device for session
+[36minfo[39m: [debug] Not checking whether app is present since we are assuming it's already on the device
+[36minfo[39m: Retrieving device
+[36minfo[39m: [debug] Trying to find a connected android device
+[36minfo[39m: [debug] Getting connected devices...
+[36minfo[39m: [debug] executing cmd: D:\android-sdk\sdk\platform-tools\adb.exe devices
+[36minfo[39m: [debug] 2 device(s) connected
+[36minfo[39m: Found device emulator-5556
+[36minfo[39m: [debug] Setting device id to emulator-5556
+[36minfo[39m: [debug] Waiting for device to be ready and to respond to shell commands (timeout = 5)
+[36minfo[39m: [debug] executing cmd: D:\android-sdk\sdk\platform-tools\adb.exe -s emulator-5556 wait-for-device
+[36minfo[39m: [debug] executing cmd: D:\android-sdk\sdk\platform-tools\adb.exe -s emulator-5556 shell "echo 'ready'"
+[36minfo[39m: [debug] Starting logcat capture
+[36minfo[39m: [debug] Getting device API level
+[36minfo[39m: [debug] executing cmd: D:\android-sdk\sdk\platform-tools\adb.exe -s emulator-5556 shell "getprop ro.build.version.sdk"
+[36minfo[39m: [debug] Device is at API Level 22
+[36minfo[39m: Device API level is: 22
+[36minfo[39m: [debug] Extracting strings for language: default
+[36minfo[39m: [debug] Apk doesn't exist locally
+[36minfo[39m: [debug] Could not get strings, but it looks like we had an old strings file anyway, so ignoring
+[36minfo[39m: [debug] executing cmd: D:\android-sdk\sdk\platform-tools\adb.exe -s emulator-5556 shell "rm -rf /data/local/tmp/strings.json"
+[36minfo[39m: [debug] Not uninstalling app since server not started with --full-reset
+[36minfo[39m: [debug] Skipping install since we launched with a package instead of an app path
+[36minfo[39m: [debug] Forwarding system:4724 to device:4724
+[36minfo[39m: [debug] executing cmd: D:\android-sdk\sdk\platform-tools\adb.exe -s emulator-5556 forward tcp:4724 tcp:4724
+[36minfo[39m: [debug] Stopping logcat capture
+[36minfo[39m: [debug] Logcat terminated with code null, signal SIGTERM
+[36minfo[39m: [debug] Sent shutdown command, waiting for UiAutomator to stop...
+[33mwarn[39m: UiAutomator did not shut down fast enough, calling it gone
+[36minfo[39m: [debug] Cleaning up android objects
+[36minfo[39m: [debug] Cleaning up appium session
+[36minfo[39m: [debug] Error: Command failed: D:\android-sdk\sdk\platform-tools\adb.exe -s emulator-5556 forward tcp:4724 tcp:4724
+error: cannot bind to socket
+
+    at ChildProcess.exithandler (child_process.js:204:12)
+    at emitTwo (events.js:106:13)
+    at ChildProcess.emit (events.js:191:7)
+    at maybeClose (internal/child_process.js:886:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+[36minfo[39m: [debug] Responding to client with error: {"status":33,"value":{"message":"A new session could not be created. (Original error: Command failed: D:\\android-sdk\\sdk\\platform-tools\\adb.exe -s emulator-5556 forward tcp:4724 tcp:4724\nerror: cannot bind to socket\r\n)","killed":false,"code":1,"signal":null,"cmd":"D:\\android-sdk\\sdk\\platform-tools\\adb.exe -s emulator-5556 forward tcp:4724 tcp:4724","origValue":"Command failed: D:\\android-sdk\\sdk\\platform-tools\\adb.exe -s emulator-5556 forward tcp:4724 tcp:4724\nerror: cannot bind to socket\r\n"},"sessionId":null}
+[36minfo[39m: [37m<-- POST /wd/hub/session [39m[31m500[39m[90m 11936.373 ms - 533[39m [90m[39m
+Tried to attach logging to file E:\Test_framework_APP\log\雷电模拟器2.log but an error occurred: undefined
+[36minfo[39m: Welcome to Appium v1.4.16 (REV ae6877eff263066b26328d457bd285c0cc62430d)
+[36minfo[39m: Appium REST http interface listener started on 127.0.0.1:4724
+[36minfo[39m: [debug] Non-default server args: {"udid":"emulator-5556","address":"127.0.0.1","port":4724,"log":"E:\\Test_framework_APP\\log\\雷电模拟器2.log"}
+[36minfo[39m: Console LogLevel: debug
+[36minfo[39m: [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m [90m{"desiredCapabilities":{"name":"雷电模拟器2","appPackage":"com.sankuai.pms","port":4724,"platformVersion":"5.1.1","appActivity":"com.sankuai.pms.WelcomeActivity","udid":"emulator-5556","ip":"127.0.0.1","unicodeKeyboard":true,"log_path":"E:\\Test_framework_APP\\log\\雷电模拟器2.log","deviceName":"emulator-5556","resetKeyboard":true,"noReset":false,"platformName":"Android"},"capabilities":{"alwaysMatch":{"platformName":"Android"},"firstMatch":[{}]}}[39m
+[36minfo[39m: Client User-Agent string: Python http auth
+[36minfo[39m: [debug] The following desired capabilities were provided, but not recognized by appium. They will be passed on to any other services running on this server. : name, port, ip, log_path
+[36minfo[39m: [debug] Didn't get app but did get Android package, will attempt to launch it on the device
+[36minfo[39m: [debug] Creating new appium session 8c79f8c0-240c-42b9-aca6-d1a617710bec
+[36minfo[39m: Starting android appium
+[36minfo[39m: [debug] Getting Java version
+[36minfo[39m: Java version is: 1.8.0_171
+[36minfo[39m: [debug] Checking whether adb is present
+[36minfo[39m: [debug] Using adb from D:\android-sdk\sdk\platform-tools\adb.exe
+[33mwarn[39m: No app capability, can't parse package/activity
+[36minfo[39m: [debug] Using fast reset? true
+[36minfo[39m: [debug] Preparing device for session
+[36minfo[39m: [debug] Not checking whether app is present since we are assuming it's already on the device
+[36minfo[39m: Retrieving device
+[36minfo[39m: [debug] Trying to find a connected android device
+[36minfo[39m: [debug] Getting connected devices...
+[36minfo[39m: [debug] executing cmd: D:\android-sdk\sdk\platform-tools\adb.exe devices
+[36minfo[39m: [debug] 2 device(s) connected
+[36minfo[39m: Found device emulator-5556
+[36minfo[39m: [debug] Setting device id to emulator-5556
+[36minfo[39m: [debug] Waiting for device to be ready and to respond to shell commands (timeout = 5)
+[36minfo[39m: [debug] executing cmd: D:\android-sdk\sdk\platform-tools\adb.exe -s emulator-5556 wait-for-device
+[36minfo[39m: [debug] executing cmd: D:\android-sdk\sdk\platform-tools\adb.exe -s emulator-5556 shell "echo 'ready'"
+[36minfo[39m: [debug] Starting logcat capture
+[36minfo[39m: [debug] Getting device API level
+[36minfo[39m: [debug] executing cmd: D:\android-sdk\sdk\platform-tools\adb.exe -s emulator-5556 shell "getprop ro.build.version.sdk"
+[36minfo[39m: [debug] Device is at API Level 22
+[36minfo[39m: Device API level is: 22
+[36minfo[39m: [debug] Extracting strings for language: default
+[36minfo[39m: [debug] Apk doesn't exist locally
+[36minfo[39m: [debug] Could not get strings, but it looks like we had an old strings file anyway, so ignoring
+[36minfo[39m: [debug] executing cmd: D:\android-sdk\sdk\platform-tools\adb.exe -s emulator-5556 shell "rm -rf /data/local/tmp/strings.json"
+[36minfo[39m: [debug] Not uninstalling app since server not started with --full-reset
+[36minfo[39m: [debug] Skipping install since we launched with a package instead of an app path
+[36minfo[39m: [debug] Forwarding system:4724 to device:4724
+[36minfo[39m: [debug] executing cmd: D:\android-sdk\sdk\platform-tools\adb.exe -s emulator-5556 forward tcp:4724 tcp:4724
+[36minfo[39m: [debug] Stopping logcat capture
+[36minfo[39m: [debug] Logcat terminated with code null, signal SIGTERM
+[36minfo[39m: [debug] Sent shutdown command, waiting for UiAutomator to stop...
+[33mwarn[39m: UiAutomator did not shut down fast enough, calling it gone
+[36minfo[39m: [debug] Cleaning up android objects
+[36minfo[39m: [debug] Cleaning up appium session
+[36minfo[39m: [debug] Error: Command failed: D:\android-sdk\sdk\platform-tools\adb.exe -s emulator-5556 forward tcp:4724 tcp:4724
+error: cannot bind to socket
+
+    at ChildProcess.exithandler (child_process.js:204:12)
+    at emitTwo (events.js:106:13)
+    at ChildProcess.emit (events.js:191:7)
+    at maybeClose (internal/child_process.js:886:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+[36minfo[39m: [debug] Responding to client with error: {"status":33,"value":{"message":"A new session could not be created. (Original error: Command failed: D:\\android-sdk\\sdk\\platform-tools\\adb.exe -s emulator-5556 forward tcp:4724 tcp:4724\nerror: cannot bind to socket\r\n)","killed":false,"code":1,"signal":null,"cmd":"D:\\android-sdk\\sdk\\platform-tools\\adb.exe -s emulator-5556 forward tcp:4724 tcp:4724","origValue":"Command failed: D:\\android-sdk\\sdk\\platform-tools\\adb.exe -s emulator-5556 forward tcp:4724 tcp:4724\nerror: cannot bind to socket\r\n"},"sessionId":null}
+[36minfo[39m: [37m<-- POST /wd/hub/session [39m[31m500[39m[90m 11981.230 ms - 533[39m [90m[39m
+Tried to attach logging to file E:\Test_framework_APP\log\雷电模拟器2.log but an error occurred: undefined
+[36minfo[39m: Welcome to Appium v1.4.16 (REV ae6877eff263066b26328d457bd285c0cc62430d)
+[36minfo[39m: Appium REST http interface listener started on 127.0.0.1:4724
+[36minfo[39m: [debug] Non-default server args: {"udid":"emulator-5556","address":"127.0.0.1","port":4724,"log":"E:\\Test_framework_APP\\log\\雷电模拟器2.log"}
+[36minfo[39m: Console LogLevel: debug
+[36minfo[39m: [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m [90m{"capabilities":{"firstMatch":[{}],"alwaysMatch":{"platformName":"Android"}},"desiredCapabilities":{"unicodeKeyboard":true,"platformName":"Android","log_path":"E:\\Test_framework_APP\\log\\雷电模拟器2.log","resetKeyboard":true,"name":"雷电模拟器2","deviceName":"emulator-5556","udid":"emulator-5556","noReset":false,"platformVersion":"5.1.1","ip":"127.0.0.1","appPackage":"com.sankuai.pms","appActivity":"com.sankuai.pms.WelcomeActivity","port":4724}}[39m
+[36minfo[39m: Client User-Agent string: Python http auth
+[36minfo[39m: [debug] The following desired capabilities were provided, but not recognized by appium. They will be passed on to any other services running on this server. : log_path, name, ip, port
+[36minfo[39m: [debug] Didn't get app but did get Android package, will attempt to launch it on the device
+[36minfo[39m: [debug] Creating new appium session c79016e6-d5bc-4f2d-97e6-184edbeced92
+[36minfo[39m: Starting android appium
+[36minfo[39m: [debug] Getting Java version
+[36minfo[39m: Java version is: 1.8.0_171
+[36minfo[39m: [debug] Checking whether adb is present
+[36minfo[39m: [debug] Using adb from D:\android-sdk\sdk\platform-tools\adb.exe
+[33mwarn[39m: No app capability, can't parse package/activity
+[36minfo[39m: [debug] Using fast reset? true
+[36minfo[39m: [debug] Preparing device for session
+[36minfo[39m: [debug] Not checking whether app is present since we are assuming it's already on the device
+[36minfo[39m: Retrieving device
+[36minfo[39m: [debug] Trying to find a connected android device
+[36minfo[39m: [debug] Getting connected devices...
+[36minfo[39m: [debug] executing cmd: D:\android-sdk\sdk\platform-tools\adb.exe devices
+[36minfo[39m: [debug] 2 device(s) connected
+[36minfo[39m: Found device emulator-5556
+[36minfo[39m: [debug] Setting device id to emulator-5556
+[36minfo[39m: [debug] Waiting for device to be ready and to respond to shell commands (timeout = 5)
+[36minfo[39m: [debug] executing cmd: D:\android-sdk\sdk\platform-tools\adb.exe -s emulator-5556 wait-for-device
+[36minfo[39m: [debug] executing cmd: D:\android-sdk\sdk\platform-tools\adb.exe -s emulator-5556 shell "echo 'ready'"
+[36minfo[39m: [debug] Starting logcat capture
+[36minfo[39m: [debug] Getting device API level
+[36minfo[39m: [debug] executing cmd: D:\android-sdk\sdk\platform-tools\adb.exe -s emulator-5556 shell "getprop ro.build.version.sdk"
+[36minfo[39m: [debug] Device is at API Level 22
+[36minfo[39m: Device API level is: 22
+[36minfo[39m: [debug] Extracting strings for language: default
+[36minfo[39m: [debug] Apk doesn't exist locally
+[36minfo[39m: [debug] Could not get strings, but it looks like we had an old strings file anyway, so ignoring
+[36minfo[39m: [debug] executing cmd: D:\android-sdk\sdk\platform-tools\adb.exe -s emulator-5556 shell "rm -rf /data/local/tmp/strings.json"
+[36minfo[39m: [debug] Not uninstalling app since server not started with --full-reset
+[36minfo[39m: [debug] Skipping install since we launched with a package instead of an app path
+[36minfo[39m: [debug] Forwarding system:4724 to device:4724
+[36minfo[39m: [debug] executing cmd: D:\android-sdk\sdk\platform-tools\adb.exe -s emulator-5556 forward tcp:4724 tcp:4724
+[36minfo[39m: [debug] Stopping logcat capture
+[36minfo[39m: [debug] Logcat terminated with code null, signal SIGTERM
+[36minfo[39m: [debug] Sent shutdown command, waiting for UiAutomator to stop...
+[33mwarn[39m: UiAutomator did not shut down fast enough, calling it gone
+[36minfo[39m: [debug] Cleaning up android objects
+[36minfo[39m: [debug] Cleaning up appium session
+[36minfo[39m: [debug] Error: Command failed: D:\android-sdk\sdk\platform-tools\adb.exe -s emulator-5556 forward tcp:4724 tcp:4724
+error: cannot bind to socket
+
+    at ChildProcess.exithandler (child_process.js:204:12)
+    at emitTwo (events.js:106:13)
+    at ChildProcess.emit (events.js:191:7)
+    at maybeClose (internal/child_process.js:886:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+[36minfo[39m: [debug] Responding to client with error: {"status":33,"value":{"message":"A new session could not be created. (Original error: Command failed: D:\\android-sdk\\sdk\\platform-tools\\adb.exe -s emulator-5556 forward tcp:4724 tcp:4724\nerror: cannot bind to socket\r\n)","killed":false,"code":1,"signal":null,"cmd":"D:\\android-sdk\\sdk\\platform-tools\\adb.exe -s emulator-5556 forward tcp:4724 tcp:4724","origValue":"Command failed: D:\\android-sdk\\sdk\\platform-tools\\adb.exe -s emulator-5556 forward tcp:4724 tcp:4724\nerror: cannot bind to socket\r\n"},"sessionId":null}
+[36minfo[39m: [37m<-- POST /wd/hub/session [39m[31m500[39m[90m 8028.371 ms - 533[39m [90m[39m
+Tried to attach logging to file E:\Test_framework_APP\log\雷电模拟器2.log but an error occurred: undefined
+[36minfo[39m: Welcome to Appium v1.4.16 (REV ae6877eff263066b26328d457bd285c0cc62430d)
+[36minfo[39m: Appium REST http interface listener started on 127.0.0.1:4724
+[36minfo[39m: [debug] Non-default server args: {"udid":"emulator-5556","address":"127.0.0.1","port":4724,"log":"E:\\Test_framework_APP\\log\\雷电模拟器2.log"}
+[36minfo[39m: Console LogLevel: debug
+[36minfo[39m: [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m [90m{"desiredCapabilities":{"platformVersion":"5.1.1","resetKeyboard":true,"port":4724,"deviceName":"emulator-5556","appActivity":"com.sankuai.pms.WelcomeActivity","ip":"127.0.0.1","noReset":false,"platformName":"Android","unicodeKeyboard":true,"udid":"emulator-5556","appPackage":"com.sankuai.pms","log_path":"E:\\Test_framework_APP\\log\\雷电模拟器2.log","name":"雷电模拟器2"},"capabilities":{"firstMatch":[{}],"alwaysMatch":{"platformName":"Android"}}}[39m
+[36minfo[39m: Client User-Agent string: Python http auth
+[36minfo[39m: [debug] The following desired capabilities were provided, but not recognized by appium. They will be passed on to any other services running on this server. : port, ip, log_path, name
+[36minfo[39m: [debug] Didn't get app but did get Android package, will attempt to launch it on the device
+[36minfo[39m: [debug] Creating new appium session bbb3577a-1a4c-4e82-99cb-7ed47eeedd52
+[36minfo[39m: Starting android appium
+[36minfo[39m: [debug] Getting Java version
+[36minfo[39m: Java version is: 1.8.0_171
+[36minfo[39m: [debug] Checking whether adb is present
+[36minfo[39m: [debug] Using adb from D:\android-sdk\sdk\platform-tools\adb.exe
+[33mwarn[39m: No app capability, can't parse package/activity
+[36minfo[39m: [debug] Using fast reset? true
+[36minfo[39m: [debug] Preparing device for session
+[36minfo[39m: [debug] Not checking whether app is present since we are assuming it's already on the device
+[36minfo[39m: Retrieving device
+[36minfo[39m: [debug] Trying to find a connected android device
+[36minfo[39m: [debug] Getting connected devices...
+[36minfo[39m: [debug] executing cmd: D:\android-sdk\sdk\platform-tools\adb.exe devices
+[36minfo[39m: [debug] 2 device(s) connected
+[36minfo[39m: Found device emulator-5556
+[36minfo[39m: [debug] Setting device id to emulator-5556
+[36minfo[39m: [debug] Waiting for device to be ready and to respond to shell commands (timeout = 5)
+[36minfo[39m: [debug] executing cmd: D:\android-sdk\sdk\platform-tools\adb.exe -s emulator-5556 wait-for-device
+[36minfo[39m: [debug] executing cmd: D:\android-sdk\sdk\platform-tools\adb.exe -s emulator-5556 shell "echo 'ready'"
+[36minfo[39m: [debug] Starting logcat capture
+[36minfo[39m: [debug] Getting device API level
+[36minfo[39m: [debug] executing cmd: D:\android-sdk\sdk\platform-tools\adb.exe -s emulator-5556 shell "getprop ro.build.version.sdk"
+[36minfo[39m: [debug] Device is at API Level 22
+[36minfo[39m: Device API level is: 22
+[36minfo[39m: [debug] Extracting strings for language: default
+[36minfo[39m: [debug] Apk doesn't exist locally
+[36minfo[39m: [debug] Could not get strings, but it looks like we had an old strings file anyway, so ignoring
+[36minfo[39m: [debug] executing cmd: D:\android-sdk\sdk\platform-tools\adb.exe -s emulator-5556 shell "rm -rf /data/local/tmp/strings.json"
+[36minfo[39m: [debug] Not uninstalling app since server not started with --full-reset
+[36minfo[39m: [debug] Skipping install since we launched with a package instead of an app path
+[36minfo[39m: [debug] Forwarding system:4724 to device:4724
+[36minfo[39m: [debug] executing cmd: D:\android-sdk\sdk\platform-tools\adb.exe -s emulator-5556 forward tcp:4724 tcp:4724
+[36minfo[39m: [debug] Stopping logcat capture
+[36minfo[39m: [debug] Logcat terminated with code null, signal SIGTERM
+[36minfo[39m: [debug] Sent shutdown command, waiting for UiAutomator to stop...
+[33mwarn[39m: UiAutomator did not shut down fast enough, calling it gone
+[36minfo[39m: [debug] Cleaning up android objects
+[36minfo[39m: [debug] Cleaning up appium session
+[36minfo[39m: [debug] Error: Command failed: D:\android-sdk\sdk\platform-tools\adb.exe -s emulator-5556 forward tcp:4724 tcp:4724
+error: cannot bind to socket
+
+    at ChildProcess.exithandler (child_process.js:204:12)
+    at emitTwo (events.js:106:13)
+    at ChildProcess.emit (events.js:191:7)
+    at maybeClose (internal/child_process.js:886:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+[36minfo[39m: [debug] Responding to client with error: {"status":33,"value":{"message":"A new session could not be created. (Original error: Command failed: D:\\android-sdk\\sdk\\platform-tools\\adb.exe -s emulator-5556 forward tcp:4724 tcp:4724\nerror: cannot bind to socket\r\n)","killed":false,"code":1,"signal":null,"cmd":"D:\\android-sdk\\sdk\\platform-tools\\adb.exe -s emulator-5556 forward tcp:4724 tcp:4724","origValue":"Command failed: D:\\android-sdk\\sdk\\platform-tools\\adb.exe -s emulator-5556 forward tcp:4724 tcp:4724\nerror: cannot bind to socket\r\n"},"sessionId":null}
+[36minfo[39m: [37m<-- POST /wd/hub/session [39m[31m500[39m[90m 7910.426 ms - 533[39m [90m[39m
+Tried to attach logging to file E:\Test_framework_APP\log\雷电模拟器2.log but an error occurred: undefined
+[36minfo[39m: Welcome to Appium v1.4.16 (REV ae6877eff263066b26328d457bd285c0cc62430d)
+[36minfo[39m: Appium REST http interface listener started on 127.0.0.1:4726
+[36minfo[39m: [debug] Non-default server args: {"udid":"emulator-5556","address":"127.0.0.1","port":4726,"log":"E:\\Test_framework_APP\\log\\雷电模拟器2.log"}
+[36minfo[39m: Console LogLevel: debug
+[36minfo[39m: [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m [90m{"capabilities":{"firstMatch":[{}],"alwaysMatch":{"platformName":"Android"}},"desiredCapabilities":{"unicodeKeyboard":true,"port":4726,"ip":"127.0.0.1","name":"雷电模拟器2","appPackage":"com.sankuai.pms","appActivity":"com.sankuai.pms.WelcomeActivity","platformName":"Android","udid":"emulator-5556","noReset":false,"platformVersion":"5.1.1","deviceName":"emulator-5556","resetKeyboard":true,"log_path":"E:\\Test_framework_APP\\log\\雷电模拟器2.log"}}[39m
+[36minfo[39m: Client User-Agent string: Python http auth
+[36minfo[39m: [debug] The following desired capabilities were provided, but not recognized by appium. They will be passed on to any other services running on this server. : port, ip, name, log_path
+[36minfo[39m: [debug] Didn't get app but did get Android package, will attempt to launch it on the device
+[36minfo[39m: [debug] Creating new appium session 719af7ae-d2e4-4780-b6aa-a1370dc9f355
+[36minfo[39m: Starting android appium
+[36minfo[39m: [debug] Getting Java version
+[36minfo[39m: Java version is: 1.8.0_171
+[36minfo[39m: [debug] Checking whether adb is present
+[36minfo[39m: [debug] Using adb from D:\android-sdk\sdk\platform-tools\adb.exe
+[33mwarn[39m: No app capability, can't parse package/activity
+[36minfo[39m: [debug] Using fast reset? true
+[36minfo[39m: [debug] Preparing device for session
+[36minfo[39m: [debug] Not checking whether app is present since we are assuming it's already on the device
+[36minfo[39m: Retrieving device
+[36minfo[39m: [debug] Trying to find a connected android device
+[36minfo[39m: [debug] Getting connected devices...
+[36minfo[39m: [debug] executing cmd: D:\android-sdk\sdk\platform-tools\adb.exe devices
+[36minfo[39m: [debug] 2 device(s) connected
+[36minfo[39m: Found device emulator-5556
+[36minfo[39m: [debug] Setting device id to emulator-5556
+[36minfo[39m: [debug] Waiting for device to be ready and to respond to shell commands (timeout = 5)
+[36minfo[39m: [debug] executing cmd: D:\android-sdk\sdk\platform-tools\adb.exe -s emulator-5556 wait-for-device
+[36minfo[39m: [debug] executing cmd: D:\android-sdk\sdk\platform-tools\adb.exe -s emulator-5556 shell "echo 'ready'"
+[36minfo[39m: [debug] Starting logcat capture
+[36minfo[39m: [debug] Getting device API level
+[36minfo[39m: [debug] executing cmd: D:\android-sdk\sdk\platform-tools\adb.exe -s emulator-5556 shell "getprop ro.build.version.sdk"
+[36minfo[39m: [debug] Device is at API Level 22
+[36minfo[39m: Device API level is: 22
+[36minfo[39m: [debug] Extracting strings for language: default
+[36minfo[39m: [debug] Apk doesn't exist locally
+[36minfo[39m: [debug] Could not get strings, but it looks like we had an old strings file anyway, so ignoring
+[36minfo[39m: [debug] executing cmd: D:\android-sdk\sdk\platform-tools\adb.exe -s emulator-5556 shell "rm -rf /data/local/tmp/strings.json"
+[36minfo[39m: [debug] Not uninstalling app since server not started with --full-reset
+[36minfo[39m: [debug] Skipping install since we launched with a package instead of an app path
+[36minfo[39m: [debug] Forwarding system:4724 to device:4724
+[36minfo[39m: [debug] executing cmd: D:\android-sdk\sdk\platform-tools\adb.exe -s emulator-5556 forward tcp:4724 tcp:4724
+[36minfo[39m: [debug] Pushing appium bootstrap to device...
+[36minfo[39m: [debug] executing cmd: D:\android-sdk\sdk\platform-tools\adb.exe -s emulator-5556 push "D:\\Program Files (x86)\\Appium\\node_modules\\appium\\build\\android_bootstrap\\AppiumBootstrap.jar" /data/local/tmp/
+[36minfo[39m: [debug] Enabling Unicode keyboard support
+[36minfo[39m: [debug] Pushing unicode ime to device...
+[36minfo[39m: [debug] executing cmd: D:\android-sdk\sdk\platform-tools\adb.exe -s emulator-5556 install "D:\Program Files (x86)\Appium\node_modules\appium\build\unicode_ime_apk\UnicodeIME-debug.apk"
+[36minfo[39m: [debug] executing cmd: D:\android-sdk\sdk\platform-tools\adb.exe -s emulator-5556 shell "settings get secure default_input_method"
+[36minfo[39m: [debug] Unsetting IME 'com.android.emu.inputservice/.InputService'
+[36minfo[39m: [debug] Setting IME to 'io.appium.android.ime/.UnicodeIME'
+[36minfo[39m: [debug] executing cmd: D:\android-sdk\sdk\platform-tools\adb.exe -s emulator-5556 shell "ime enable io.appium.android.ime/.UnicodeIME"
+[36minfo[39m: [debug] executing cmd: D:\android-sdk\sdk\platform-tools\adb.exe -s emulator-5556 shell "ime set io.appium.android.ime/.UnicodeIME"
+[36minfo[39m: [debug] Pushing settings apk to device...
+[36minfo[39m: [debug] executing cmd: D:\android-sdk\sdk\platform-tools\adb.exe -s emulator-5556 install "D:\Program Files (x86)\Appium\node_modules\appium\build\settings_apk\settings_apk-debug.apk"
+[36minfo[39m: [debug] Pushing unlock helper app to device...
+[36minfo[39m: [debug] executing cmd: D:\android-sdk\sdk\platform-tools\adb.exe -s emulator-5556 install "D:\Program Files (x86)\Appium\node_modules\appium\build\unlock_apk\unlock_apk-debug.apk"
+[36minfo[39m: Starting App
+[36minfo[39m: [debug] Attempting to kill all 'uiautomator' processes
+[36minfo[39m: [debug] Getting all processes with 'uiautomator'
+[36minfo[39m: [debug] executing cmd: D:\android-sdk\sdk\platform-tools\adb.exe -s emulator-5556 shell "ps 'uiautomator'"
+[36minfo[39m: [debug] No matching processes found
+[36minfo[39m: [debug] Running bootstrap
+[36minfo[39m: [debug] spawning: D:\android-sdk\sdk\platform-tools\adb.exe -s emulator-5556 shell uiautomator runtest AppiumBootstrap.jar -c io.appium.android.bootstrap.Bootstrap -e pkg com.sankuai.pms -e disableAndroidWatchers false
+[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: numtests=1[39m
+[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: stream=[39m
+[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] io.appium.android.bootstrap.Bootstrap:[39m
+[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner[39m
+[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: test=testRunServer[39m
+[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: class=io.appium.android.bootstrap.Bootstrap[39m
+[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: current=1[39m
+[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS_CODE: 1[39m
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Socket opened on port 4724
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Appium Socket Server Ready
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Loading json...
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Registered crash watchers.
+[36minfo[39m: [debug] Waking up device if it's not alive
+[36minfo[39m: [debug] Pushing command to appium work queue: ["wake",{}]
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Client connected
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"wake","params":{}}
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got command action: wake
+[36minfo[39m: [debug] executing cmd: D:\android-sdk\sdk\platform-tools\adb.exe -s emulator-5556 shell "dumpsys window"
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":true}
+[36minfo[39m: [debug] Screen already unlocked, continuing.
+[36minfo[39m: [debug] Pushing command to appium work queue: ["getDataDir",{}]
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"getDataDir","params":{}}
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got command action: getDataDir
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":"\/data"}
+[36minfo[39m: [debug] dataDir set to: /data
+[36minfo[39m: [debug] Pushing command to appium work queue: ["compressedLayoutHierarchy",{"compressLayout":false}]
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"compressedLayoutHierarchy","params":{"compressLayout":false}}
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got command action: compressedLayoutHierarchy
+[36minfo[39m: [debug] Getting device API level
+[36minfo[39m: [debug] executing cmd: D:\android-sdk\sdk\platform-tools\adb.exe -s emulator-5556 shell "getprop ro.build.version.sdk"
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":false}
+[36minfo[39m: [debug] Device is at API Level 22
+[36minfo[39m: [debug] executing cmd: D:\android-sdk\sdk\platform-tools\adb.exe -s emulator-5556 shell "am start -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000 -n com.sankuai.pms/com.sankuai.pms.WelcomeActivity"
+[36minfo[39m: [debug] Waiting for pkg "com.sankuai.pms" and activity "com.sankuai.pms.WelcomeActivity" to be focused
+[36minfo[39m: [debug] Getting focused package and activity
+[36minfo[39m: [debug] executing cmd: D:\android-sdk\sdk\platform-tools\adb.exe -s emulator-5556 shell "dumpsys window windows"
+[36minfo[39m: [debug] executing cmd: D:\android-sdk\sdk\platform-tools\adb.exe -s emulator-5556 shell "getprop ro.build.version.release"
+[36minfo[39m: [debug] Device is at release version 5.1.1
+[36minfo[39m: [debug] Device launched! Ready for commands
+[36minfo[39m: [debug] Setting command timeout to the default of 60 secs
+[36minfo[39m: [debug] Appium session started with sessionId 719af7ae-d2e4-4780-b6aa-a1370dc9f355
+[36minfo[39m: [37m<-- POST /wd/hub/session [39m[36m303[39m[90m 5204.772 ms - 74[39m [90m[39m
+[36minfo[39m: [37m-->[39m [37mGET[39m [37m/wd/hub/session/719af7ae-d2e4-4780-b6aa-a1370dc9f355[39m [90m{}[39m
+[36minfo[39m: [debug] Responding to client with success: {"status":0,"value":{"platform":"LINUX","browserName":"Android","platformVersion":"5.1.1","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"unicodeKeyboard":true,"port":4726,"ip":"127.0.0.1","name":"雷电模拟器2","appPackage":"com.sankuai.pms","appActivity":"com.sankuai.pms.WelcomeActivity","platformName":"Android","udid":"emulator-5556","noReset":false,"platformVersion":"5.1.1","deviceName":"emulator-5556","resetKeyboard":true,"log_path":"E:\\Test_framework_APP\\log\\雷电模拟器2.log"},"unicodeKeyboard":true,"port":4726,"ip":"127.0.0.1","name":"雷电模拟器2","appPackage":"com.sankuai.pms","appActivity":"com.sankuai.pms.WelcomeActivity","platformName":"Android","udid":"emulator-5556","noReset":false,"deviceName":"emulator-5556","resetKeyboard":true,"log_path":"E:\\Test_framework_APP\\log\\雷电模拟器2.log"},"sessionId":"719af7ae-d2e4-4780-b6aa-a1370dc9f355"}
+[36minfo[39m: [37m<-- GET /wd/hub/session/719af7ae-d2e4-4780-b6aa-a1370dc9f355 [39m[32m200[39m[90m 3.670 ms - 1023[39m [90m{"status":0,"value":{"platform":"LINUX","browserName":"Android","platformVersion":"5.1.1","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"unicodeKeyboard":true,"port":4726,"ip":"127.0.0.1","name":"雷电模拟器2","appPackage":"com.sankuai.pms","appActivity":"com.sankuai.pms.WelcomeActivity","platformName":"Android","udid":"emulator-5556","noReset":false,"platformVersion":"5.1.1","deviceName":"emulator-5556","resetKeyboard":true,"log_path":"E:\\Test_framework_APP\\log\\雷电模拟器2.log"},"unicodeKeyboard":true,"port":4726,"ip":"127.0.0.1","name":"雷电模拟器2","appPackage":"com.sankuai.pms","appActivity":"com.sankuai.pms.WelcomeActivity","platformName":"Android","udid":"emulator-5556","noReset":false,"deviceName":"emulator-5556","resetKeyboard":true,"log_path":"E:\\Test_framework_APP\\log\\雷电模拟器2.log"},"sessionId":"719af7ae-d2e4-4780-b6aa-a1370dc9f355"}[39m
+[36minfo[39m: [37m-->[39m [37mPOST[39m [37m/wd/hub/session/719af7ae-d2e4-4780-b6aa-a1370dc9f355/element[39m [90m{"using":"name","sessionId":"719af7ae-d2e4-4780-b6aa-a1370dc9f355","value":"房态"}[39m
+[33mwarn[39m: [DEPRECATED] The name locator strategy has been deprecated and will be removed.  Please use the accessibility id locator strategy instead.
+[36minfo[39m: [debug] Waiting up to 0ms for condition
+[36minfo[39m: [debug] Pushing command to appium work queue: ["find",{"strategy":"name","selector":"房态","context":"","multiple":false}]
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"name","selector":"房态","context":"","multiple":false}}
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got command action: find
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Finding 房态 using NAME with the contextId:  multiple: false
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=房态, INSTANCE=0]
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[TEXT=房态, INSTANCE=0]
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Finding 房态 using NAME with the contextId:  multiple: false
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=房态, INSTANCE=0]
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[TEXT=房态, INSTANCE=0]
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Returning result: {"status":7,"value":"No element found"}
+[36minfo[39m: [debug] Condition unmet after 1332ms. Timing out.
+[36minfo[39m: [debug] Responding to client with error: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters.","origValue":"No element found"},"sessionId":"719af7ae-d2e4-4780-b6aa-a1370dc9f355"}
+[36minfo[39m: [37m<-- POST /wd/hub/session/719af7ae-d2e4-4780-b6aa-a1370dc9f355/element [39m[31m500[39m[90m 1337.390 ms - 195[39m [90m[39m
+[36minfo[39m: [37m-->[39m [37mPOST[39m [37m/wd/hub/session/719af7ae-d2e4-4780-b6aa-a1370dc9f355/element[39m [90m{"using":"name","sessionId":"719af7ae-d2e4-4780-b6aa-a1370dc9f355","value":"房态"}[39m
+[36minfo[39m: [debug] Waiting up to 0ms for condition
+[36minfo[39m: [debug] Pushing command to appium work queue: ["find",{"strategy":"name","selector":"房态","context":"","multiple":false}]
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"name","selector":"房态","context":"","multiple":false}}
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got command action: find
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Finding 房态 using NAME with the contextId:  multiple: false
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=房态, INSTANCE=0]
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[TEXT=房态, INSTANCE=0]
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Finding 房态 using NAME with the contextId:  multiple: false
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=房态, INSTANCE=0]
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[TEXT=房态, INSTANCE=0]
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Returning result: {"status":7,"value":"No element found"}
+[36minfo[39m: [debug] Condition unmet after 40ms. Timing out.
+[36minfo[39m: [debug] Responding to client with error: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters.","origValue":"No element found"},"sessionId":"719af7ae-d2e4-4780-b6aa-a1370dc9f355"}
+[36minfo[39m: [37m<-- POST /wd/hub/session/719af7ae-d2e4-4780-b6aa-a1370dc9f355/element [39m[31m500[39m[90m 43.330 ms - 195[39m [90m[39m
+[36minfo[39m: [37m-->[39m [37mPOST[39m [37m/wd/hub/session/719af7ae-d2e4-4780-b6aa-a1370dc9f355/element[39m [90m{"using":"name","sessionId":"719af7ae-d2e4-4780-b6aa-a1370dc9f355","value":"房态"}[39m
+[36minfo[39m: [debug] Waiting up to 0ms for condition
+[36minfo[39m: [debug] Pushing command to appium work queue: ["find",{"strategy":"name","selector":"房态","context":"","multiple":false}]
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"name","selector":"房态","context":"","multiple":false}}
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got command action: find
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Finding 房态 using NAME with the contextId:  multiple: false
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=房态, INSTANCE=0]
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[TEXT=房态, INSTANCE=0]
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":{"ELEMENT":"1"}}
+[36minfo[39m: [debug] Responding to client with success: {"status":0,"value":{"ELEMENT":"1"},"sessionId":"719af7ae-d2e4-4780-b6aa-a1370dc9f355"}
+[36minfo[39m: [37m<-- POST /wd/hub/session/719af7ae-d2e4-4780-b6aa-a1370dc9f355/element [39m[32m200[39m[90m 1082.949 ms - 87[39m [90m{"status":0,"value":{"ELEMENT":"1"},"sessionId":"719af7ae-d2e4-4780-b6aa-a1370dc9f355"}[39m
+[36minfo[39m: [37m-->[39m [37mPOST[39m [37m/wd/hub/session/719af7ae-d2e4-4780-b6aa-a1370dc9f355/element[39m [90m{"using":"name","sessionId":"719af7ae-d2e4-4780-b6aa-a1370dc9f355","value":"房态"}[39m
+[36minfo[39m: [debug] Waiting up to 0ms for condition
+[36minfo[39m: [debug] Pushing command to appium work queue: ["find",{"strategy":"name","selector":"房态","context":"","multiple":false}]
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"name","selector":"房态","context":"","multiple":false}}
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got command action: find
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Finding 房态 using NAME with the contextId:  multiple: false
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=房态, INSTANCE=0]
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[TEXT=房态, INSTANCE=0]
+[36minfo[39m: [debug] Responding to client with success: {"status":0,"value":{"ELEMENT":"2"},"sessionId":"719af7ae-d2e4-4780-b6aa-a1370dc9f355"}
+[36minfo[39m: [37m<-- POST /wd/hub/session/719af7ae-d2e4-4780-b6aa-a1370dc9f355/element [39m[32m200[39m[90m 14.658 ms - 87[39m [90m{"status":0,"value":{"ELEMENT":"2"},"sessionId":"719af7ae-d2e4-4780-b6aa-a1370dc9f355"}[39m
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":{"ELEMENT":"2"}}
+[36minfo[39m: [37m-->[39m [37mPOST[39m [37m/wd/hub/session/719af7ae-d2e4-4780-b6aa-a1370dc9f355/element[39m [90m{"using":"name","sessionId":"719af7ae-d2e4-4780-b6aa-a1370dc9f355","value":"房态"}[39m
+[36minfo[39m: [debug] Waiting up to 0ms for condition
+[36minfo[39m: [debug] Pushing command to appium work queue: ["find",{"strategy":"name","selector":"房态","context":"","multiple":false}]
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"name","selector":"房态","context":"","multiple":false}}
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got command action: find
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Finding 房态 using NAME with the contextId:  multiple: false
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=房态, INSTANCE=0]
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[TEXT=房态, INSTANCE=0]
+[36minfo[39m: [debug] Responding to client with success: {"status":0,"value":{"ELEMENT":"3"},"sessionId":"719af7ae-d2e4-4780-b6aa-a1370dc9f355"}
+[36minfo[39m: [37m<-- POST /wd/hub/session/719af7ae-d2e4-4780-b6aa-a1370dc9f355/element [39m[32m200[39m[90m 639.366 ms - 87[39m [90m{"status":0,"value":{"ELEMENT":"3"},"sessionId":"719af7ae-d2e4-4780-b6aa-a1370dc9f355"}[39m
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":{"ELEMENT":"3"}}
+[36minfo[39m: [37m-->[39m [37mPOST[39m [37m/wd/hub/session/719af7ae-d2e4-4780-b6aa-a1370dc9f355/element/3/click[39m [90m{"sessionId":"719af7ae-d2e4-4780-b6aa-a1370dc9f355","id":"3"}[39m
+[36minfo[39m: [debug] Pushing command to appium work queue: ["element:click",{"elementId":"3"}]
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"3"}}
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got command action: click
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":true}
+[36minfo[39m: [debug] Responding to client with success: {"status":0,"value":true,"sessionId":"719af7ae-d2e4-4780-b6aa-a1370dc9f355"}
+[36minfo[39m: [37m<-- POST /wd/hub/session/719af7ae-d2e4-4780-b6aa-a1370dc9f355/element/3/click [39m[32m200[39m[90m 164.575 ms - 76[39m [90m{"status":0,"value":true,"sessionId":"719af7ae-d2e4-4780-b6aa-a1370dc9f355"}[39m
+[36minfo[39m: [37m-->[39m [37mPOST[39m [37m/wd/hub/session/719af7ae-d2e4-4780-b6aa-a1370dc9f355/touch/perform[39m [90m{"sessionId":"719af7ae-d2e4-4780-b6aa-a1370dc9f355","actions":[{"action":"longPress","options":{"duration":2,"x":256,"y":300}},{"action":"release","options":{}}]}[39m
+[36minfo[39m: [debug] Pushing command to appium work queue: ["element:touchLongClick",{"x":256,"y":300,"duration":2}]
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"element:touchLongClick","params":{"x":256,"y":300,"duration":2}}
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got command action: touchLongClick
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Display bounds: [0,0][1080,1920]
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Performing TouchLongClick using element? false x: 256, y: 300, duration: 2
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":true}
+[36minfo[39m: [debug] Responding to client with success: {"status":0,"value":true,"sessionId":"719af7ae-d2e4-4780-b6aa-a1370dc9f355"}
+[36minfo[39m: [37m<-- POST /wd/hub/session/719af7ae-d2e4-4780-b6aa-a1370dc9f355/touch/perform [39m[32m200[39m[90m 16.132 ms - 76[39m [90m{"status":0,"value":true,"sessionId":"719af7ae-d2e4-4780-b6aa-a1370dc9f355"}[39m
+[36minfo[39m: [37m-->[39m [37mPOST[39m [37m/wd/hub/session/719af7ae-d2e4-4780-b6aa-a1370dc9f355/element[39m [90m{"using":"name","sessionId":"719af7ae-d2e4-4780-b6aa-a1370dc9f355","value":"请输入姓名"}[39m
+[36minfo[39m: [debug] Waiting up to 0ms for condition
+[36minfo[39m: [debug] Pushing command to appium work queue: ["find",{"strategy":"name","selector":"请输入姓名","context":"","multiple":false}]
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"name","selector":"请输入姓名","context":"","multiple":false}}
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got command action: find
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Finding 请输入姓名 using NAME with the contextId:  multiple: false
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=请输入姓名, INSTANCE=0]
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[TEXT=请输入姓名, INSTANCE=0]
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Finding 请输入姓名 using NAME with the contextId:  multiple: false
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=请输入姓名, INSTANCE=0]
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[TEXT=请输入姓名, INSTANCE=0]
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Returning result: {"status":7,"value":"No element found"}
+[36minfo[39m: [debug] Condition unmet after 93ms. Timing out.
+[36minfo[39m: [debug] Responding to client with error: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters.","origValue":"No element found"},"sessionId":"719af7ae-d2e4-4780-b6aa-a1370dc9f355"}
+[36minfo[39m: [37m<-- POST /wd/hub/session/719af7ae-d2e4-4780-b6aa-a1370dc9f355/element [39m[31m500[39m[90m 93.819 ms - 195[39m [90m[39m
+[36minfo[39m: [37m-->[39m [37mPOST[39m [37m/wd/hub/session/719af7ae-d2e4-4780-b6aa-a1370dc9f355/element[39m [90m{"using":"name","sessionId":"719af7ae-d2e4-4780-b6aa-a1370dc9f355","value":"请输入姓名"}[39m
+[36minfo[39m: [debug] Waiting up to 0ms for condition
+[36minfo[39m: [debug] Pushing command to appium work queue: ["find",{"strategy":"name","selector":"请输入姓名","context":"","multiple":false}]
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"name","selector":"请输入姓名","context":"","multiple":false}}
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got command action: find
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Finding 请输入姓名 using NAME with the contextId:  multiple: false
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=请输入姓名, INSTANCE=0]
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[TEXT=请输入姓名, INSTANCE=0]
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Finding 请输入姓名 using NAME with the contextId:  multiple: false
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=请输入姓名, INSTANCE=0]
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[TEXT=请输入姓名, INSTANCE=0]
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Returning result: {"status":7,"value":"No element found"}
+[36minfo[39m: [debug] Condition unmet after 80ms. Timing out.
+[36minfo[39m: [debug] Responding to client with error: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters.","origValue":"No element found"},"sessionId":"719af7ae-d2e4-4780-b6aa-a1370dc9f355"}
+[36minfo[39m: [37m<-- POST /wd/hub/session/719af7ae-d2e4-4780-b6aa-a1370dc9f355/element [39m[31m500[39m[90m 81.617 ms - 195[39m [90m[39m
+[36minfo[39m: [37m-->[39m [37mPOST[39m [37m/wd/hub/session/719af7ae-d2e4-4780-b6aa-a1370dc9f355/element[39m [90m{"using":"name","sessionId":"719af7ae-d2e4-4780-b6aa-a1370dc9f355","value":"请输入姓名"}[39m
+[36minfo[39m: [debug] Waiting up to 0ms for condition
+[36minfo[39m: [debug] Pushing command to appium work queue: ["find",{"strategy":"name","selector":"请输入姓名","context":"","multiple":false}]
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"name","selector":"请输入姓名","context":"","multiple":false}}
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got command action: find
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Finding 请输入姓名 using NAME with the contextId:  multiple: false
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=请输入姓名, INSTANCE=0]
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[TEXT=请输入姓名, INSTANCE=0]
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Finding 请输入姓名 using NAME with the contextId:  multiple: false
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=请输入姓名, INSTANCE=0]
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[TEXT=请输入姓名, INSTANCE=0]
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Returning result: {"status":7,"value":"No element found"}
+[36minfo[39m: [debug] Condition unmet after 82ms. Timing out.
+[36minfo[39m: [debug] Responding to client with error: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters.","origValue":"No element found"},"sessionId":"719af7ae-d2e4-4780-b6aa-a1370dc9f355"}
+[36minfo[39m: [37m<-- POST /wd/hub/session/719af7ae-d2e4-4780-b6aa-a1370dc9f355/element [39m[31m500[39m[90m 83.783 ms - 195[39m [90m[39m
+[36minfo[39m: [37m-->[39m [37mPOST[39m [37m/wd/hub/session/719af7ae-d2e4-4780-b6aa-a1370dc9f355/element[39m [90m{"using":"name","sessionId":"719af7ae-d2e4-4780-b6aa-a1370dc9f355","value":"请输入姓名"}[39m
+[36minfo[39m: [debug] Waiting up to 0ms for condition
+[36minfo[39m: [debug] Pushing command to appium work queue: ["find",{"strategy":"name","selector":"请输入姓名","context":"","multiple":false}]
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"name","selector":"请输入姓名","context":"","multiple":false}}
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got command action: find
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Finding 请输入姓名 using NAME with the contextId:  multiple: false
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=请输入姓名, INSTANCE=0]
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[TEXT=请输入姓名, INSTANCE=0]
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Finding 请输入姓名 using NAME with the contextId:  multiple: false
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=请输入姓名, INSTANCE=0]
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[TEXT=请输入姓名, INSTANCE=0]
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Returning result: {"status":7,"value":"No element found"}
+[36minfo[39m: [debug] Condition unmet after 81ms. Timing out.
+[36minfo[39m: [debug] Responding to client with error: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters.","origValue":"No element found"},"sessionId":"719af7ae-d2e4-4780-b6aa-a1370dc9f355"}
+[36minfo[39m: [37m<-- POST /wd/hub/session/719af7ae-d2e4-4780-b6aa-a1370dc9f355/element [39m[31m500[39m[90m 82.147 ms - 195[39m [90m[39m
+[36minfo[39m: [37m-->[39m [37mPOST[39m [37m/wd/hub/session/719af7ae-d2e4-4780-b6aa-a1370dc9f355/element[39m [90m{"using":"name","sessionId":"719af7ae-d2e4-4780-b6aa-a1370dc9f355","value":"请输入姓名"}[39m
+[36minfo[39m: [debug] Waiting up to 0ms for condition
+[36minfo[39m: [debug] Pushing command to appium work queue: ["find",{"strategy":"name","selector":"请输入姓名","context":"","multiple":false}]
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"name","selector":"请输入姓名","context":"","multiple":false}}
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got command action: find
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Finding 请输入姓名 using NAME with the contextId:  multiple: false
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=请输入姓名, INSTANCE=0]
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[TEXT=请输入姓名, INSTANCE=0]
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Finding 请输入姓名 using NAME with the contextId:  multiple: false
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=请输入姓名, INSTANCE=0]
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[TEXT=请输入姓名, INSTANCE=0]
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Returning result: {"status":7,"value":"No element found"}
+[36minfo[39m: [debug] Condition unmet after 71ms. Timing out.
+[36minfo[39m: [debug] Responding to client with error: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters.","origValue":"No element found"},"sessionId":"719af7ae-d2e4-4780-b6aa-a1370dc9f355"}
+[36minfo[39m: [37m<-- POST /wd/hub/session/719af7ae-d2e4-4780-b6aa-a1370dc9f355/element [39m[31m500[39m[90m 72.895 ms - 195[39m [90m[39m
+[36minfo[39m: [37m-->[39m [37mPOST[39m [37m/wd/hub/session/719af7ae-d2e4-4780-b6aa-a1370dc9f355/element[39m [90m{"using":"name","sessionId":"719af7ae-d2e4-4780-b6aa-a1370dc9f355","value":"请输入姓名"}[39m
+[36minfo[39m: [debug] Waiting up to 0ms for condition
+[36minfo[39m: [debug] Pushing command to appium work queue: ["find",{"strategy":"name","selector":"请输入姓名","context":"","multiple":false}]
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"name","selector":"请输入姓名","context":"","multiple":false}}
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got command action: find
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Finding 请输入姓名 using NAME with the contextId:  multiple: false
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=请输入姓名, INSTANCE=0]
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[TEXT=请输入姓名, INSTANCE=0]
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Finding 请输入姓名 using NAME with the contextId:  multiple: false
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=请输入姓名, INSTANCE=0]
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[TEXT=请输入姓名, INSTANCE=0]
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Returning result: {"status":7,"value":"No element found"}
+[36minfo[39m: [debug] Condition unmet after 96ms. Timing out.
+[36minfo[39m: [debug] Responding to client with error: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters.","origValue":"No element found"},"sessionId":"719af7ae-d2e4-4780-b6aa-a1370dc9f355"}
+[36minfo[39m: [37m<-- POST /wd/hub/session/719af7ae-d2e4-4780-b6aa-a1370dc9f355/element [39m[31m500[39m[90m 96.143 ms - 195[39m [90m[39m
+Tried to attach logging to file E:\Test_framework_APP\log\雷电模拟器2.log but an error occurred: undefined
+[36minfo[39m: Welcome to Appium v1.4.16 (REV ae6877eff263066b26328d457bd285c0cc62430d)
+[36minfo[39m: Appium REST http interface listener started on 127.0.0.1:4726
+[36minfo[39m: [debug] Non-default server args: {"udid":"emulator-5556","address":"127.0.0.1","port":4726,"log":"E:\\Test_framework_APP\\log\\雷电模拟器2.log"}
+[36minfo[39m: Console LogLevel: debug
+[36minfo[39m: [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m [90m{"desiredCapabilities":{"appPackage":"com.sankuai.pms","ip":"127.0.0.1","platformVersion":"5.1.1","platformName":"Android","appActivity":"com.sankuai.pms.WelcomeActivity","noReset":false,"port":4726,"udid":"emulator-5556","name":"雷电模拟器2","log_path":"E:\\Test_framework_APP\\log\\雷电模拟器2.log","deviceName":"emulator-5556","resetKeyboard":true,"unicodeKeyboard":true},"capabilities":{"firstMatch":[{}],"alwaysMatch":{"platformName":"Android"}}}[39m
+[36minfo[39m: Client User-Agent string: Python http auth
+[36minfo[39m: [debug] The following desired capabilities were provided, but not recognized by appium. They will be passed on to any other services running on this server. : ip, port, name, log_path
+[36minfo[39m: [debug] Didn't get app but did get Android package, will attempt to launch it on the device
+[36minfo[39m: [debug] Creating new appium session ce77683c-074e-40cb-a8c4-469659c1d421
+[36minfo[39m: Starting android appium
+[36minfo[39m: [debug] Getting Java version
+[36minfo[39m: Java version is: 1.8.0_171
+[36minfo[39m: [debug] Checking whether adb is present
+[36minfo[39m: [debug] Using adb from D:\android-sdk\sdk\platform-tools\adb.exe
+[33mwarn[39m: No app capability, can't parse package/activity
+[36minfo[39m: [debug] Using fast reset? true
+[36minfo[39m: [debug] Preparing device for session
+[36minfo[39m: [debug] Not checking whether app is present since we are assuming it's already on the device
+[36minfo[39m: Retrieving device
+[36minfo[39m: [debug] Trying to find a connected android device
+[36minfo[39m: [debug] Getting connected devices...
+[36minfo[39m: [debug] executing cmd: D:\android-sdk\sdk\platform-tools\adb.exe devices
+[36minfo[39m: [debug] 2 device(s) connected
+[36minfo[39m: Found device emulator-5556
+[36minfo[39m: [debug] Setting device id to emulator-5556
+[36minfo[39m: [debug] Waiting for device to be ready and to respond to shell commands (timeout = 5)
+[36minfo[39m: [debug] executing cmd: D:\android-sdk\sdk\platform-tools\adb.exe -s emulator-5556 wait-for-device
+[36minfo[39m: [debug] executing cmd: D:\android-sdk\sdk\platform-tools\adb.exe -s emulator-5556 shell "echo 'ready'"
+[36minfo[39m: [debug] Starting logcat capture
+[36minfo[39m: [debug] Getting device API level
+[36minfo[39m: [debug] executing cmd: D:\android-sdk\sdk\platform-tools\adb.exe -s emulator-5556 shell "getprop ro.build.version.sdk"
+[36minfo[39m: [debug] Device is at API Level 22
+[36minfo[39m: Device API level is: 22
+[36minfo[39m: [debug] Extracting strings for language: default
+[36minfo[39m: [debug] Apk doesn't exist locally
+[36minfo[39m: [debug] Could not get strings, but it looks like we had an old strings file anyway, so ignoring
+[36minfo[39m: [debug] executing cmd: D:\android-sdk\sdk\platform-tools\adb.exe -s emulator-5556 shell "rm -rf /data/local/tmp/strings.json"
+[36minfo[39m: [debug] Not uninstalling app since server not started with --full-reset
+[36minfo[39m: [debug] Skipping install since we launched with a package instead of an app path
+[36minfo[39m: [debug] Forwarding system:4724 to device:4724
+[36minfo[39m: [debug] executing cmd: D:\android-sdk\sdk\platform-tools\adb.exe -s emulator-5556 forward tcp:4724 tcp:4724
+[36minfo[39m: [debug] Pushing appium bootstrap to device...
+[36minfo[39m: [debug] executing cmd: D:\android-sdk\sdk\platform-tools\adb.exe -s emulator-5556 push "D:\\Program Files (x86)\\Appium\\node_modules\\appium\\build\\android_bootstrap\\AppiumBootstrap.jar" /data/local/tmp/
+[36minfo[39m: [debug] Enabling Unicode keyboard support
+[36minfo[39m: [debug] Pushing unicode ime to device...
+[36minfo[39m: [debug] executing cmd: D:\android-sdk\sdk\platform-tools\adb.exe -s emulator-5556 install "D:\Program Files (x86)\Appium\node_modules\appium\build\unicode_ime_apk\UnicodeIME-debug.apk"
+[36minfo[39m: [debug] executing cmd: D:\android-sdk\sdk\platform-tools\adb.exe -s emulator-5556 shell "settings get secure default_input_method"
+[36minfo[39m: [debug] Unsetting IME 'io.appium.android.ime/.UnicodeIME'
+[36minfo[39m: [debug] Setting IME to 'io.appium.android.ime/.UnicodeIME'
+[36minfo[39m: [debug] executing cmd: D:\android-sdk\sdk\platform-tools\adb.exe -s emulator-5556 shell "ime enable io.appium.android.ime/.UnicodeIME"
+[36minfo[39m: [debug] executing cmd: D:\android-sdk\sdk\platform-tools\adb.exe -s emulator-5556 shell "ime set io.appium.android.ime/.UnicodeIME"
+[36minfo[39m: [debug] Pushing settings apk to device...
+[36minfo[39m: [debug] executing cmd: D:\android-sdk\sdk\platform-tools\adb.exe -s emulator-5556 install "D:\Program Files (x86)\Appium\node_modules\appium\build\settings_apk\settings_apk-debug.apk"
+[36minfo[39m: [debug] Pushing unlock helper app to device...
+[36minfo[39m: [debug] executing cmd: D:\android-sdk\sdk\platform-tools\adb.exe -s emulator-5556 install "D:\Program Files (x86)\Appium\node_modules\appium\build\unlock_apk\unlock_apk-debug.apk"
+[36minfo[39m: Starting App
+[36minfo[39m: [debug] Attempting to kill all 'uiautomator' processes
+[36minfo[39m: [debug] Getting all processes with 'uiautomator'
+[36minfo[39m: [debug] executing cmd: D:\android-sdk\sdk\platform-tools\adb.exe -s emulator-5556 shell "ps 'uiautomator'"
+[36minfo[39m: [debug] No matching processes found
+[36minfo[39m: [debug] Running bootstrap
+[36minfo[39m: [debug] spawning: D:\android-sdk\sdk\platform-tools\adb.exe -s emulator-5556 shell uiautomator runtest AppiumBootstrap.jar -c io.appium.android.bootstrap.Bootstrap -e pkg com.sankuai.pms -e disableAndroidWatchers false
+[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: numtests=1[39m
+[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: stream=[39m
+[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] io.appium.android.bootstrap.Bootstrap:[39m
+[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner[39m
+[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: test=testRunServer[39m
+[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: class=io.appium.android.bootstrap.Bootstrap[39m
+[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: current=1[39m
+[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS_CODE: 1[39m
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Socket opened on port 4724
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Appium Socket Server Ready
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Loading json...
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Registered crash watchers.
+[36minfo[39m: [debug] Waking up device if it's not alive
+[36minfo[39m: [debug] Pushing command to appium work queue: ["wake",{}]

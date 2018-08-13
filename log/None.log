@@ -1,0 +1,360 @@
+usage: appium.js [-h] [-v] [--shell]
+                 [--localizable-strings-dir LOCALIZABLESTRINGSDIR] [--app APP]
+                 [--ipa IPA] [-U UDID] [-a ADDRESS] [-p PORT]
+                 [-ca CALLBACKADDRESS] [-cp CALLBACKPORT] [-bp BOOTSTRAPPORT]
+                 [-k] [-r BACKENDRETRIES] [--session-override] [--full-reset]
+                 [--no-reset] [-l] [-lt LAUNCHTIMEOUT] [-g LOG]
+                 [--log-level {info,info:debug,info:info,info:warn,info:error,warn,warn:debug,warn:info,warn:warn,warn:error,error,error:debug,error:info,error:warn,error:error,debug,debug:debug,debug:info,debug:warn,debug:error}]
+                 [--log-timestamp] [--local-timezone] [--log-no-colors]
+                 [-G WEBHOOK] [--native-instruments-lib]
+                 [--app-pkg ANDROIDPACKAGE] [--app-activity ANDROIDACTIVITY]
+                 [--app-wait-package ANDROIDWAITPACKAGE]
+                 [--app-wait-activity ANDROIDWAITACTIVITY]
+                 [--android-coverage ANDROIDCOVERAGE] [--avd AVD]
+                 [--avd-args AVDARGS]
+                 [--device-ready-timeout ANDROIDDEVICEREADYTIMEOUT] [--safari]
+                 [--device-name DEVICENAME] [--platform-name PLATFORMNAME]
+                 [--platform-version PLATFORMVERSION]
+                 [--automation-name AUTOMATIONNAME]
+                 [--browser-name BROWSERNAME] [--default-device]
+                 [--force-iphone] [--force-ipad] [--language LANGUAGE]
+                 [--locale LOCALE] [--calendar-format CALENDARFORMAT]
+                 [--orientation ORIENTATION]
+                 [--tracetemplate AUTOMATIONTRACETEMPLATEPATH]
+                 [--instruments INSTRUMENTSPATH] [--show-sim-log]
+                 [--show-ios-log] [--nodeconfig NODECONFIG] [-ra ROBOTADDRESS]
+                 [-rp ROBOTPORT] [--selendroid-port SELENDROIDPORT]
+                 [--chromedriver-port CHROMEDRIVERPORT]
+                 [--chromedriver-executable CHROMEDRIVEREXECUTABLE]
+                 [--use-keystore] [--keystore-path KEYSTOREPATH]
+                 [--keystore-password KEYSTOREPASSWORD] [--key-alias KEYALIAS]
+                 [--key-password KEYPASSWORD] [--show-config]
+                 [--no-perms-check] [--command-timeout DEFAULTCOMMANDTIMEOUT]
+                 [--keep-keychains] [--strict-caps] [--isolate-sim-device]
+                 [--tmp TMPDIR] [--trace-dir TRACEDIR]
+                 [--intent-action INTENTACTION]
+                 [--intent-category INTENTCATEGORY]
+                 [--intent-flags INTENTFLAGS]
+                 [--intent-args OPTIONALINTENTARGUMENTS]
+                 [--dont-stop-app-on-reset] [--debug-log-spacing]
+                 [--suppress-adb-kill-server] [--async-trace]
+                 
+Tried to attach logging to file E:\Test_framework_APP\log\None.log but an error occurred: undefined
+[36minfo[39m: Welcome to Appium v1.4.16 (REV ae6877eff263066b26328d457bd285c0cc62430d)
+[36minfo[39m: Appium REST http interface listener started on 127.0.0.1:4723
+[36minfo[39m: [debug] Non-default server args: {"udid":"5e25d38e","address":"127.0.0.1","log":"E:\\Test_framework_APP\\log\\None.log"}
+[36minfo[39m: Console LogLevel: debug
+[36minfo[39m: [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m [90m{"desiredCapabilities":{"log_path":"E:\\Test_framework_APP\\log\\None.log","udid":"5e25d38e","resetKeyboard":true,"unicodeKeyboard":true,"port":4723,"ip":"127.0.0.1","appActivity":"com.sankuai.pms.WelcomeActivity","noReset":false,"deviceName":"android Emulator","platformName":"Android","platformVersion":"8.0.0","appPackage":"com.sankuai.pms"},"capabilities":{"firstMatch":[{}],"alwaysMatch":{"platformName":"Android"}}}[39m
+[36minfo[39m: Client User-Agent string: Python http auth
+[36minfo[39m: [debug] The following desired capabilities were provided, but not recognized by appium. They will be passed on to any other services running on this server. : log_path, port, ip
+[36minfo[39m: [debug] Didn't get app but did get Android package, will attempt to launch it on the device
+[36minfo[39m: [debug] Creating new appium session 4e1d48e6-18be-45c1-a395-5fb36c16bed3
+[36minfo[39m: Starting android appium
+[36minfo[39m: [debug] Getting Java version
+[36minfo[39m: Java version is: 1.8.0_171
+[36minfo[39m: [debug] Checking whether adb is present
+[36minfo[39m: [debug] Using adb from D:\android-sdk\sdk\platform-tools\adb.exe
+[33mwarn[39m: No app capability, can't parse package/activity
+[36minfo[39m: [debug] Using fast reset? true
+[36minfo[39m: [debug] Preparing device for session
+[36minfo[39m: [debug] Not checking whether app is present since we are assuming it's already on the device
+[36minfo[39m: Retrieving device
+[36minfo[39m: [debug] Trying to find a connected android device
+[36minfo[39m: [debug] Getting connected devices...
+[36minfo[39m: [debug] executing cmd: D:\android-sdk\sdk\platform-tools\adb.exe devices
+[36minfo[39m: [debug] 2 device(s) connected
+[36minfo[39m: Found device 5e25d38e
+[36minfo[39m: [debug] Setting device id to 5e25d38e
+[36minfo[39m: [debug] Waiting for device to be ready and to respond to shell commands (timeout = 5)
+[36minfo[39m: [debug] executing cmd: D:\android-sdk\sdk\platform-tools\adb.exe -s 5e25d38e wait-for-device
+[36minfo[39m: [debug] executing cmd: D:\android-sdk\sdk\platform-tools\adb.exe -s 5e25d38e shell "echo 'ready'"
+[36minfo[39m: [debug] Starting logcat capture
+[36minfo[39m: [debug] Getting device API level
+[36minfo[39m: [debug] executing cmd: D:\android-sdk\sdk\platform-tools\adb.exe -s 5e25d38e shell "getprop ro.build.version.sdk"
+[36minfo[39m: [debug] Device is at API Level 22
+[36minfo[39m: Device API level is: 22
+[36minfo[39m: [debug] Extracting strings for language: default
+[36minfo[39m: [debug] Apk doesn't exist locally
+[36minfo[39m: [debug] Could not get strings, but it looks like we had an old strings file anyway, so ignoring
+[36minfo[39m: [debug] executing cmd: D:\android-sdk\sdk\platform-tools\adb.exe -s 5e25d38e shell "rm -rf /data/local/tmp/strings.json"
+[36minfo[39m: [debug] Not uninstalling app since server not started with --full-reset
+[36minfo[39m: [debug] Skipping install since we launched with a package instead of an app path
+[36minfo[39m: [debug] Forwarding system:4724 to device:4724
+[36minfo[39m: [debug] executing cmd: D:\android-sdk\sdk\platform-tools\adb.exe -s 5e25d38e forward tcp:4724 tcp:4724
+[36minfo[39m: [debug] Pushing appium bootstrap to device...
+[36minfo[39m: [debug] executing cmd: D:\android-sdk\sdk\platform-tools\adb.exe -s 5e25d38e push "D:\\Program Files (x86)\\Appium\\node_modules\\appium\\build\\android_bootstrap\\AppiumBootstrap.jar" /data/local/tmp/
+[36minfo[39m: [debug] Enabling Unicode keyboard support
+[36minfo[39m: [debug] Pushing unicode ime to device...
+[36minfo[39m: [debug] executing cmd: D:\android-sdk\sdk\platform-tools\adb.exe -s 5e25d38e install "D:\Program Files (x86)\Appium\node_modules\appium\build\unicode_ime_apk\UnicodeIME-debug.apk"
+[36minfo[39m: [debug] executing cmd: D:\android-sdk\sdk\platform-tools\adb.exe -s 5e25d38e shell "settings get secure default_input_method"
+[36minfo[39m: [debug] Unsetting IME 'com.sohu.inputmethod.sogou/.SogouIME'
+[36minfo[39m: [debug] Setting IME to 'io.appium.android.ime/.UnicodeIME'
+[36minfo[39m: [debug] executing cmd: D:\android-sdk\sdk\platform-tools\adb.exe -s 5e25d38e shell "ime enable io.appium.android.ime/.UnicodeIME"
+[36minfo[39m: [debug] executing cmd: D:\android-sdk\sdk\platform-tools\adb.exe -s 5e25d38e shell "ime set io.appium.android.ime/.UnicodeIME"
+[36minfo[39m: [debug] Pushing settings apk to device...
+[36minfo[39m: [debug] executing cmd: D:\android-sdk\sdk\platform-tools\adb.exe -s 5e25d38e install "D:\Program Files (x86)\Appium\node_modules\appium\build\settings_apk\settings_apk-debug.apk"
+[36minfo[39m: [debug] Pushing unlock helper app to device...
+[36minfo[39m: [debug] executing cmd: D:\android-sdk\sdk\platform-tools\adb.exe -s 5e25d38e install "D:\Program Files (x86)\Appium\node_modules\appium\build\unlock_apk\unlock_apk-debug.apk"
+[36minfo[39m: Starting App
+[36minfo[39m: [debug] Attempting to kill all 'uiautomator' processes
+[36minfo[39m: [debug] Getting all processes with 'uiautomator'
+[36minfo[39m: [debug] executing cmd: D:\android-sdk\sdk\platform-tools\adb.exe -s 5e25d38e shell "ps 'uiautomator'"
+[36minfo[39m: [debug] No matching processes found
+[36minfo[39m: [debug] Running bootstrap
+[36minfo[39m: [debug] spawning: D:\android-sdk\sdk\platform-tools\adb.exe -s 5e25d38e shell uiautomator runtest AppiumBootstrap.jar -c io.appium.android.bootstrap.Bootstrap -e pkg com.sankuai.pms -e disableAndroidWatchers false
+[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: numtests=1[39m
+[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: stream=[39m
+[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] io.appium.android.bootstrap.Bootstrap:[39m
+[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner[39m
+[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: test=testRunServer[39m
+[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: class=io.appium.android.bootstrap.Bootstrap[39m
+[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: current=1[39m
+[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS_CODE: 1[39m
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Socket opened on port 4724
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Appium Socket Server Ready
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Loading json...
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Registered crash watchers.
+[36minfo[39m: [debug] Waking up device if it's not alive
+[36minfo[39m: [debug] Pushing command to appium work queue: ["wake",{}]
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Client connected
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"wake","params":{}}
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got command action: wake
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":true}
+[36minfo[39m: [debug] executing cmd: D:\android-sdk\sdk\platform-tools\adb.exe -s 5e25d38e shell "dumpsys window"
+[36minfo[39m: [debug] Screen already unlocked, continuing.
+[36minfo[39m: [debug] Pushing command to appium work queue: ["getDataDir",{}]
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"getDataDir","params":{}}
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got command action: getDataDir
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":"\/data\/local\/tmp"}
+[36minfo[39m: [debug] dataDir set to: /data/local/tmp
+[36minfo[39m: [debug] Pushing command to appium work queue: ["compressedLayoutHierarchy",{"compressLayout":false}]
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"compressedLayoutHierarchy","params":{"compressLayout":false}}
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got command action: compressedLayoutHierarchy
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":false}
+[36minfo[39m: [debug] Getting device API level
+[36minfo[39m: [debug] executing cmd: D:\android-sdk\sdk\platform-tools\adb.exe -s 5e25d38e shell "getprop ro.build.version.sdk"
+[36minfo[39m: [debug] Device is at API Level 22
+[36minfo[39m: [debug] executing cmd: D:\android-sdk\sdk\platform-tools\adb.exe -s 5e25d38e shell "am start -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000 -n com.sankuai.pms/com.sankuai.pms.WelcomeActivity"
+[36minfo[39m: [debug] Waiting for pkg "com.sankuai.pms" and activity "com.sankuai.pms.WelcomeActivity" to be focused
+[36minfo[39m: [debug] Getting focused package and activity
+[36minfo[39m: [debug] executing cmd: D:\android-sdk\sdk\platform-tools\adb.exe -s 5e25d38e shell "dumpsys window windows"
+[36minfo[39m: [debug] executing cmd: D:\android-sdk\sdk\platform-tools\adb.exe -s 5e25d38e shell "getprop ro.build.version.release"
+[36minfo[39m: [debug] Device is at release version 5.1.1
+[36minfo[39m: [debug] Device launched! Ready for commands
+[36minfo[39m: [debug] Setting command timeout to the default of 60 secs
+[36minfo[39m: [debug] Appium session started with sessionId 4e1d48e6-18be-45c1-a395-5fb36c16bed3
+[36minfo[39m: [37m<-- POST /wd/hub/session [39m[36m303[39m[90m 13132.984 ms - 74[39m [90m[39m
+[36minfo[39m: [37m-->[39m [37mGET[39m [37m/wd/hub/session/4e1d48e6-18be-45c1-a395-5fb36c16bed3[39m [90m{}[39m
+[36minfo[39m: [debug] Responding to client with success: {"status":0,"value":{"platform":"LINUX","browserName":"Android","platformVersion":"5.1.1","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"log_path":"E:\\Test_framework_APP\\log\\None.log","udid":"5e25d38e","resetKeyboard":true,"unicodeKeyboard":true,"port":4723,"ip":"127.0.0.1","appActivity":"com.sankuai.pms.WelcomeActivity","noReset":false,"deviceName":"android Emulator","platformName":"Android","platformVersion":"8.0.0","appPackage":"com.sankuai.pms"},"log_path":"E:\\Test_framework_APP\\log\\None.log","udid":"5e25d38e","resetKeyboard":true,"unicodeKeyboard":true,"port":4723,"ip":"127.0.0.1","appActivity":"com.sankuai.pms.WelcomeActivity","noReset":false,"deviceName":"5e25d38e","platformName":"Android","appPackage":"com.sankuai.pms"},"sessionId":"4e1d48e6-18be-45c1-a395-5fb36c16bed3"}
+[36minfo[39m: [37m<-- GET /wd/hub/session/4e1d48e6-18be-45c1-a395-5fb36c16bed3 [39m[32m200[39m[90m 3.197 ms - 935[39m [90m{"status":0,"value":{"platform":"LINUX","browserName":"Android","platformVersion":"5.1.1","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"log_path":"E:\\Test_framework_APP\\log\\None.log","udid":"5e25d38e","resetKeyboard":true,"unicodeKeyboard":true,"port":4723,"ip":"127.0.0.1","appActivity":"com.sankuai.pms.WelcomeActivity","noReset":false,"deviceName":"android Emulator","platformName":"Android","platformVersion":"8.0.0","appPackage":"com.sankuai.pms"},"log_path":"E:\\Test_framework_APP\\log\\None.log","udid":"5e25d38e","resetKeyboard":true,"unicodeKeyboard":true,"port":4723,"ip":"127.0.0.1","appActivity":"com.sankuai.pms.WelcomeActivity","noReset":false,"deviceName":"5e25d38e","platformName":"Android","appPackage":"com.sankuai.pms"},"sessionId":"4e1d48e6-18be-45c1-a395-5fb36c16bed3"}[39m
+[36minfo[39m: [37m-->[39m [37mPOST[39m [37m/wd/hub/session/4e1d48e6-18be-45c1-a395-5fb36c16bed3/element[39m [90m{"sessionId":"4e1d48e6-18be-45c1-a395-5fb36c16bed3","value":"com.sankuai.pms:id/edit_username","using":"id"}[39m
+[36minfo[39m: [debug] Waiting up to 0ms for condition
+[36minfo[39m: [debug] Pushing command to appium work queue: ["find",{"strategy":"id","selector":"com.sankuai.pms:id/edit_username","context":"","multiple":false}]
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.sankuai.pms:id/edit_username","context":"","multiple":false}}
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got command action: find
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Finding com.sankuai.pms:id/edit_username using ID with the contextId:  multiple: false
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.sankuai.pms:id/edit_username]
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Finding com.sankuai.pms:id/edit_username using ID with the contextId:  multiple: false
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.sankuai.pms:id/edit_username]
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Returning result: {"status":7,"value":"No element found"}
+[36minfo[39m: [debug] Condition unmet after 1362ms. Timing out.
+[36minfo[39m: [debug] Responding to client with error: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters.","origValue":"No element found"},"sessionId":"4e1d48e6-18be-45c1-a395-5fb36c16bed3"}
+[36minfo[39m: [37m<-- POST /wd/hub/session/4e1d48e6-18be-45c1-a395-5fb36c16bed3/element [39m[31m500[39m[90m 1375.588 ms - 195[39m [90m[39m
+[36minfo[39m: [37m-->[39m [37mPOST[39m [37m/wd/hub/session/4e1d48e6-18be-45c1-a395-5fb36c16bed3/element[39m [90m{"sessionId":"4e1d48e6-18be-45c1-a395-5fb36c16bed3","value":"com.sankuai.pms:id/edit_username","using":"id"}[39m
+[36minfo[39m: [debug] Waiting up to 0ms for condition
+[36minfo[39m: [debug] Pushing command to appium work queue: ["find",{"strategy":"id","selector":"com.sankuai.pms:id/edit_username","context":"","multiple":false}]
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.sankuai.pms:id/edit_username","context":"","multiple":false}}
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got command action: find
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Finding com.sankuai.pms:id/edit_username using ID with the contextId:  multiple: false
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.sankuai.pms:id/edit_username]
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Finding com.sankuai.pms:id/edit_username using ID with the contextId:  multiple: false
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.sankuai.pms:id/edit_username]
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Returning result: {"status":7,"value":"No element found"}
+[36minfo[39m: [debug] Condition unmet after 122ms. Timing out.
+[36minfo[39m: [debug] Responding to client with error: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters.","origValue":"No element found"},"sessionId":"4e1d48e6-18be-45c1-a395-5fb36c16bed3"}
+[36minfo[39m: [37m<-- POST /wd/hub/session/4e1d48e6-18be-45c1-a395-5fb36c16bed3/element [39m[31m500[39m[90m 126.999 ms - 195[39m [90m[39m
+[36minfo[39m: [37m-->[39m [37mPOST[39m [37m/wd/hub/session/4e1d48e6-18be-45c1-a395-5fb36c16bed3/element[39m [90m{"sessionId":"4e1d48e6-18be-45c1-a395-5fb36c16bed3","value":"com.sankuai.pms:id/edit_username","using":"id"}[39m
+[36minfo[39m: [debug] Waiting up to 0ms for condition
+[36minfo[39m: [debug] Pushing command to appium work queue: ["find",{"strategy":"id","selector":"com.sankuai.pms:id/edit_username","context":"","multiple":false}]
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.sankuai.pms:id/edit_username","context":"","multiple":false}}
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got command action: find
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Finding com.sankuai.pms:id/edit_username using ID with the contextId:  multiple: false
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.sankuai.pms:id/edit_username]
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Finding com.sankuai.pms:id/edit_username using ID with the contextId:  multiple: false
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.sankuai.pms:id/edit_username]
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Returning result: {"status":7,"value":"No element found"}
+[36minfo[39m: [debug] Condition unmet after 41ms. Timing out.
+[36minfo[39m: [debug] Responding to client with error: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters.","origValue":"No element found"},"sessionId":"4e1d48e6-18be-45c1-a395-5fb36c16bed3"}
+[36minfo[39m: [37m<-- POST /wd/hub/session/4e1d48e6-18be-45c1-a395-5fb36c16bed3/element [39m[31m500[39m[90m 42.841 ms - 195[39m [90m[39m
+[36minfo[39m: [37m-->[39m [37mPOST[39m [37m/wd/hub/session/4e1d48e6-18be-45c1-a395-5fb36c16bed3/element[39m [90m{"sessionId":"4e1d48e6-18be-45c1-a395-5fb36c16bed3","value":"com.sankuai.pms:id/edit_username","using":"id"}[39m
+[36minfo[39m: [debug] Waiting up to 0ms for condition
+[36minfo[39m: [debug] Pushing command to appium work queue: ["find",{"strategy":"id","selector":"com.sankuai.pms:id/edit_username","context":"","multiple":false}]
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.sankuai.pms:id/edit_username","context":"","multiple":false}}
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got command action: find
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Finding com.sankuai.pms:id/edit_username using ID with the contextId:  multiple: false
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.sankuai.pms:id/edit_username]
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":{"ELEMENT":"1"}}
+[36minfo[39m: [debug] Responding to client with success: {"status":0,"value":{"ELEMENT":"1"},"sessionId":"4e1d48e6-18be-45c1-a395-5fb36c16bed3"}
+[36minfo[39m: [37m<-- POST /wd/hub/session/4e1d48e6-18be-45c1-a395-5fb36c16bed3/element [39m[32m200[39m[90m 49.711 ms - 87[39m [90m{"status":0,"value":{"ELEMENT":"1"},"sessionId":"4e1d48e6-18be-45c1-a395-5fb36c16bed3"}[39m
+[36minfo[39m: [37m-->[39m [37mPOST[39m [37m/wd/hub/session/4e1d48e6-18be-45c1-a395-5fb36c16bed3/element[39m [90m{"sessionId":"4e1d48e6-18be-45c1-a395-5fb36c16bed3","value":"com.sankuai.pms:id/edit_username","using":"id"}[39m
+[36minfo[39m: [debug] Waiting up to 0ms for condition
+[36minfo[39m: [debug] Pushing command to appium work queue: ["find",{"strategy":"id","selector":"com.sankuai.pms:id/edit_username","context":"","multiple":false}]
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.sankuai.pms:id/edit_username","context":"","multiple":false}}
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got command action: find
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Finding com.sankuai.pms:id/edit_username using ID with the contextId:  multiple: false
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.sankuai.pms:id/edit_username]
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":{"ELEMENT":"2"}}
+[36minfo[39m: [debug] Responding to client with success: {"status":0,"value":{"ELEMENT":"2"},"sessionId":"4e1d48e6-18be-45c1-a395-5fb36c16bed3"}
+[36minfo[39m: [37m<-- POST /wd/hub/session/4e1d48e6-18be-45c1-a395-5fb36c16bed3/element [39m[32m200[39m[90m 25.845 ms - 87[39m [90m{"status":0,"value":{"ELEMENT":"2"},"sessionId":"4e1d48e6-18be-45c1-a395-5fb36c16bed3"}[39m
+[36minfo[39m: [37m-->[39m [37mPOST[39m [37m/wd/hub/session/4e1d48e6-18be-45c1-a395-5fb36c16bed3/element[39m [90m{"sessionId":"4e1d48e6-18be-45c1-a395-5fb36c16bed3","value":"com.sankuai.pms:id/edit_username","using":"id"}[39m
+[36minfo[39m: [debug] Waiting up to 0ms for condition
+[36minfo[39m: [debug] Pushing command to appium work queue: ["find",{"strategy":"id","selector":"com.sankuai.pms:id/edit_username","context":"","multiple":false}]
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.sankuai.pms:id/edit_username","context":"","multiple":false}}
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got command action: find
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Finding com.sankuai.pms:id/edit_username using ID with the contextId:  multiple: false
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.sankuai.pms:id/edit_username]
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":{"ELEMENT":"3"}}
+[36minfo[39m: [debug] Responding to client with success: {"status":0,"value":{"ELEMENT":"3"},"sessionId":"4e1d48e6-18be-45c1-a395-5fb36c16bed3"}
+[36minfo[39m: [37m<-- POST /wd/hub/session/4e1d48e6-18be-45c1-a395-5fb36c16bed3/element [39m[32m200[39m[90m 284.067 ms - 87[39m [90m{"status":0,"value":{"ELEMENT":"3"},"sessionId":"4e1d48e6-18be-45c1-a395-5fb36c16bed3"}[39m
+[36minfo[39m: [37m-->[39m [37mPOST[39m [37m/wd/hub/session/4e1d48e6-18be-45c1-a395-5fb36c16bed3/element/3/value[39m [90m{"sessionId":"4e1d48e6-18be-45c1-a395-5fb36c16bed3","text":"18221293942","value":["1","8","2","2","1","2","9","3","9","4","2"],"id":"3"}[39m
+[36minfo[39m: [debug] Pushing command to appium work queue: ["element:setText",{"elementId":"3","text":"18221293942","replace":false,"unicodeKeyboard":true}]
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"element:setText","params":{"elementId":"3","text":"18221293942","replace":false,"unicodeKeyboard":true}}
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got command action: setText
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Using element passed in.
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Attempting to clear using UiObject.clearText().
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Text remains after clearing, but it appears to be hint text.
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Text not cleared. Assuming remainder is hint text.
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Sending plain text to element: 18221293942
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":true}
+[36minfo[39m: [debug] Responding to client with success: {"status":0,"value":true,"sessionId":"4e1d48e6-18be-45c1-a395-5fb36c16bed3"}
+[36minfo[39m: [37m<-- POST /wd/hub/session/4e1d48e6-18be-45c1-a395-5fb36c16bed3/element/3/value [39m[32m200[39m[90m 6295.756 ms - 76[39m [90m{"status":0,"value":true,"sessionId":"4e1d48e6-18be-45c1-a395-5fb36c16bed3"}[39m
+[36minfo[39m: [37m-->[39m [37mPOST[39m [37m/wd/hub/session/4e1d48e6-18be-45c1-a395-5fb36c16bed3/element[39m [90m{"sessionId":"4e1d48e6-18be-45c1-a395-5fb36c16bed3","value":"com.sankuai.pms:id/edit_password","using":"id"}[39m
+[36minfo[39m: [debug] Waiting up to 0ms for condition
+[36minfo[39m: [debug] Pushing command to appium work queue: ["find",{"strategy":"id","selector":"com.sankuai.pms:id/edit_password","context":"","multiple":false}]
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.sankuai.pms:id/edit_password","context":"","multiple":false}}
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got command action: find
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Finding com.sankuai.pms:id/edit_password using ID with the contextId:  multiple: false
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.sankuai.pms:id/edit_password]
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":{"ELEMENT":"4"}}
+[36minfo[39m: [debug] Responding to client with success: {"status":0,"value":{"ELEMENT":"4"},"sessionId":"4e1d48e6-18be-45c1-a395-5fb36c16bed3"}
+[36minfo[39m: [37m<-- POST /wd/hub/session/4e1d48e6-18be-45c1-a395-5fb36c16bed3/element [39m[32m200[39m[90m 496.828 ms - 87[39m [90m{"status":0,"value":{"ELEMENT":"4"},"sessionId":"4e1d48e6-18be-45c1-a395-5fb36c16bed3"}[39m
+[36minfo[39m: [37m-->[39m [37mPOST[39m [37m/wd/hub/session/4e1d48e6-18be-45c1-a395-5fb36c16bed3/element[39m [90m{"sessionId":"4e1d48e6-18be-45c1-a395-5fb36c16bed3","value":"com.sankuai.pms:id/edit_password","using":"id"}[39m
+[36minfo[39m: [debug] Waiting up to 0ms for condition
+[36minfo[39m: [debug] Pushing command to appium work queue: ["find",{"strategy":"id","selector":"com.sankuai.pms:id/edit_password","context":"","multiple":false}]
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.sankuai.pms:id/edit_password","context":"","multiple":false}}
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got command action: find
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Finding com.sankuai.pms:id/edit_password using ID with the contextId:  multiple: false
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.sankuai.pms:id/edit_password]
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":{"ELEMENT":"5"}}
+[36minfo[39m: [debug] Responding to client with success: {"status":0,"value":{"ELEMENT":"5"},"sessionId":"4e1d48e6-18be-45c1-a395-5fb36c16bed3"}
+[36minfo[39m: [37m<-- POST /wd/hub/session/4e1d48e6-18be-45c1-a395-5fb36c16bed3/element [39m[32m200[39m[90m 31.685 ms - 87[39m [90m{"status":0,"value":{"ELEMENT":"5"},"sessionId":"4e1d48e6-18be-45c1-a395-5fb36c16bed3"}[39m
+[36minfo[39m: [37m-->[39m [37mPOST[39m [37m/wd/hub/session/4e1d48e6-18be-45c1-a395-5fb36c16bed3/element[39m [90m{"sessionId":"4e1d48e6-18be-45c1-a395-5fb36c16bed3","value":"com.sankuai.pms:id/edit_password","using":"id"}[39m
+[36minfo[39m: [debug] Waiting up to 0ms for condition
+[36minfo[39m: [debug] Pushing command to appium work queue: ["find",{"strategy":"id","selector":"com.sankuai.pms:id/edit_password","context":"","multiple":false}]
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.sankuai.pms:id/edit_password","context":"","multiple":false}}
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got command action: find
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Finding com.sankuai.pms:id/edit_password using ID with the contextId:  multiple: false
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.sankuai.pms:id/edit_password]
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":{"ELEMENT":"6"}}
+[36minfo[39m: [debug] Responding to client with success: {"status":0,"value":{"ELEMENT":"6"},"sessionId":"4e1d48e6-18be-45c1-a395-5fb36c16bed3"}
+[36minfo[39m: [37m<-- POST /wd/hub/session/4e1d48e6-18be-45c1-a395-5fb36c16bed3/element [39m[32m200[39m[90m 182.722 ms - 87[39m [90m{"status":0,"value":{"ELEMENT":"6"},"sessionId":"4e1d48e6-18be-45c1-a395-5fb36c16bed3"}[39m
+[36minfo[39m: [37m-->[39m [37mPOST[39m [37m/wd/hub/session/4e1d48e6-18be-45c1-a395-5fb36c16bed3/element/6/value[39m [90m{"sessionId":"4e1d48e6-18be-45c1-a395-5fb36c16bed3","text":"123456","value":["1","2","3","4","5","6"],"id":"6"}[39m
+[36minfo[39m: [debug] Pushing command to appium work queue: ["element:setText",{"elementId":"6","text":"123456","replace":false,"unicodeKeyboard":true}]
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"element:setText","params":{"elementId":"6","text":"123456","replace":false,"unicodeKeyboard":true}}
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got command action: setText
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Using element passed in.
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Attempting to clear using UiObject.clearText().
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Sending plain text to element: 123456
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":true}
+[36minfo[39m: [debug] Responding to client with success: {"status":0,"value":true,"sessionId":"4e1d48e6-18be-45c1-a395-5fb36c16bed3"}
+[36minfo[39m: [37m<-- POST /wd/hub/session/4e1d48e6-18be-45c1-a395-5fb36c16bed3/element/6/value [39m[32m200[39m[90m 6674.113 ms - 76[39m [90m{"status":0,"value":true,"sessionId":"4e1d48e6-18be-45c1-a395-5fb36c16bed3"}[39m
+[36minfo[39m: [37m-->[39m [37mPOST[39m [37m/wd/hub/session/4e1d48e6-18be-45c1-a395-5fb36c16bed3/element[39m [90m{"sessionId":"4e1d48e6-18be-45c1-a395-5fb36c16bed3","value":"com.sankuai.pms:id/btn_login","using":"id"}[39m
+[36minfo[39m: [debug] Waiting up to 0ms for condition
+[36minfo[39m: [debug] Pushing command to appium work queue: ["find",{"strategy":"id","selector":"com.sankuai.pms:id/btn_login","context":"","multiple":false}]
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.sankuai.pms:id/btn_login","context":"","multiple":false}}
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got command action: find
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Finding com.sankuai.pms:id/btn_login using ID with the contextId:  multiple: false
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.sankuai.pms:id/btn_login]
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":{"ELEMENT":"7"}}
+[36minfo[39m: [debug] Responding to client with success: {"status":0,"value":{"ELEMENT":"7"},"sessionId":"4e1d48e6-18be-45c1-a395-5fb36c16bed3"}
+[36minfo[39m: [37m<-- POST /wd/hub/session/4e1d48e6-18be-45c1-a395-5fb36c16bed3/element [39m[32m200[39m[90m 553.150 ms - 87[39m [90m{"status":0,"value":{"ELEMENT":"7"},"sessionId":"4e1d48e6-18be-45c1-a395-5fb36c16bed3"}[39m
+[36minfo[39m: [37m-->[39m [37mPOST[39m [37m/wd/hub/session/4e1d48e6-18be-45c1-a395-5fb36c16bed3/element[39m [90m{"sessionId":"4e1d48e6-18be-45c1-a395-5fb36c16bed3","value":"com.sankuai.pms:id/btn_login","using":"id"}[39m
+[36minfo[39m: [debug] Waiting up to 0ms for condition
+[36minfo[39m: [debug] Pushing command to appium work queue: ["find",{"strategy":"id","selector":"com.sankuai.pms:id/btn_login","context":"","multiple":false}]
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.sankuai.pms:id/btn_login","context":"","multiple":false}}
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got command action: find
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Finding com.sankuai.pms:id/btn_login using ID with the contextId:  multiple: false
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.sankuai.pms:id/btn_login]
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":{"ELEMENT":"8"}}
+[36minfo[39m: [debug] Responding to client with success: {"status":0,"value":{"ELEMENT":"8"},"sessionId":"4e1d48e6-18be-45c1-a395-5fb36c16bed3"}
+[36minfo[39m: [37m<-- POST /wd/hub/session/4e1d48e6-18be-45c1-a395-5fb36c16bed3/element [39m[32m200[39m[90m 130.028 ms - 87[39m [90m{"status":0,"value":{"ELEMENT":"8"},"sessionId":"4e1d48e6-18be-45c1-a395-5fb36c16bed3"}[39m
+[36minfo[39m: [37m-->[39m [37mPOST[39m [37m/wd/hub/session/4e1d48e6-18be-45c1-a395-5fb36c16bed3/element[39m [90m{"sessionId":"4e1d48e6-18be-45c1-a395-5fb36c16bed3","value":"com.sankuai.pms:id/btn_login","using":"id"}[39m
+[36minfo[39m: [debug] Waiting up to 0ms for condition
+[36minfo[39m: [debug] Pushing command to appium work queue: ["find",{"strategy":"id","selector":"com.sankuai.pms:id/btn_login","context":"","multiple":false}]
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.sankuai.pms:id/btn_login","context":"","multiple":false}}
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got command action: find
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Finding com.sankuai.pms:id/btn_login using ID with the contextId:  multiple: false
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.sankuai.pms:id/btn_login]
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":{"ELEMENT":"9"}}
+[36minfo[39m: [debug] Responding to client with success: {"status":0,"value":{"ELEMENT":"9"},"sessionId":"4e1d48e6-18be-45c1-a395-5fb36c16bed3"}
+[36minfo[39m: [37m<-- POST /wd/hub/session/4e1d48e6-18be-45c1-a395-5fb36c16bed3/element [39m[32m200[39m[90m 556.368 ms - 87[39m [90m{"status":0,"value":{"ELEMENT":"9"},"sessionId":"4e1d48e6-18be-45c1-a395-5fb36c16bed3"}[39m
+[36minfo[39m: [37m-->[39m [37mPOST[39m [37m/wd/hub/session/4e1d48e6-18be-45c1-a395-5fb36c16bed3/element/9/click[39m [90m{"sessionId":"4e1d48e6-18be-45c1-a395-5fb36c16bed3","id":"9"}[39m
+[36minfo[39m: [debug] Pushing command to appium work queue: ["element:click",{"elementId":"9"}]
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"9"}}
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got command action: click
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":true}
+[36minfo[39m: [debug] Responding to client with success: {"status":0,"value":true,"sessionId":"4e1d48e6-18be-45c1-a395-5fb36c16bed3"}
+[36minfo[39m: [37m<-- POST /wd/hub/session/4e1d48e6-18be-45c1-a395-5fb36c16bed3/element/9/click [39m[32m200[39m[90m 624.425 ms - 76[39m [90m{"status":0,"value":true,"sessionId":"4e1d48e6-18be-45c1-a395-5fb36c16bed3"}[39m
+[36minfo[39m: [debug] Didn't get a new command in 60 secs, shutting down...
+[36minfo[39m: Shutting down appium session
+[36minfo[39m: [debug] Pressing the HOME button
+[36minfo[39m: [debug] executing cmd: D:\android-sdk\sdk\platform-tools\adb.exe -s 5e25d38e shell "input keyevent 3"
+[36minfo[39m: [debug] Resetting IME to 'com.sohu.inputmethod.sogou/.SogouIME'
+[36minfo[39m: [debug] executing cmd: D:\android-sdk\sdk\platform-tools\adb.exe -s 5e25d38e shell "ime set com.sohu.inputmethod.sogou/.SogouIME"
+[36minfo[39m: [debug] Stopping logcat capture
+[36minfo[39m: [debug] Logcat terminated with code null, signal SIGTERM
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"shutdown"}
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got command of type SHUTDOWN
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":"OK, shutting down"}
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Closed client connection
+[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: numtests=1[39m
+[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: stream=.[39m
+[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner[39m
+[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: test=testRunServer[39m
+[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: class=io.appium.android.bootstrap.Bootstrap[39m
+[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: current=1[39m
+[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS_CODE: 0[39m
+[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: stream=[39m
+[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] Test results for WatcherResultPrinter=.[39m
+[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] Time: 83.127[39m
+[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] OK (1 test)[39m
+[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS_CODE: -1[39m
+[36minfo[39m: [debug] Sent shutdown command, waiting for UiAutomator to stop...
+[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_RESULT: shortMsg=java.lang.SecurityException[39m
+[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_RESULT: longMsg=Permission Denial: getIntentSender() from pid=25334, uid=2000, (need uid=1000) is not allowed to send as package android[39m
+[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_CODE: 0[39m
+[36minfo[39m: [debug] UiAutomator shut down normally
+[36minfo[39m: [debug] Cleaning up android objects
+[36minfo[39m: [debug] Cleaning up appium session
+[36minfo[39m: [debug] We shut down because no new commands came in

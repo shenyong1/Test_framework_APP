@@ -1,0 +1,1104 @@
+[2018-07-29 13:19:37,014] [DEBUG] [appController.py:kill_server:35] 执行[KILL SERVER]操作:错误: 没有找到进程 "node.exe"。
+[2018-07-29 13:19:38,107] [DEBUG] [appController.py:kill_server:36] 重启ADB服务！
+[2018-07-29 13:19:38,108] [DEBUG] [appController.py:server:53] 每个手机的信息：{'ip': '127.0.0.1', 'deviceName': 'emulator-5554', 'platformVersion': '5.1.1', 'log_path': 'E:\\Test_framework_APP\\log\\雷电模拟器.log', 'port': 4723, 'platformName': 'Android', 'udid': 'emulator-5554', 'name': '雷电模拟器'}
+[2018-07-29 13:19:38,110] [DEBUG] [appController.py:server_command:43] 启动服务执行的命令：appium -a 127.0.0.1 -p 4723 -U emulator-5554 -g E:\Test_framework_APP\log\雷电模拟器.log
+[2018-07-29 13:24:00,438] [DEBUG] [appController.py:kill_server:35] 执行[KILL SERVER]操作:错误: 没有找到进程 "node.exe"。
+[2018-07-29 13:24:01,541] [DEBUG] [appController.py:kill_server:36] 重启ADB服务！
+[2018-07-29 13:24:01,542] [DEBUG] [appController.py:server:53] 每个手机的信息：{'deviceName': 'emulator-5554', 'port': 4723, 'ip': '127.0.0.1', 'platformName': 'Android', 'log_path': 'E:\\Test_framework_APP\\log\\雷电模拟器.log', 'udid': 'emulator-5554', 'name': '雷电模拟器', 'platformVersion': '5.1.1'}
+[2018-07-29 13:24:01,544] [DEBUG] [appController.py:server_command:43] 启动服务执行的命令：appium -a 127.0.0.1 -p 4723 -U emulator-5554 -g E:\Test_framework_APP\log\雷电模拟器.log
+[2018-07-29 13:24:01,608] [DEBUG] [appController.py:test_server:72] 检验服务启动：'netstart' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+[2018-07-29 13:24:01,608] [DEBUG] [appController.py:test_server:79] 全部服务启动成功！
+[2018-07-29 13:24:19,391] [DEBUG] [appController.py:kill_server:35] 执行[KILL SERVER]操作:错误: 没有找到进程 "node.exe"。
+[2018-07-29 13:24:20,474] [DEBUG] [appController.py:kill_server:36] 重启ADB服务！
+[2018-07-29 13:24:20,474] [DEBUG] [appController.py:server:53] 每个手机的信息：{'ip': '127.0.0.1', 'platformVersion': '5.1.1', 'deviceName': 'emulator-5554', 'log_path': 'E:\\Test_framework_APP\\log\\雷电模拟器.log', 'udid': 'emulator-5554', 'platformName': 'Android', 'name': '雷电模拟器', 'port': 4723}
+[2018-07-29 13:24:20,475] [DEBUG] [appController.py:server_command:43] 启动服务执行的命令：appium -a 127.0.0.1 -p 4723 -U emulator-5554 -g E:\Test_framework_APP\log\雷电模拟器.log
+[2018-07-29 13:24:20,569] [DEBUG] [appController.py:test_server:75] 端口 【4723】 服务启动失败5秒钟后尝试
+[2018-07-29 13:24:25,699] [DEBUG] [appController.py:test_server:72] 检验服务启动：  TCP    127.0.0.1:4723         0.0.0.0:0              LISTENING       9820
+[2018-07-29 13:24:25,699] [DEBUG] [appController.py:test_server:79] 全部服务启动成功！
+[2018-07-29 14:58:15,237] [DEBUG] [appController.py:kill_server:35] 执行[KILL SERVER]操作:成功: 已终止 PID 9820 (属于 PID 10936 子进程)的进程。
+[2018-07-29 14:58:16,340] [DEBUG] [appController.py:kill_server:36] 重启ADB服务！
+[2018-07-29 14:58:16,341] [DEBUG] [appController.py:server:53] 每个手机的信息：{'platformName': 'Android', 'platformVersion': '5.1.1', 'log_path': 'E:\\Test_framework_APP\\log\\雷电模拟器.log', 'deviceName': 'emulator-5554', 'udid': 'emulator-5554', 'port': 4723, 'ip': '127.0.0.1', 'name': '雷电模拟器'}
+[2018-07-29 14:58:16,343] [DEBUG] [appController.py:server_command:43] 启动服务执行的命令：appium -a 127.0.0.1 -p 4723 -U emulator-5554 -g E:\Test_framework_APP\log\雷电模拟器.log
+[2018-07-29 14:58:16,492] [DEBUG] [appController.py:test_server:75] 端口 【4723】 服务启动失败5秒钟后尝试
+[2018-07-29 14:58:21,630] [DEBUG] [appController.py:test_server:72] 检验服务启动：  TCP    127.0.0.1:4723         0.0.0.0:0              LISTENING       20788
+[2018-07-29 14:58:21,630] [DEBUG] [appController.py:test_server:79] 全部服务启动成功！
+[2018-07-29 14:58:21,631] [DEBUG] [appController.py:driver_command:93] 启动的Url：http://127.0.0.1:4723/wd/hub
+[2018-07-29 14:58:21,647] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session {"desiredCapabilities": {"appPackage": "com.tencent.mobileqq", "platformVersion": "5.1.1", "udid": "emulator-5554", "port": 4723, "ip": "127.0.0.1", "resetKeyboard": true, "platformName": "Android", "noReset": false, "appActivity": "com.tencent.mobileqq.activity.SplashActivity", "deviceName": "emulator-5554", "log_path": "E:\\Test_framework_APP\\log\\\u96f7\u7535\u6a21\u62df\u5668.log", "unicodeKeyboard": true, "name": "\u96f7\u7535\u6a21\u62df\u5668"}, "capabilities": {"alwaysMatch": {"platformName": "Android"}, "firstMatch": [{}]}}
+[2018-07-29 14:58:30,099] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 15:32:33,590] [DEBUG] [appController.py:kill_server:35] 执行[KILL SERVER]操作:成功: 已终止 PID 20788 (属于 PID 21296 子进程)的进程。
+[2018-07-29 15:32:33,670] [DEBUG] [appController.py:kill_server:36] 重启ADB服务！
+[2018-07-29 15:32:33,670] [DEBUG] [appController.py:server:53] 每个手机的信息：{'platformName': 'Android', 'port': 4723, 'ip': '127.0.0.1', 'platformVersion': '8.0.0', 'udid': '5e25d38e', 'log_path': 'E:\\Test_framework_APP\\log\\None.log', 'deviceName': 'android Emulator'}
+[2018-07-29 15:32:33,672] [DEBUG] [appController.py:server_command:43] 启动服务执行的命令：appium -a 127.0.0.1 -p 4723 -U android Emulator -g E:\Test_framework_APP\log\None.log
+[2018-07-29 15:32:33,790] [DEBUG] [appController.py:test_server:75] 端口 【4723】 服务启动失败5秒钟后尝试
+[2018-07-29 15:32:38,923] [DEBUG] [appController.py:test_server:75] 端口 【4723】 服务启动失败5秒钟后尝试
+[2018-07-29 15:32:44,033] [DEBUG] [appController.py:test_server:75] 端口 【4723】 服务启动失败5秒钟后尝试
+[2018-07-29 15:32:49,171] [DEBUG] [appController.py:test_server:75] 端口 【4723】 服务启动失败5秒钟后尝试
+[2018-07-29 15:32:54,288] [DEBUG] [appController.py:test_server:75] 端口 【4723】 服务启动失败5秒钟后尝试
+[2018-07-29 15:32:59,400] [DEBUG] [appController.py:test_server:75] 端口 【4723】 服务启动失败5秒钟后尝试
+[2018-07-29 15:33:04,536] [DEBUG] [appController.py:test_server:75] 端口 【4723】 服务启动失败5秒钟后尝试
+[2018-07-29 15:33:09,680] [DEBUG] [appController.py:test_server:75] 端口 【4723】 服务启动失败5秒钟后尝试
+[2018-07-29 15:33:14,790] [DEBUG] [appController.py:test_server:75] 端口 【4723】 服务启动失败5秒钟后尝试
+[2018-07-29 15:33:19,915] [DEBUG] [appController.py:test_server:75] 端口 【4723】 服务启动失败5秒钟后尝试
+[2018-07-29 15:33:25,033] [DEBUG] [appController.py:test_server:75] 端口 【4723】 服务启动失败5秒钟后尝试
+[2018-07-29 15:35:10,210] [DEBUG] [appController.py:kill_server:35] 执行[KILL SERVER]操作:错误: 没有找到进程 "node.exe"。
+[2018-07-29 15:35:11,296] [DEBUG] [appController.py:kill_server:36] 重启ADB服务！
+[2018-07-29 15:35:11,296] [DEBUG] [appController.py:server:53] 每个手机的信息：{'port': 4723, 'ip': '127.0.0.1', 'udid': '5e25d38e', 'deviceName': 'android Emulator', 'log_path': 'E:\\Test_framework_APP\\log\\None.log', 'platformVersion': '8.0.0', 'platformName': 'Android'}
+[2018-07-29 15:35:11,298] [DEBUG] [appController.py:server_command:43] 启动服务执行的命令：appium -a 127.0.0.1 -p 4723 -U 5e25d38e -g E:\Test_framework_APP\log\None.log
+[2018-07-29 15:35:11,437] [DEBUG] [appController.py:test_server:75] 端口 【4723】 服务启动失败5秒钟后尝试
+[2018-07-29 15:35:16,583] [DEBUG] [appController.py:test_server:72] 检验服务启动：  TCP    127.0.0.1:4723         0.0.0.0:0              LISTENING       21168
+[2018-07-29 15:35:16,583] [DEBUG] [appController.py:test_server:79] 全部服务启动成功！
+[2018-07-29 15:35:16,584] [DEBUG] [appController.py:driver_command:93] 启动的Url：http://127.0.0.1:4723/wd/hub
+[2018-07-29 15:35:16,602] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session {"desiredCapabilities": {"log_path": "E:\\Test_framework_APP\\log\\None.log", "udid": "5e25d38e", "resetKeyboard": true, "unicodeKeyboard": true, "port": 4723, "ip": "127.0.0.1", "appActivity": "com.sankuai.pms.WelcomeActivity", "noReset": false, "deviceName": "android Emulator", "platformName": "Android", "platformVersion": "8.0.0", "appPackage": "com.sankuai.pms"}, "capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}}
+[2018-07-29 15:35:29,774] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 15:35:29,776] [INFO] [main.py:run:45] 开始执行CASE！当前启动【1】个DRIVER！
+[2018-07-29 15:35:29,777] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/4e1d48e6-18be-45c1-a395-5fb36c16bed3/element {"sessionId": "4e1d48e6-18be-45c1-a395-5fb36c16bed3", "value": "com.sankuai.pms:id/edit_username", "using": "id"}
+[2018-07-29 15:35:31,155] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 15:35:32,157] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/4e1d48e6-18be-45c1-a395-5fb36c16bed3/element {"sessionId": "4e1d48e6-18be-45c1-a395-5fb36c16bed3", "value": "com.sankuai.pms:id/edit_username", "using": "id"}
+[2018-07-29 15:35:32,292] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 15:35:33,294] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/4e1d48e6-18be-45c1-a395-5fb36c16bed3/element {"sessionId": "4e1d48e6-18be-45c1-a395-5fb36c16bed3", "value": "com.sankuai.pms:id/edit_username", "using": "id"}
+[2018-07-29 15:35:33,342] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 15:35:34,343] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/4e1d48e6-18be-45c1-a395-5fb36c16bed3/element {"sessionId": "4e1d48e6-18be-45c1-a395-5fb36c16bed3", "value": "com.sankuai.pms:id/edit_username", "using": "id"}
+[2018-07-29 15:35:34,400] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 15:35:34,401] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/4e1d48e6-18be-45c1-a395-5fb36c16bed3/element {"sessionId": "4e1d48e6-18be-45c1-a395-5fb36c16bed3", "value": "com.sankuai.pms:id/edit_username", "using": "id"}
+[2018-07-29 15:35:34,435] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 15:35:34,436] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/4e1d48e6-18be-45c1-a395-5fb36c16bed3/element {"sessionId": "4e1d48e6-18be-45c1-a395-5fb36c16bed3", "value": "com.sankuai.pms:id/edit_username", "using": "id"}
+[2018-07-29 15:35:34,730] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 15:35:34,731] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/4e1d48e6-18be-45c1-a395-5fb36c16bed3/element/3/value {"sessionId": "4e1d48e6-18be-45c1-a395-5fb36c16bed3", "text": "18221293942", "value": ["1", "8", "2", "2", "1", "2", "9", "3", "9", "4", "2"], "id": "3"}
+[2018-07-29 15:35:41,037] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 15:35:41,038] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/4e1d48e6-18be-45c1-a395-5fb36c16bed3/element {"sessionId": "4e1d48e6-18be-45c1-a395-5fb36c16bed3", "value": "com.sankuai.pms:id/edit_password", "using": "id"}
+[2018-07-29 15:35:41,544] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 15:35:41,545] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/4e1d48e6-18be-45c1-a395-5fb36c16bed3/element {"sessionId": "4e1d48e6-18be-45c1-a395-5fb36c16bed3", "value": "com.sankuai.pms:id/edit_password", "using": "id"}
+[2018-07-29 15:35:41,586] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 15:35:41,587] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/4e1d48e6-18be-45c1-a395-5fb36c16bed3/element {"sessionId": "4e1d48e6-18be-45c1-a395-5fb36c16bed3", "value": "com.sankuai.pms:id/edit_password", "using": "id"}
+[2018-07-29 15:35:41,777] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 15:35:41,778] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/4e1d48e6-18be-45c1-a395-5fb36c16bed3/element/6/value {"sessionId": "4e1d48e6-18be-45c1-a395-5fb36c16bed3", "text": "123456", "value": ["1", "2", "3", "4", "5", "6"], "id": "6"}
+[2018-07-29 15:35:48,457] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 15:35:48,458] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/4e1d48e6-18be-45c1-a395-5fb36c16bed3/element {"sessionId": "4e1d48e6-18be-45c1-a395-5fb36c16bed3", "value": "com.sankuai.pms:id/btn_login", "using": "id"}
+[2018-07-29 15:35:49,018] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 15:35:49,019] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/4e1d48e6-18be-45c1-a395-5fb36c16bed3/element {"sessionId": "4e1d48e6-18be-45c1-a395-5fb36c16bed3", "value": "com.sankuai.pms:id/btn_login", "using": "id"}
+[2018-07-29 15:35:49,158] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 15:35:49,158] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/4e1d48e6-18be-45c1-a395-5fb36c16bed3/element {"sessionId": "4e1d48e6-18be-45c1-a395-5fb36c16bed3", "value": "com.sankuai.pms:id/btn_login", "using": "id"}
+[2018-07-29 15:35:49,720] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 15:35:49,721] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/4e1d48e6-18be-45c1-a395-5fb36c16bed3/element/9/click {"sessionId": "4e1d48e6-18be-45c1-a395-5fb36c16bed3", "id": "9"}
+[2018-07-29 15:35:50,352] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 15:35:50,352] [DEBUG] [main.py:case:28] 当前线程的的名字：Thread-3
+[2018-07-29 15:38:10,962] [DEBUG] [appController.py:kill_server:35] 执行[KILL SERVER]操作:成功: 已终止 PID 21168 (属于 PID 9692 子进程)的进程。
+[2018-07-29 15:38:11,038] [DEBUG] [appController.py:kill_server:36] 重启ADB服务！
+[2018-07-29 15:38:11,038] [DEBUG] [appController.py:server:53] 每个手机的信息：{'ip': '127.0.0.1', 'platformVersion': '8.0.0', 'log_path': 'E:\\Test_framework_APP\\log\\三星手机.log', 'platformName': 'Android', 'port': 4723, 'name': '三星手机', 'deviceName': 'android Emulator', 'udid': '5e25d38e'}
+[2018-07-29 15:38:11,038] [DEBUG] [appController.py:server_command:43] 启动服务执行的命令：appium -a 127.0.0.1 -p 4723 -U 5e25d38e -g E:\Test_framework_APP\log\三星手机.log
+[2018-07-29 15:38:11,181] [DEBUG] [appController.py:test_server:75] 端口 【4723】 服务启动失败5秒钟后尝试
+[2018-07-29 15:38:16,313] [DEBUG] [appController.py:test_server:72] 检验服务启动：  TCP    127.0.0.1:4723         0.0.0.0:0              LISTENING       672
+[2018-07-29 15:38:16,314] [DEBUG] [appController.py:test_server:79] 全部服务启动成功！
+[2018-07-29 15:38:16,314] [DEBUG] [appController.py:driver_command:93] 启动的Url：http://127.0.0.1:4723/wd/hub
+[2018-07-29 15:38:16,334] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session {"desiredCapabilities": {"ip": "127.0.0.1", "platformVersion": "8.0.0", "platformName": "Android", "appPackage": "com.sankuai.pms", "appActivity": "com.sankuai.pms.WelcomeActivity", "deviceName": "android Emulator", "udid": "5e25d38e", "unicodeKeyboard": true, "name": "\u4e09\u661f\u624b\u673a", "log_path": "E:\\Test_framework_APP\\log\\\u4e09\u661f\u624b\u673a.log", "noReset": false, "resetKeyboard": true, "port": 4723}, "capabilities": {"alwaysMatch": {"platformName": "Android"}, "firstMatch": [{}]}}
+[2018-07-29 15:38:28,524] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 15:38:28,526] [INFO] [main.py:run:45] 开始执行CASE！当前启动【1】个DRIVER！
+[2018-07-29 15:38:28,527] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/a6d89096-deab-4f43-a956-b9a12ce4daff/element {"sessionId": "a6d89096-deab-4f43-a956-b9a12ce4daff", "value": "com.sankuai.pms:id/edit_username", "using": "id"}
+[2018-07-29 15:38:30,159] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 15:38:31,161] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/a6d89096-deab-4f43-a956-b9a12ce4daff/element {"sessionId": "a6d89096-deab-4f43-a956-b9a12ce4daff", "value": "com.sankuai.pms:id/edit_username", "using": "id"}
+[2018-07-29 15:38:31,302] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 15:38:32,303] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/a6d89096-deab-4f43-a956-b9a12ce4daff/element {"sessionId": "a6d89096-deab-4f43-a956-b9a12ce4daff", "value": "com.sankuai.pms:id/edit_username", "using": "id"}
+[2018-07-29 15:38:34,056] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 15:38:35,057] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/a6d89096-deab-4f43-a956-b9a12ce4daff/element {"sessionId": "a6d89096-deab-4f43-a956-b9a12ce4daff", "value": "com.sankuai.pms:id/edit_username", "using": "id"}
+[2018-07-29 15:38:35,279] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 15:38:36,280] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/a6d89096-deab-4f43-a956-b9a12ce4daff/element {"sessionId": "a6d89096-deab-4f43-a956-b9a12ce4daff", "value": "com.sankuai.pms:id/edit_username", "using": "id"}
+[2018-07-29 15:38:36,404] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 15:38:37,406] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/a6d89096-deab-4f43-a956-b9a12ce4daff/element {"sessionId": "a6d89096-deab-4f43-a956-b9a12ce4daff", "value": "com.sankuai.pms:id/edit_username", "using": "id"}
+[2018-07-29 15:38:37,756] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 15:38:38,758] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/a6d89096-deab-4f43-a956-b9a12ce4daff/element {"sessionId": "a6d89096-deab-4f43-a956-b9a12ce4daff", "value": "com.sankuai.pms:id/edit_username", "using": "id"}
+[2018-07-29 15:38:39,385] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 15:38:40,386] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/a6d89096-deab-4f43-a956-b9a12ce4daff/element {"sessionId": "a6d89096-deab-4f43-a956-b9a12ce4daff", "value": "com.sankuai.pms:id/edit_username", "using": "id"}
+[2018-07-29 15:38:40,833] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 15:38:41,834] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/a6d89096-deab-4f43-a956-b9a12ce4daff/element {"sessionId": "a6d89096-deab-4f43-a956-b9a12ce4daff", "value": "com.sankuai.pms:id/edit_username", "using": "id"}
+[2018-07-29 15:38:42,244] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 15:38:43,245] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/a6d89096-deab-4f43-a956-b9a12ce4daff/element {"sessionId": "a6d89096-deab-4f43-a956-b9a12ce4daff", "value": "com.sankuai.pms:id/edit_username", "using": "id"}
+[2018-07-29 15:38:43,840] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 15:38:44,842] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/a6d89096-deab-4f43-a956-b9a12ce4daff/element {"sessionId": "a6d89096-deab-4f43-a956-b9a12ce4daff", "value": "com.sankuai.pms:id/edit_username", "using": "id"}
+[2018-07-29 15:38:45,361] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 15:38:46,363] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/a6d89096-deab-4f43-a956-b9a12ce4daff/element {"sessionId": "a6d89096-deab-4f43-a956-b9a12ce4daff", "value": "com.sankuai.pms:id/edit_username", "using": "id"}
+[2018-07-29 15:38:46,751] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 15:38:47,754] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/a6d89096-deab-4f43-a956-b9a12ce4daff/element {"sessionId": "a6d89096-deab-4f43-a956-b9a12ce4daff", "value": "com.sankuai.pms:id/edit_username", "using": "id"}
+[2018-07-29 15:38:48,336] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 15:38:49,337] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/a6d89096-deab-4f43-a956-b9a12ce4daff/element {"sessionId": "a6d89096-deab-4f43-a956-b9a12ce4daff", "value": "com.sankuai.pms:id/edit_username", "using": "id"}
+[2018-07-29 15:38:49,935] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 15:38:50,935] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/a6d89096-deab-4f43-a956-b9a12ce4daff/element {"sessionId": "a6d89096-deab-4f43-a956-b9a12ce4daff", "value": "com.sankuai.pms:id/edit_username", "using": "id"}
+[2018-07-29 15:38:51,255] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 15:38:52,257] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/a6d89096-deab-4f43-a956-b9a12ce4daff/element {"sessionId": "a6d89096-deab-4f43-a956-b9a12ce4daff", "value": "com.sankuai.pms:id/edit_username", "using": "id"}
+[2018-07-29 15:38:52,897] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 15:38:53,898] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/a6d89096-deab-4f43-a956-b9a12ce4daff/element {"sessionId": "a6d89096-deab-4f43-a956-b9a12ce4daff", "value": "com.sankuai.pms:id/edit_username", "using": "id"}
+[2018-07-29 15:38:54,471] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 15:38:55,472] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/a6d89096-deab-4f43-a956-b9a12ce4daff/element {"sessionId": "a6d89096-deab-4f43-a956-b9a12ce4daff", "value": "com.sankuai.pms:id/edit_username", "using": "id"}
+[2018-07-29 15:38:56,022] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 15:38:57,024] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/a6d89096-deab-4f43-a956-b9a12ce4daff/element {"sessionId": "a6d89096-deab-4f43-a956-b9a12ce4daff", "value": "com.sankuai.pms:id/edit_username", "using": "id"}
+[2018-07-29 15:38:57,414] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 15:38:58,416] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/a6d89096-deab-4f43-a956-b9a12ce4daff/element {"sessionId": "a6d89096-deab-4f43-a956-b9a12ce4daff", "value": "com.sankuai.pms:id/edit_username", "using": "id"}
+[2018-07-29 15:38:59,002] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 15:39:00,003] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/a6d89096-deab-4f43-a956-b9a12ce4daff/element {"sessionId": "a6d89096-deab-4f43-a956-b9a12ce4daff", "value": "com.sankuai.pms:id/edit_username", "using": "id"}
+[2018-07-29 15:39:00,456] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 15:39:01,458] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/a6d89096-deab-4f43-a956-b9a12ce4daff/element {"sessionId": "a6d89096-deab-4f43-a956-b9a12ce4daff", "value": "com.sankuai.pms:id/edit_username", "using": "id"}
+[2018-07-29 15:39:02,056] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 15:39:03,058] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/a6d89096-deab-4f43-a956-b9a12ce4daff/element {"sessionId": "a6d89096-deab-4f43-a956-b9a12ce4daff", "value": "com.sankuai.pms:id/edit_username", "using": "id"}
+[2018-07-29 15:39:03,408] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 15:39:04,410] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/a6d89096-deab-4f43-a956-b9a12ce4daff/element {"sessionId": "a6d89096-deab-4f43-a956-b9a12ce4daff", "value": "com.sankuai.pms:id/edit_username", "using": "id"}
+[2018-07-29 15:39:04,813] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 15:39:05,814] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/a6d89096-deab-4f43-a956-b9a12ce4daff/element {"sessionId": "a6d89096-deab-4f43-a956-b9a12ce4daff", "value": "com.sankuai.pms:id/edit_username", "using": "id"}
+[2018-07-29 15:39:06,516] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 15:39:07,517] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/a6d89096-deab-4f43-a956-b9a12ce4daff/element {"sessionId": "a6d89096-deab-4f43-a956-b9a12ce4daff", "value": "com.sankuai.pms:id/edit_username", "using": "id"}
+[2018-07-29 15:39:19,666] [DEBUG] [appController.py:kill_server:35] 执行[KILL SERVER]操作:错误: 没有找到进程 "node.exe"。
+[2018-07-29 15:39:19,751] [DEBUG] [appController.py:kill_server:36] 重启ADB服务！
+[2018-07-29 15:39:19,751] [DEBUG] [appController.py:server:53] 每个手机的信息：{'platformVersion': '8.0.0', 'platformName': 'Android', 'name': '三星手机', 'udid': '5e25d38e', 'ip': '127.0.0.1', 'deviceName': 'android Emulator', 'log_path': 'E:\\Test_framework_APP\\log\\三星手机.log', 'port': 4723}
+[2018-07-29 15:39:19,752] [DEBUG] [appController.py:server_command:43] 启动服务执行的命令：appium -a 127.0.0.1 -p 4723 -U 5e25d38e -g E:\Test_framework_APP\log\三星手机.log
+[2018-07-29 15:39:19,863] [DEBUG] [appController.py:test_server:72] 检验服务启动：  TCP    127.0.0.1:4723         127.0.0.1:50229        TIME_WAIT       0
+  TCP    127.0.0.1:4723         127.0.0.1:50239        TIME_WAIT       0
+  TCP    127.0.0.1:4723         127.0.0.1:50250        TIME_WAIT       0
+  TCP    127.0.0.1:4723         127.0.0.1:50256        TIME_WAIT       0
+  TCP    127.0.0.1:4723         127.0.0.1:50267        TIME_WAIT       0
+  TCP    127.0.0.1:4723         127.0.0.1:50273        TIME_WAIT       0
+  TCP    127.0.0.1:4723         127.0.0.1:50279        TIME_WAIT       0
+  TCP    127.0.0.1:4723         127.0.0.1:50290        TIME_WAIT       0
+  TCP    127.0.0.1:4723         127.0.0.1:50296        TIME_WAIT       0
+  TCP    127.0.0.1:4723         127.0.0.1:50307        TIME_WAIT       0
+  TCP    127.0.0.1:50218        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:50239        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:50267        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:50273        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:50279        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:50290        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:50296        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:50307        127.0.0.1:4723         TIME_WAIT       0
+[2018-07-29 15:39:19,863] [DEBUG] [appController.py:test_server:79] 全部服务启动成功！
+[2018-07-29 15:39:19,863] [DEBUG] [appController.py:driver_command:93] 启动的Url：http://127.0.0.1:4723/wd/hub
+[2018-07-29 15:39:20,870] [INFO] [remote_connection.py:__init__:206] Could not connect to port 4723 on host 127.0.0.1
+[2018-07-29 15:39:20,870] [INFO] [remote_connection.py:__init__:226] Could not get IP address for host: 127.0.0.1
+[2018-07-29 15:39:20,871] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"platformVersion": "8.0.0", "noReset": false, "platformName": "Android", "name": "\u4e09\u661f\u624b\u673a", "udid": "5e25d38e", "log_path": "E:\\Test_framework_APP\\log\\\u4e09\u661f\u624b\u673a.log", "deviceName": "android Emulator", "ip": "127.0.0.1", "appActivity": "com.sankuai.pms.WelcomeActivity", "port": 4723, "resetKeyboard": true, "unicodeKeyboard": true, "appPackage": "com.sankuai.pms"}}
+[2018-07-29 15:39:21,879] [INFO] [main.py:run:45] 开始执行CASE！当前启动【0】个DRIVER！
+[2018-07-29 15:39:26,730] [DEBUG] [appController.py:kill_server:35] 执行[KILL SERVER]操作:成功: 已终止 PID 19580 (属于 PID 15480 子进程)的进程。
+[2018-07-29 15:39:27,821] [DEBUG] [appController.py:kill_server:36] 重启ADB服务！
+[2018-07-29 15:39:27,821] [DEBUG] [appController.py:server:53] 每个手机的信息：{'platformName': 'Android', 'log_path': 'E:\\Test_framework_APP\\log\\三星手机.log', 'udid': '5e25d38e', 'platformVersion': '8.0.0', 'deviceName': 'android Emulator', 'ip': '127.0.0.1', 'name': '三星手机', 'port': 4723}
+[2018-07-29 15:39:27,823] [DEBUG] [appController.py:server_command:43] 启动服务执行的命令：appium -a 127.0.0.1 -p 4723 -U 5e25d38e -g E:\Test_framework_APP\log\三星手机.log
+[2018-07-29 15:39:27,960] [DEBUG] [appController.py:test_server:72] 检验服务启动：  TCP    127.0.0.1:4723         127.0.0.1:50267        TIME_WAIT       0
+  TCP    127.0.0.1:4723         127.0.0.1:50273        TIME_WAIT       0
+  TCP    127.0.0.1:4723         127.0.0.1:50279        TIME_WAIT       0
+  TCP    127.0.0.1:4723         127.0.0.1:50290        TIME_WAIT       0
+  TCP    127.0.0.1:4723         127.0.0.1:50296        TIME_WAIT       0
+  TCP    127.0.0.1:4723         127.0.0.1:50307        TIME_WAIT       0
+  TCP    127.0.0.1:50267        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:50273        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:50279        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:50290        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:50296        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:50307        127.0.0.1:4723         TIME_WAIT       0
+[2018-07-29 15:39:27,960] [DEBUG] [appController.py:test_server:79] 全部服务启动成功！
+[2018-07-29 15:39:27,961] [DEBUG] [appController.py:driver_command:93] 启动的Url：http://127.0.0.1:4723/wd/hub
+[2018-07-29 15:39:28,967] [INFO] [remote_connection.py:__init__:206] Could not connect to port 4723 on host 127.0.0.1
+[2018-07-29 15:39:28,967] [INFO] [remote_connection.py:__init__:226] Could not get IP address for host: 127.0.0.1
+[2018-07-29 15:39:28,967] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session {"desiredCapabilities": {"appActivity": "com.sankuai.pms.WelcomeActivity", "log_path": "E:\\Test_framework_APP\\log\\\u4e09\u661f\u624b\u673a.log", "platformVersion": "8.0.0", "appPackage": "com.sankuai.pms", "platformName": "Android", "name": "\u4e09\u661f\u624b\u673a", "noReset": false, "resetKeyboard": true, "unicodeKeyboard": true, "deviceName": "android Emulator", "ip": "127.0.0.1", "udid": "5e25d38e", "port": 4723}, "capabilities": {"alwaysMatch": {"platformName": "Android"}, "firstMatch": [{}]}}
+[2018-07-29 15:39:29,975] [INFO] [main.py:run:45] 开始执行CASE！当前启动【0】个DRIVER！
+[2018-07-29 15:40:00,120] [DEBUG] [appController.py:kill_server:35] 执行[KILL SERVER]操作:成功: 已终止 PID 19600 (属于 PID 21540 子进程)的进程。
+[2018-07-29 15:40:01,204] [DEBUG] [appController.py:kill_server:36] 重启ADB服务！
+[2018-07-29 15:40:01,204] [DEBUG] [appController.py:server:53] 每个手机的信息：{'log_path': 'E:\\Test_framework_APP\\log\\三星手机.log', 'platformName': 'Android', 'ip': '127.0.0.1', 'udid': '5e25d38e', 'platformVersion': '8.0.0', 'name': '三星手机', 'deviceName': 'android Emulator', 'port': 4724}
+[2018-07-29 15:40:01,205] [DEBUG] [appController.py:server_command:43] 启动服务执行的命令：appium -a 127.0.0.1 -p 4724 -U 5e25d38e -g E:\Test_framework_APP\log\三星手机.log
+[2018-07-29 15:40:01,325] [DEBUG] [appController.py:test_server:75] 端口 【4724】 服务启动失败5秒钟后尝试
+[2018-07-29 15:40:06,447] [DEBUG] [appController.py:test_server:72] 检验服务启动：  TCP    127.0.0.1:4724         0.0.0.0:0              LISTENING       18584
+[2018-07-29 15:40:06,447] [DEBUG] [appController.py:test_server:79] 全部服务启动成功！
+[2018-07-29 15:40:06,447] [DEBUG] [appController.py:driver_command:93] 启动的Url：http://127.0.0.1:4724/wd/hub
+[2018-07-29 15:40:06,456] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4724/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"platformName": "Android", "resetKeyboard": true, "ip": "127.0.0.1", "udid": "5e25d38e", "unicodeKeyboard": true, "log_path": "E:\\Test_framework_APP\\log\\\u4e09\u661f\u624b\u673a.log", "deviceName": "android Emulator", "name": "\u4e09\u661f\u624b\u673a", "appPackage": "com.sankuai.pms", "platformVersion": "8.0.0", "noReset": false, "port": 4724, "appActivity": "com.sankuai.pms.WelcomeActivity"}}
+[2018-07-29 15:40:18,367] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 15:40:18,373] [INFO] [main.py:run:45] 开始执行CASE！当前启动【0】个DRIVER！
+[2018-07-29 15:40:41,657] [DEBUG] [appController.py:kill_server:35] 执行[KILL SERVER]操作:成功: 已终止 PID 18584 (属于 PID 17628 子进程)的进程。
+[2018-07-29 15:40:41,733] [DEBUG] [appController.py:kill_server:36] 重启ADB服务！
+[2018-07-29 15:40:41,733] [DEBUG] [appController.py:server:53] 每个手机的信息：{'name': '三星手机', 'log_path': 'E:\\Test_framework_APP\\log\\三星手机.log', 'platformVersion': '8.0.0', 'ip': '127.0.0.1', 'port': 4724, 'platformName': 'Android', 'udid': '5e25d38e', 'deviceName': 'android Emulator'}
+[2018-07-29 15:40:41,733] [DEBUG] [appController.py:server_command:43] 启动服务执行的命令：appium -a 127.0.0.1 -p 4724 -U 5e25d38e -g E:\Test_framework_APP\log\三星手机.log
+[2018-07-29 15:40:41,829] [DEBUG] [appController.py:test_server:72] 检验服务启动：  TCP    127.0.0.1:50393        127.0.0.1:4724         TIME_WAIT       0
+[2018-07-29 15:40:41,829] [DEBUG] [appController.py:test_server:79] 全部服务启动成功！
+[2018-07-29 15:40:41,829] [DEBUG] [appController.py:driver_command:93] 启动的Url：http://127.0.0.1:4724/wd/hub
+[2018-07-29 15:40:42,835] [INFO] [remote_connection.py:__init__:206] Could not connect to port 4724 on host 127.0.0.1
+[2018-07-29 15:40:42,835] [INFO] [remote_connection.py:__init__:226] Could not get IP address for host: 127.0.0.1
+[2018-07-29 15:40:42,835] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4724/wd/hub/session {"capabilities": {"alwaysMatch": {"platformName": "Android"}, "firstMatch": [{}]}, "desiredCapabilities": {"name": "\u4e09\u661f\u624b\u673a", "udid": "5e25d38e", "platformVersion": "8.0.0", "resetKeyboard": true, "deviceName": "android Emulator", "appPackage": "com.sankuai.pms", "noReset": false, "log_path": "E:\\Test_framework_APP\\log\\\u4e09\u661f\u624b\u673a.log", "appActivity": "com.sankuai.pms.WelcomeActivity", "ip": "127.0.0.1", "unicodeKeyboard": true, "platformName": "Android", "port": 4724}}
+[2018-07-29 15:40:43,844] [INFO] [main.py:run:45] 开始执行CASE！当前启动【0】个DRIVER！
+[2018-07-29 15:41:24,241] [DEBUG] [appController.py:kill_server:35] 执行[KILL SERVER]操作:成功: 已终止 PID 19752 (属于 PID 17872 子进程)的进程。
+[2018-07-29 15:41:25,333] [DEBUG] [appController.py:kill_server:36] 重启ADB服务！
+[2018-07-29 15:41:25,333] [DEBUG] [appController.py:server:53] 每个手机的信息：{'platformName': 'Android', 'port': 4723, 'name': '三星手机', 'platformVersion': '8.0.0', 'ip': '127.0.0.1', 'udid': '5e25d38e', 'deviceName': 'android Emulator', 'log_path': 'E:\\Test_framework_APP\\log\\三星手机.log'}
+[2018-07-29 15:41:25,336] [DEBUG] [appController.py:server_command:43] 启动服务执行的命令：appium -a 127.0.0.1 -p 4723 -U 5e25d38e -g E:\Test_framework_APP\log\三星手机.log
+[2018-07-29 15:41:25,478] [DEBUG] [appController.py:test_server:75] 端口 【4723】 服务启动失败5秒钟后尝试
+[2018-07-29 15:41:30,626] [DEBUG] [appController.py:test_server:72] 检验服务启动：  TCP    127.0.0.1:4723         0.0.0.0:0              LISTENING       12952
+[2018-07-29 15:41:30,626] [DEBUG] [appController.py:test_server:79] 全部服务启动成功！
+[2018-07-29 15:41:30,626] [DEBUG] [appController.py:driver_command:93] 启动的Url：http://127.0.0.1:4723/wd/hub
+[2018-07-29 15:41:30,633] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"alwaysMatch": {"platformName": "Android"}, "firstMatch": [{}]}, "desiredCapabilities": {"udid": "5e25d38e", "noReset": false, "log_path": "E:\\Test_framework_APP\\log\\\u4e09\u661f\u624b\u673a.log", "platformVersion": "8.0.0", "ip": "127.0.0.1", "appPackage": "com.sankuai.pms", "port": 4723, "name": "\u4e09\u661f\u624b\u673a", "appActivity": "com.sankuai.pms.WelcomeActivity", "unicodeKeyboard": true, "resetKeyboard": true, "platformName": "Android", "deviceName": "android Emulator"}}
+[2018-07-29 15:41:42,765] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 15:41:42,766] [INFO] [main.py:run:45] 开始执行CASE！当前启动【1】个DRIVER！
+[2018-07-29 15:41:42,767] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/204d766e-ea7c-4a0c-ad31-24dfa2dbce8b/element {"using": "id", "sessionId": "204d766e-ea7c-4a0c-ad31-24dfa2dbce8b", "value": "com.sankuai.pms:id/edit_username"}
+[2018-07-29 15:41:44,501] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 15:41:45,503] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/204d766e-ea7c-4a0c-ad31-24dfa2dbce8b/element {"using": "id", "sessionId": "204d766e-ea7c-4a0c-ad31-24dfa2dbce8b", "value": "com.sankuai.pms:id/edit_username"}
+[2018-07-29 15:41:45,688] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 15:41:46,689] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/204d766e-ea7c-4a0c-ad31-24dfa2dbce8b/element {"using": "id", "sessionId": "204d766e-ea7c-4a0c-ad31-24dfa2dbce8b", "value": "com.sankuai.pms:id/edit_username"}
+[2018-07-29 15:41:47,104] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 15:41:47,105] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/204d766e-ea7c-4a0c-ad31-24dfa2dbce8b/element {"using": "id", "sessionId": "204d766e-ea7c-4a0c-ad31-24dfa2dbce8b", "value": "com.sankuai.pms:id/edit_username"}
+[2018-07-29 15:41:47,137] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 15:41:47,138] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/204d766e-ea7c-4a0c-ad31-24dfa2dbce8b/element {"using": "id", "sessionId": "204d766e-ea7c-4a0c-ad31-24dfa2dbce8b", "value": "com.sankuai.pms:id/edit_username"}
+[2018-07-29 15:41:47,161] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 15:41:47,162] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/204d766e-ea7c-4a0c-ad31-24dfa2dbce8b/element/3/value {"sessionId": "204d766e-ea7c-4a0c-ad31-24dfa2dbce8b", "id": "3", "text": "18221293942", "value": ["1", "8", "2", "2", "1", "2", "9", "3", "9", "4", "2"]}
+[2018-07-29 15:41:52,745] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 15:41:52,746] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/204d766e-ea7c-4a0c-ad31-24dfa2dbce8b/element {"using": "id", "sessionId": "204d766e-ea7c-4a0c-ad31-24dfa2dbce8b", "value": "com.sankuai.pms:id/edit_password"}
+[2018-07-29 15:41:53,289] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 15:41:53,290] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/204d766e-ea7c-4a0c-ad31-24dfa2dbce8b/element {"using": "id", "sessionId": "204d766e-ea7c-4a0c-ad31-24dfa2dbce8b", "value": "com.sankuai.pms:id/edit_password"}
+[2018-07-29 15:41:53,498] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 15:41:53,498] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/204d766e-ea7c-4a0c-ad31-24dfa2dbce8b/element {"using": "id", "sessionId": "204d766e-ea7c-4a0c-ad31-24dfa2dbce8b", "value": "com.sankuai.pms:id/edit_password"}
+[2018-07-29 15:41:53,639] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 15:41:53,640] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/204d766e-ea7c-4a0c-ad31-24dfa2dbce8b/element/6/value {"sessionId": "204d766e-ea7c-4a0c-ad31-24dfa2dbce8b", "id": "6", "text": "123456", "value": ["1", "2", "3", "4", "5", "6"]}
+[2018-07-29 15:41:59,158] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 15:41:59,159] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/204d766e-ea7c-4a0c-ad31-24dfa2dbce8b/element {"using": "id", "sessionId": "204d766e-ea7c-4a0c-ad31-24dfa2dbce8b", "value": "com.sankuai.pms:id/btn_login"}
+[2018-07-29 15:41:59,691] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 15:41:59,692] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/204d766e-ea7c-4a0c-ad31-24dfa2dbce8b/element {"using": "id", "sessionId": "204d766e-ea7c-4a0c-ad31-24dfa2dbce8b", "value": "com.sankuai.pms:id/btn_login"}
+[2018-07-29 15:42:00,136] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 15:42:00,137] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/204d766e-ea7c-4a0c-ad31-24dfa2dbce8b/element {"using": "id", "sessionId": "204d766e-ea7c-4a0c-ad31-24dfa2dbce8b", "value": "com.sankuai.pms:id/btn_login"}
+[2018-07-29 15:42:00,424] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 15:42:00,424] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/204d766e-ea7c-4a0c-ad31-24dfa2dbce8b/element/9/click {"sessionId": "204d766e-ea7c-4a0c-ad31-24dfa2dbce8b", "id": "9"}
+[2018-07-29 15:42:01,115] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 15:42:01,116] [DEBUG] [main.py:case:28] 当前线程的的名字：三星手机
+[2018-07-29 15:42:01,119] [DEBUG] [HTMLTestAppRunner.py:_generate_report:751] []
+[2018-07-29 16:02:23,872] [DEBUG] [appController.py:kill_server:35] 执行[KILL SERVER]操作:错误: 没有找到进程 "node.exe"。
+[2018-07-29 16:02:23,955] [DEBUG] [appController.py:kill_server:36] 重启ADB服务！
+[2018-07-29 16:02:23,955] [DEBUG] [appController.py:server:53] 每个手机的信息：{'platformName': 'Android', 'ip': '127.0.0.1', 'port': 4723, 'name': '三星手机', 'udid': '5e25d38e', 'platformVersion': '8.0.0', 'log_path': 'E:\\Test_framework_APP\\log\\三星手机.log', 'deviceName': 'android Emulator'}
+[2018-07-29 16:02:23,957] [DEBUG] [appController.py:server_command:43] 启动服务执行的命令：appium -a 127.0.0.1 -p 4723 -U 5e25d38e -g E:\Test_framework_APP\log\三星手机.log
+[2018-07-29 16:02:24,078] [DEBUG] [appController.py:test_server:72] 检验服务启动：  TCP    0.0.0.0:4723           0.0.0.0:0              LISTENING       20868
+[2018-07-29 16:02:24,078] [DEBUG] [appController.py:test_server:79] 全部服务启动成功！
+[2018-07-29 16:02:24,079] [DEBUG] [appController.py:driver_command:93] 启动的Url：http://127.0.0.1:4723/wd/hub
+[2018-07-29 16:02:24,089] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"alwaysMatch": {"platformName": "Android"}, "firstMatch": [{}]}, "desiredCapabilities": {"platformName": "Android", "ip": "127.0.0.1", "unicodeKeyboard": true, "platformVersion": "8.0.0", "name": "\u4e09\u661f\u624b\u673a", "noReset": false, "log_path": "E:\\Test_framework_APP\\log\\\u4e09\u661f\u624b\u673a.log", "udid": "5e25d38e", "appPackage": "com.sankuai.pms", "port": 4723, "resetKeyboard": true, "deviceName": "android Emulator", "appActivity": "com.sankuai.pms.WelcomeActivity"}}
+[2018-07-29 16:02:24,870] [INFO] [main.py:run:45] 开始执行CASE！当前启动【0】个DRIVER！
+[2018-07-29 16:02:40,193] [DEBUG] [appController.py:kill_server:35] 执行[KILL SERVER]操作:错误: 没有找到进程 "node.exe"。
+[2018-07-29 16:02:41,273] [DEBUG] [appController.py:kill_server:36] 重启ADB服务！
+[2018-07-29 16:02:41,273] [DEBUG] [appController.py:server:53] 每个手机的信息：{'platformName': 'Android', 'name': '三星手机', 'platformVersion': '8.0.0', 'ip': '127.0.0.1', 'port': 4723, 'log_path': 'E:\\Test_framework_APP\\log\\三星手机.log', 'deviceName': 'android Emulator', 'udid': '5e25d38e'}
+[2018-07-29 16:02:41,274] [DEBUG] [appController.py:server_command:43] 启动服务执行的命令：appium -a 127.0.0.1 -p 4723 -U 5e25d38e -g E:\Test_framework_APP\log\三星手机.log
+[2018-07-29 16:02:41,422] [DEBUG] [appController.py:test_server:75] 端口 【4723】 服务启动失败5秒钟后尝试
+[2018-07-29 16:02:46,569] [DEBUG] [appController.py:test_server:72] 检验服务启动：  TCP    127.0.0.1:4723         0.0.0.0:0              LISTENING       17504
+[2018-07-29 16:02:46,569] [DEBUG] [appController.py:test_server:79] 全部服务启动成功！
+[2018-07-29 16:02:46,570] [DEBUG] [appController.py:driver_command:93] 启动的Url：http://127.0.0.1:4723/wd/hub
+[2018-07-29 16:02:46,587] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session {"desiredCapabilities": {"unicodeKeyboard": true, "platformVersion": "8.0.0", "port": 4723, "appPackage": "com.sankuai.pms", "name": "\u4e09\u661f\u624b\u673a", "noReset": false, "deviceName": "android Emulator", "log_path": "E:\\Test_framework_APP\\log\\\u4e09\u661f\u624b\u673a.log", "ip": "127.0.0.1", "resetKeyboard": true, "platformName": "Android", "appActivity": "com.sankuai.pms.WelcomeActivity", "udid": "5e25d38e"}, "capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}}
+[2018-07-29 16:02:59,185] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 16:02:59,187] [INFO] [main.py:run:45] 开始执行CASE！当前启动【1】个DRIVER！
+[2018-07-29 16:02:59,188] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/58af5cef-3d8b-4f61-968d-8a1dd33f04ec/element {"sessionId": "58af5cef-3d8b-4f61-968d-8a1dd33f04ec", "using": "id", "value": "com.sankuai.pms:id/edit_username"}
+[2018-07-29 16:03:00,832] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 16:03:01,834] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/58af5cef-3d8b-4f61-968d-8a1dd33f04ec/element {"sessionId": "58af5cef-3d8b-4f61-968d-8a1dd33f04ec", "using": "id", "value": "com.sankuai.pms:id/edit_username"}
+[2018-07-29 16:03:01,886] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 16:03:02,887] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/58af5cef-3d8b-4f61-968d-8a1dd33f04ec/element {"sessionId": "58af5cef-3d8b-4f61-968d-8a1dd33f04ec", "using": "id", "value": "com.sankuai.pms:id/edit_username"}
+[2018-07-29 16:03:03,363] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 16:03:03,363] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/58af5cef-3d8b-4f61-968d-8a1dd33f04ec/element {"sessionId": "58af5cef-3d8b-4f61-968d-8a1dd33f04ec", "using": "id", "value": "com.sankuai.pms:id/edit_username"}
+[2018-07-29 16:03:03,391] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 16:03:03,392] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/58af5cef-3d8b-4f61-968d-8a1dd33f04ec/element {"sessionId": "58af5cef-3d8b-4f61-968d-8a1dd33f04ec", "using": "id", "value": "com.sankuai.pms:id/edit_username"}
+[2018-07-29 16:03:03,624] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 16:03:03,625] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/58af5cef-3d8b-4f61-968d-8a1dd33f04ec/element/3/value {"sessionId": "58af5cef-3d8b-4f61-968d-8a1dd33f04ec", "text": "18221293942", "value": ["1", "8", "2", "2", "1", "2", "9", "3", "9", "4", "2"], "id": "3"}
+[2018-07-29 16:03:09,814] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 16:03:09,814] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/58af5cef-3d8b-4f61-968d-8a1dd33f04ec/element {"sessionId": "58af5cef-3d8b-4f61-968d-8a1dd33f04ec", "using": "id", "value": "com.sankuai.pms:id/edit_password"}
+[2018-07-29 16:03:10,323] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 16:03:10,324] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/58af5cef-3d8b-4f61-968d-8a1dd33f04ec/element {"sessionId": "58af5cef-3d8b-4f61-968d-8a1dd33f04ec", "using": "id", "value": "com.sankuai.pms:id/edit_password"}
+[2018-07-29 16:03:10,371] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 16:03:10,372] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/58af5cef-3d8b-4f61-968d-8a1dd33f04ec/element {"sessionId": "58af5cef-3d8b-4f61-968d-8a1dd33f04ec", "using": "id", "value": "com.sankuai.pms:id/edit_password"}
+[2018-07-29 16:03:10,778] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 16:03:10,778] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/58af5cef-3d8b-4f61-968d-8a1dd33f04ec/element/6/value {"sessionId": "58af5cef-3d8b-4f61-968d-8a1dd33f04ec", "text": "1234567", "value": ["1", "2", "3", "4", "5", "6", "7"], "id": "6"}
+[2018-07-29 16:03:15,850] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 16:03:15,851] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/58af5cef-3d8b-4f61-968d-8a1dd33f04ec/element {"sessionId": "58af5cef-3d8b-4f61-968d-8a1dd33f04ec", "using": "id", "value": "com.sankuai.pms:id/btn_login"}
+[2018-07-29 16:03:16,366] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 16:03:16,366] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/58af5cef-3d8b-4f61-968d-8a1dd33f04ec/element {"sessionId": "58af5cef-3d8b-4f61-968d-8a1dd33f04ec", "using": "id", "value": "com.sankuai.pms:id/btn_login"}
+[2018-07-29 16:03:16,407] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 16:03:16,408] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/58af5cef-3d8b-4f61-968d-8a1dd33f04ec/element {"sessionId": "58af5cef-3d8b-4f61-968d-8a1dd33f04ec", "using": "id", "value": "com.sankuai.pms:id/btn_login"}
+[2018-07-29 16:03:16,448] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 16:03:16,449] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/58af5cef-3d8b-4f61-968d-8a1dd33f04ec/element/9/click {"sessionId": "58af5cef-3d8b-4f61-968d-8a1dd33f04ec", "id": "9"}
+[2018-07-29 16:03:16,983] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 16:03:16,983] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/58af5cef-3d8b-4f61-968d-8a1dd33f04ec/element {"sessionId": "58af5cef-3d8b-4f61-968d-8a1dd33f04ec", "using": "accessibility id", "value": "\u9996\u9875"}
+[2018-07-29 16:03:17,760] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 16:03:18,762] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/58af5cef-3d8b-4f61-968d-8a1dd33f04ec/element {"sessionId": "58af5cef-3d8b-4f61-968d-8a1dd33f04ec", "using": "accessibility id", "value": "\u9996\u9875"}
+[2018-07-29 16:03:19,780] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 16:03:20,783] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/58af5cef-3d8b-4f61-968d-8a1dd33f04ec/element {"sessionId": "58af5cef-3d8b-4f61-968d-8a1dd33f04ec", "using": "accessibility id", "value": "\u9996\u9875"}
+[2018-07-29 16:03:21,207] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 16:03:22,211] [DEBUG] [remote_connection.py:_request:480] GET http://127.0.0.1:4723/wd/hub/session/58af5cef-3d8b-4f61-968d-8a1dd33f04ec/screenshot {"sessionId": "58af5cef-3d8b-4f61-968d-8a1dd33f04ec"}
+[2018-07-29 16:03:23,072] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 16:03:23,138] [DEBUG] [main.py:case:28] 当前线程的的名字：三星手机
+[2018-07-29 16:03:23,140] [DEBUG] [HTMLTestAppRunner.py:_generate_report:751] []
+[2018-07-29 16:04:21,626] [DEBUG] [appController.py:kill_server:35] 执行[KILL SERVER]操作:成功: 已终止 PID 1856 (属于 PID 17504 子进程)的进程。
+成功: 已终止 PID 15464 (属于 PID 17504 子进程)的进程。
+成功: 已终止 PID 17504 (属于 PID 11748 子进程)的进程。
+[2018-07-29 16:04:21,702] [DEBUG] [appController.py:kill_server:36] 重启ADB服务！
+[2018-07-29 16:04:21,702] [DEBUG] [appController.py:server:53] 每个手机的信息：{'log_path': 'E:\\Test_framework_APP\\log\\三星手机.log', 'deviceName': 'android Emulator', 'ip': '127.0.0.1', 'platformName': 'Android', 'udid': '5e25d38e', 'port': 4723, 'platformVersion': '8.0.0', 'name': '三星手机'}
+[2018-07-29 16:04:21,703] [DEBUG] [appController.py:server_command:43] 启动服务执行的命令：appium -a 127.0.0.1 -p 4723 -U 5e25d38e -g E:\Test_framework_APP\log\三星手机.log
+[2018-07-29 16:04:21,801] [DEBUG] [appController.py:test_server:75] 端口 【4723】 服务启动失败5秒钟后尝试
+[2018-07-29 16:04:26,941] [DEBUG] [appController.py:test_server:72] 检验服务启动：  TCP    127.0.0.1:4723         0.0.0.0:0              LISTENING       21132
+[2018-07-29 16:04:26,941] [DEBUG] [appController.py:test_server:79] 全部服务启动成功！
+[2018-07-29 16:04:26,942] [DEBUG] [appController.py:driver_command:93] 启动的Url：http://127.0.0.1:4723/wd/hub
+[2018-07-29 16:04:26,959] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"alwaysMatch": {"platformName": "Android"}, "firstMatch": [{}]}, "desiredCapabilities": {"appPackage": "com.sankuai.pms", "ip": "127.0.0.1", "platformName": "Android", "unicodeKeyboard": true, "port": 4723, "platformVersion": "8.0.0", "appActivity": "com.sankuai.pms.WelcomeActivity", "resetKeyboard": true, "log_path": "E:\\Test_framework_APP\\log\\\u4e09\u661f\u624b\u673a.log", "deviceName": "android Emulator", "noReset": false, "udid": "5e25d38e", "name": "\u4e09\u661f\u624b\u673a"}}
+[2018-07-29 16:04:39,212] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 16:04:39,213] [INFO] [main.py:run:45] 开始执行CASE！当前启动【1】个DRIVER！
+[2018-07-29 16:04:39,214] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/29db4d80-dfd6-48be-9ccc-a453961ec4ff/element {"using": "id", "sessionId": "29db4d80-dfd6-48be-9ccc-a453961ec4ff", "value": "com.sankuai.pms:id/edit_username"}
+[2018-07-29 16:04:40,877] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 16:04:41,878] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/29db4d80-dfd6-48be-9ccc-a453961ec4ff/element {"using": "id", "sessionId": "29db4d80-dfd6-48be-9ccc-a453961ec4ff", "value": "com.sankuai.pms:id/edit_username"}
+[2018-07-29 16:04:41,937] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 16:04:42,939] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/29db4d80-dfd6-48be-9ccc-a453961ec4ff/element {"using": "id", "sessionId": "29db4d80-dfd6-48be-9ccc-a453961ec4ff", "value": "com.sankuai.pms:id/edit_username"}
+[2018-07-29 16:04:43,457] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 16:04:43,458] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/29db4d80-dfd6-48be-9ccc-a453961ec4ff/element {"using": "id", "sessionId": "29db4d80-dfd6-48be-9ccc-a453961ec4ff", "value": "com.sankuai.pms:id/edit_username"}
+[2018-07-29 16:04:43,499] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 16:04:43,500] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/29db4d80-dfd6-48be-9ccc-a453961ec4ff/element {"using": "id", "sessionId": "29db4d80-dfd6-48be-9ccc-a453961ec4ff", "value": "com.sankuai.pms:id/edit_username"}
+[2018-07-29 16:04:43,658] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 16:04:43,659] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/29db4d80-dfd6-48be-9ccc-a453961ec4ff/element/3/value {"id": "3", "text": "18221293942", "sessionId": "29db4d80-dfd6-48be-9ccc-a453961ec4ff", "value": ["1", "8", "2", "2", "1", "2", "9", "3", "9", "4", "2"]}
+[2018-07-29 16:04:47,150] [DEBUG] [appController.py:kill_server:35] 执行[KILL SERVER]操作:错误: 没有找到进程 "node.exe"。
+[2018-07-29 16:04:47,232] [DEBUG] [appController.py:kill_server:36] 重启ADB服务！
+[2018-07-29 16:04:47,232] [DEBUG] [appController.py:server:53] 每个手机的信息：{'ip': '127.0.0.1', 'deviceName': 'android Emulator', 'log_path': 'E:\\Test_framework_APP\\log\\三星手机.log', 'name': '三星手机', 'platformName': 'Android', 'port': 4723, 'udid': '5e25d38e', 'platformVersion': '8.0.0'}
+[2018-07-29 16:04:47,234] [DEBUG] [appController.py:server_command:43] 启动服务执行的命令：appium -a 127.0.0.1 -p 4723 -U 5e25d38e -g E:\Test_framework_APP\log\三星手机.log
+[2018-07-29 16:04:47,330] [DEBUG] [appController.py:test_server:72] 检验服务启动：  TCP    127.0.0.1:4723         127.0.0.1:56053        TIME_WAIT       0
+  TCP    127.0.0.1:4723         127.0.0.1:56054        TIME_WAIT       0
+  TCP    127.0.0.1:55901        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:55902        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:55903        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:56025        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:56026        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:56045        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:56052        127.0.0.1:4723         TIME_WAIT       0
+[2018-07-29 16:04:47,331] [DEBUG] [appController.py:test_server:79] 全部服务启动成功！
+[2018-07-29 16:04:47,331] [DEBUG] [appController.py:driver_command:93] 启动的Url：http://127.0.0.1:4723/wd/hub
+[2018-07-29 16:04:48,338] [INFO] [remote_connection.py:__init__:206] Could not connect to port 4723 on host 127.0.0.1
+[2018-07-29 16:04:48,338] [INFO] [remote_connection.py:__init__:226] Could not get IP address for host: 127.0.0.1
+[2018-07-29 16:04:48,338] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session {"desiredCapabilities": {"noReset": false, "ip": "127.0.0.1", "name": "\u4e09\u661f\u624b\u673a", "port": 4723, "resetKeyboard": true, "platformVersion": "8.0.0", "appPackage": "com.sankuai.pms", "unicodeKeyboard": true, "deviceName": "android Emulator", "appActivity": "com.sankuai.pms.WelcomeActivity", "udid": "5e25d38e", "platformName": "Android", "log_path": "E:\\Test_framework_APP\\log\\\u4e09\u661f\u624b\u673a.log"}, "capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}}
+[2018-07-29 16:04:49,353] [INFO] [main.py:run:45] 开始执行CASE！当前启动【0】个DRIVER！
+[2018-07-29 16:04:58,607] [DEBUG] [appController.py:kill_server:35] 执行[KILL SERVER]操作:成功: 已终止 PID 4960 (属于 PID 19468 子进程)的进程。
+[2018-07-29 16:04:59,701] [DEBUG] [appController.py:kill_server:36] 重启ADB服务！
+[2018-07-29 16:04:59,701] [DEBUG] [appController.py:server:53] 每个手机的信息：{'name': '三星手机', 'ip': '127.0.0.1', 'log_path': 'E:\\Test_framework_APP\\log\\三星手机.log', 'platformVersion': '8.0.0', 'udid': '5e25d38e', 'platformName': 'Android', 'deviceName': 'android Emulator', 'port': 4723}
+[2018-07-29 16:04:59,702] [DEBUG] [appController.py:server_command:43] 启动服务执行的命令：appium -a 127.0.0.1 -p 4723 -U 5e25d38e -g E:\Test_framework_APP\log\三星手机.log
+[2018-07-29 16:04:59,818] [DEBUG] [appController.py:test_server:72] 检验服务启动：  TCP    127.0.0.1:4723         127.0.0.1:56053        TIME_WAIT       0
+  TCP    127.0.0.1:4723         127.0.0.1:56054        TIME_WAIT       0
+  TCP    127.0.0.1:55903        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:56025        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:56026        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:56045        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:56052        127.0.0.1:4723         TIME_WAIT       0
+[2018-07-29 16:04:59,818] [DEBUG] [appController.py:test_server:79] 全部服务启动成功！
+[2018-07-29 16:04:59,818] [DEBUG] [appController.py:driver_command:93] 启动的Url：http://127.0.0.1:4723/wd/hub
+[2018-07-29 16:05:00,823] [INFO] [remote_connection.py:__init__:206] Could not connect to port 4723 on host 127.0.0.1
+[2018-07-29 16:05:00,823] [INFO] [remote_connection.py:__init__:226] Could not get IP address for host: 127.0.0.1
+[2018-07-29 16:05:00,823] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"alwaysMatch": {"platformName": "Android"}, "firstMatch": [{}]}, "desiredCapabilities": {"ip": "127.0.0.1", "platformName": "Android", "unicodeKeyboard": true, "resetKeyboard": true, "name": "\u4e09\u661f\u624b\u673a", "appActivity": "com.sankuai.pms.WelcomeActivity", "log_path": "E:\\Test_framework_APP\\log\\\u4e09\u661f\u624b\u673a.log", "platformVersion": "8.0.0", "noReset": false, "appPackage": "com.sankuai.pms", "deviceName": "android Emulator", "udid": "5e25d38e", "port": 4723}}
+[2018-07-29 16:05:01,835] [INFO] [main.py:run:45] 开始执行CASE！当前启动【0】个DRIVER！
+[2018-07-29 16:05:04,377] [DEBUG] [appController.py:kill_server:35] 执行[KILL SERVER]操作:成功: 已终止 PID 22216 (属于 PID 8128 子进程)的进程。
+[2018-07-29 16:05:05,474] [DEBUG] [appController.py:kill_server:36] 重启ADB服务！
+[2018-07-29 16:05:05,474] [DEBUG] [appController.py:server:53] 每个手机的信息：{'port': 4723, 'udid': '5e25d38e', 'deviceName': 'android Emulator', 'platformVersion': '8.0.0', 'ip': '127.0.0.1', 'name': '三星手机', 'platformName': 'Android', 'log_path': 'E:\\Test_framework_APP\\log\\三星手机.log'}
+[2018-07-29 16:05:05,477] [DEBUG] [appController.py:server_command:43] 启动服务执行的命令：appium -a 127.0.0.1 -p 4723 -U 5e25d38e -g E:\Test_framework_APP\log\三星手机.log
+[2018-07-29 16:05:05,606] [DEBUG] [appController.py:test_server:72] 检验服务启动：  TCP    127.0.0.1:4723         127.0.0.1:56053        TIME_WAIT       0
+  TCP    127.0.0.1:4723         127.0.0.1:56054        TIME_WAIT       0
+  TCP    127.0.0.1:55903        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:56025        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:56026        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:56045        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:56052        127.0.0.1:4723         TIME_WAIT       0
+[2018-07-29 16:05:05,606] [DEBUG] [appController.py:test_server:79] 全部服务启动成功！
+[2018-07-29 16:05:05,606] [DEBUG] [appController.py:driver_command:93] 启动的Url：http://127.0.0.1:4723/wd/hub
+[2018-07-29 16:05:06,613] [INFO] [remote_connection.py:__init__:206] Could not connect to port 4723 on host 127.0.0.1
+[2018-07-29 16:05:06,613] [INFO] [remote_connection.py:__init__:226] Could not get IP address for host: 127.0.0.1
+[2018-07-29 16:05:06,613] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"alwaysMatch": {"platformName": "Android"}, "firstMatch": [{}]}, "desiredCapabilities": {"resetKeyboard": true, "appActivity": "com.sankuai.pms.WelcomeActivity", "ip": "127.0.0.1", "deviceName": "android Emulator", "platformVersion": "8.0.0", "name": "\u4e09\u661f\u624b\u673a", "platformName": "Android", "appPackage": "com.sankuai.pms", "udid": "5e25d38e", "port": 4723, "noReset": false, "unicodeKeyboard": true, "log_path": "E:\\Test_framework_APP\\log\\\u4e09\u661f\u624b\u673a.log"}}
+[2018-07-29 16:05:07,621] [INFO] [main.py:run:45] 开始执行CASE！当前启动【0】个DRIVER！
+[2018-07-29 16:05:17,127] [DEBUG] [appController.py:kill_server:35] 执行[KILL SERVER]操作:成功: 已终止 PID 9820 (属于 PID 1500 子进程)的进程。
+[2018-07-29 16:05:18,223] [DEBUG] [appController.py:kill_server:36] 重启ADB服务！
+[2018-07-29 16:05:18,224] [DEBUG] [appController.py:server:53] 每个手机的信息：{'port': 4729, 'platformName': 'Android', 'platformVersion': '8.0.0', 'ip': '127.0.0.1', 'log_path': 'E:\\Test_framework_APP\\log\\三星手机.log', 'udid': '5e25d38e', 'deviceName': 'android Emulator', 'name': '三星手机'}
+[2018-07-29 16:05:18,226] [DEBUG] [appController.py:server_command:43] 启动服务执行的命令：appium -a 127.0.0.1 -p 4729 -U 5e25d38e -g E:\Test_framework_APP\log\三星手机.log
+[2018-07-29 16:05:18,367] [DEBUG] [appController.py:test_server:75] 端口 【4729】 服务启动失败5秒钟后尝试
+[2018-07-29 16:05:23,477] [DEBUG] [appController.py:test_server:72] 检验服务启动：  TCP    127.0.0.1:4729         0.0.0.0:0              LISTENING       12620
+[2018-07-29 16:05:23,477] [DEBUG] [appController.py:test_server:79] 全部服务启动成功！
+[2018-07-29 16:05:23,477] [DEBUG] [appController.py:driver_command:93] 启动的Url：http://127.0.0.1:4729/wd/hub
+[2018-07-29 16:05:23,494] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4729/wd/hub/session {"capabilities": {"alwaysMatch": {"platformName": "Android"}, "firstMatch": [{}]}, "desiredCapabilities": {"port": 4729, "ip": "127.0.0.1", "appActivity": "com.sankuai.pms.WelcomeActivity", "appPackage": "com.sankuai.pms", "name": "\u4e09\u661f\u624b\u673a", "unicodeKeyboard": true, "platformName": "Android", "platformVersion": "8.0.0", "noReset": false, "deviceName": "android Emulator", "udid": "5e25d38e", "resetKeyboard": true, "log_path": "E:\\Test_framework_APP\\log\\\u4e09\u661f\u624b\u673a.log"}}
+[2018-07-29 16:05:35,854] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 16:05:35,855] [INFO] [main.py:run:45] 开始执行CASE！当前启动【1】个DRIVER！
+[2018-07-29 16:05:35,856] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4729/wd/hub/session/ad652d64-9c6b-4843-8e0b-aa7bbcdb17f0/element {"value": "com.sankuai.pms:id/edit_username", "sessionId": "ad652d64-9c6b-4843-8e0b-aa7bbcdb17f0", "using": "id"}
+[2018-07-29 16:05:40,364] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 16:05:40,365] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4729/wd/hub/session/ad652d64-9c6b-4843-8e0b-aa7bbcdb17f0/element {"value": "com.sankuai.pms:id/edit_username", "sessionId": "ad652d64-9c6b-4843-8e0b-aa7bbcdb17f0", "using": "id"}
+[2018-07-29 16:05:40,397] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 16:05:40,398] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4729/wd/hub/session/ad652d64-9c6b-4843-8e0b-aa7bbcdb17f0/element {"value": "com.sankuai.pms:id/edit_username", "sessionId": "ad652d64-9c6b-4843-8e0b-aa7bbcdb17f0", "using": "id"}
+[2018-07-29 16:05:40,628] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 16:05:40,629] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4729/wd/hub/session/ad652d64-9c6b-4843-8e0b-aa7bbcdb17f0/element/3/value {"text": "18221293942", "value": ["1", "8", "2", "2", "1", "2", "9", "3", "9", "4", "2"], "sessionId": "ad652d64-9c6b-4843-8e0b-aa7bbcdb17f0", "id": "3"}
+[2018-07-29 16:05:47,890] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 16:05:47,890] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4729/wd/hub/session/ad652d64-9c6b-4843-8e0b-aa7bbcdb17f0/element {"value": "com.sankuai.pms:id/edit_password", "sessionId": "ad652d64-9c6b-4843-8e0b-aa7bbcdb17f0", "using": "id"}
+[2018-07-29 16:05:48,410] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 16:05:48,411] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4729/wd/hub/session/ad652d64-9c6b-4843-8e0b-aa7bbcdb17f0/element {"value": "com.sankuai.pms:id/edit_password", "sessionId": "ad652d64-9c6b-4843-8e0b-aa7bbcdb17f0", "using": "id"}
+[2018-07-29 16:05:48,604] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 16:05:48,605] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4729/wd/hub/session/ad652d64-9c6b-4843-8e0b-aa7bbcdb17f0/element {"value": "com.sankuai.pms:id/edit_password", "sessionId": "ad652d64-9c6b-4843-8e0b-aa7bbcdb17f0", "using": "id"}
+[2018-07-29 16:05:48,935] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 16:05:48,937] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4729/wd/hub/session/ad652d64-9c6b-4843-8e0b-aa7bbcdb17f0/element/6/value {"text": "1234567", "value": ["1", "2", "3", "4", "5", "6", "7"], "sessionId": "ad652d64-9c6b-4843-8e0b-aa7bbcdb17f0", "id": "6"}
+[2018-07-29 16:05:54,276] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 16:05:54,277] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4729/wd/hub/session/ad652d64-9c6b-4843-8e0b-aa7bbcdb17f0/element {"value": "com.sankuai.pms:id/btn_login", "sessionId": "ad652d64-9c6b-4843-8e0b-aa7bbcdb17f0", "using": "id"}
+[2018-07-29 16:05:54,791] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 16:05:54,792] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4729/wd/hub/session/ad652d64-9c6b-4843-8e0b-aa7bbcdb17f0/element {"value": "com.sankuai.pms:id/btn_login", "sessionId": "ad652d64-9c6b-4843-8e0b-aa7bbcdb17f0", "using": "id"}
+[2018-07-29 16:05:54,963] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 16:05:54,964] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4729/wd/hub/session/ad652d64-9c6b-4843-8e0b-aa7bbcdb17f0/element {"value": "com.sankuai.pms:id/btn_login", "sessionId": "ad652d64-9c6b-4843-8e0b-aa7bbcdb17f0", "using": "id"}
+[2018-07-29 16:05:54,997] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 16:05:54,998] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4729/wd/hub/session/ad652d64-9c6b-4843-8e0b-aa7bbcdb17f0/element/9/click {"sessionId": "ad652d64-9c6b-4843-8e0b-aa7bbcdb17f0", "id": "9"}
+[2018-07-29 16:05:55,495] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 16:05:55,496] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4729/wd/hub/session/ad652d64-9c6b-4843-8e0b-aa7bbcdb17f0/element {"value": "\u9996\u9875", "sessionId": "ad652d64-9c6b-4843-8e0b-aa7bbcdb17f0", "using": "accessibility id"}
+[2018-07-29 16:05:56,822] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 16:05:57,823] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4729/wd/hub/session/ad652d64-9c6b-4843-8e0b-aa7bbcdb17f0/element {"value": "\u9996\u9875", "sessionId": "ad652d64-9c6b-4843-8e0b-aa7bbcdb17f0", "using": "accessibility id"}
+[2018-07-29 16:05:58,761] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 16:05:59,764] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4729/wd/hub/session/ad652d64-9c6b-4843-8e0b-aa7bbcdb17f0/element {"value": "\u9996\u9875", "sessionId": "ad652d64-9c6b-4843-8e0b-aa7bbcdb17f0", "using": "accessibility id"}
+[2018-07-29 16:06:00,128] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 16:06:01,132] [DEBUG] [remote_connection.py:_request:480] GET http://127.0.0.1:4729/wd/hub/session/ad652d64-9c6b-4843-8e0b-aa7bbcdb17f0/screenshot {"sessionId": "ad652d64-9c6b-4843-8e0b-aa7bbcdb17f0"}
+[2018-07-29 16:06:02,023] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 16:06:02,027] [DEBUG] [main.py:case:28] 当前线程的的名字：三星手机
+[2018-07-29 16:06:02,029] [DEBUG] [HTMLTestAppRunner.py:_generate_report:751] [('../report/app_picture/三星手机/test_a_login.jpg',)]
+[2018-07-29 16:12:45,460] [DEBUG] [appController.py:kill_server:35] 执行[KILL SERVER]操作:成功: 已终止 PID 12620 (属于 PID 3972 子进程)的进程。
+[2018-07-29 16:12:45,534] [DEBUG] [appController.py:kill_server:36] 重启ADB服务！
+[2018-07-29 16:12:45,534] [DEBUG] [appController.py:server:53] 每个手机的信息：{'platformVersion': '8.0.0', 'port': 4729, 'platformName': 'Android', 'name': '三星手机', 'ip': '127.0.0.1', 'udid': '5e25d38e', 'log_path': 'E:\\Test_framework_APP\\log\\三星手机.log', 'deviceName': 'android Emulator'}
+[2018-07-29 16:12:45,535] [DEBUG] [appController.py:server_command:43] 启动服务执行的命令：appium -a 127.0.0.1 -p 4729 -U 5e25d38e -g E:\Test_framework_APP\log\三星手机.log
+[2018-07-29 16:12:45,663] [DEBUG] [appController.py:test_server:75] 端口 【4729】 服务启动失败5秒钟后尝试
+[2018-07-29 16:12:50,780] [DEBUG] [appController.py:test_server:72] 检验服务启动：  TCP    127.0.0.1:4729         0.0.0.0:0              LISTENING       11340
+[2018-07-29 16:12:50,780] [DEBUG] [appController.py:test_server:79] 全部服务启动成功！
+[2018-07-29 16:12:50,780] [DEBUG] [appController.py:driver_command:85] 设备信息：{'appPackage': 'com.sankuai.pms', 'appActivity': 'com.sankuai.pms.WelcomeActivity', 'platformVersion': '8.0.0', 'resetKeyboard': True, 'platformName': 'Android', 'log_path': 'E:\\Test_framework_APP\\log\\三星手机.log', 'name': '三星手机', 'unicodeKeyboard': True, 'noReset': False, 'port': 4729, 'ip': '127.0.0.1', 'udid': '5e25d38e', 'deviceName': 'android Emulator'}
+[2018-07-29 16:12:50,780] [DEBUG] [appController.py:driver_command:88] 启动的Url：http://127.0.0.1:4729/wd/hub
+[2018-07-29 16:12:50,807] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4729/wd/hub/session {"capabilities": {"alwaysMatch": {"platformName": "Android"}, "firstMatch": [{}]}, "desiredCapabilities": {"appPackage": "com.sankuai.pms", "appActivity": "com.sankuai.pms.WelcomeActivity", "resetKeyboard": true, "udid": "5e25d38e", "platformName": "Android", "log_path": "E:\\Test_framework_APP\\log\\\u4e09\u661f\u624b\u673a.log", "name": "\u4e09\u661f\u624b\u673a", "unicodeKeyboard": true, "noReset": false, "port": 4729, "ip": "127.0.0.1", "platformVersion": "8.0.0", "deviceName": "android Emulator"}}
+[2018-07-29 16:13:02,876] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:00:00,881] [DEBUG] [appController.py:kill_server:35] 执行[KILL SERVER]操作:成功: 已终止 PID 11340 (属于 PID 15752 子进程)的进程。
+[2018-07-29 17:00:00,977] [DEBUG] [appController.py:kill_server:36] 重启ADB服务！
+[2018-07-29 17:00:00,977] [DEBUG] [appController.py:server:53] 每个手机的信息：{'platformVersion': '5.1.1', 'ip': '127.0.0.1', 'deviceName': 'android Emulator', 'log_path': 'E:\\Test_framework_APP\\log\\三星手机.log', 'port': 4723, 'udid': '5e25d38e', 'platformName': 'Android', 'name': '三星手机'}
+[2018-07-29 17:00:00,978] [DEBUG] [appController.py:server_command:43] 启动服务执行的命令：appium -a 127.0.0.1 -p 4723 -U 5e25d38e -g E:\Test_framework_APP\log\三星手机.log
+[2018-07-29 17:00:01,115] [DEBUG] [appController.py:test_server:75] 端口 【4723】 服务启动失败5秒钟后尝试
+[2018-07-29 17:00:13,873] [DEBUG] [appController.py:kill_server:35] 执行[KILL SERVER]操作:错误: 没有找到进程 "node.exe"。
+[2018-07-29 17:00:14,008] [DEBUG] [appController.py:kill_server:36] 重启ADB服务！
+[2018-07-29 17:00:14,009] [DEBUG] [appController.py:server:53] 每个手机的信息：{'platformVersion': '5.1.1', 'udid': '5e25d38e', 'deviceName': 'android Emulator', 'port': 4723, 'ip': '127.0.0.1', 'log_path': 'E:\\Test_framework_APP\\log\\三星手机.log', 'platformName': 'Android', 'name': '三星手机'}
+[2018-07-29 17:00:14,010] [DEBUG] [appController.py:server_command:43] 启动服务执行的命令：appium -a 127.0.0.1 -p 4723 -U 5e25d38e -g E:\Test_framework_APP\log\三星手机.log
+[2018-07-29 17:00:14,115] [DEBUG] [appController.py:test_server:75] 端口 【4723】 服务启动失败5秒钟后尝试
+[2018-07-29 17:00:19,210] [DEBUG] [appController.py:test_server:72] 检验服务启动：  TCP    127.0.0.1:4723         0.0.0.0:0              LISTENING       18924
+[2018-07-29 17:00:19,210] [DEBUG] [appController.py:test_server:79] 全部服务启动成功！
+[2018-07-29 17:00:19,211] [DEBUG] [appController.py:driver_command:88] 启动的Url：http://127.0.0.1:4723/wd/hub
+[2018-07-29 17:00:19,234] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"unicodeKeyboard": true, "udid": "5e25d38e", "deviceName": "android Emulator", "appPackage": "com.sankuai.pms", "port": 4723, "appActivity": "com.sankuai.pms.WelcomeActivity", "name": "\u4e09\u661f\u624b\u673a", "platformName": "Android", "ip": "127.0.0.1", "platformVersion": "5.1.1", "log_path": "E:\\Test_framework_APP\\log\\\u4e09\u661f\u624b\u673a.log", "noReset": false, "resetKeyboard": true}}
+[2018-07-29 17:00:44,114] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:00:44,115] [INFO] [main.py:run:45] 开始执行CASE！当前启动【1】个DRIVER！
+[2018-07-29 17:00:44,116] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/76a9b288-caa4-4308-8f7b-427e87d5d813/element {"value": "\u623f\u6001", "using": "name", "sessionId": "76a9b288-caa4-4308-8f7b-427e87d5d813"}
+[2018-07-29 17:00:45,801] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:00:46,803] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/76a9b288-caa4-4308-8f7b-427e87d5d813/element {"value": "\u623f\u6001", "using": "name", "sessionId": "76a9b288-caa4-4308-8f7b-427e87d5d813"}
+[2018-07-29 17:00:46,911] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:00:47,912] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/76a9b288-caa4-4308-8f7b-427e87d5d813/element {"value": "\u623f\u6001", "using": "name", "sessionId": "76a9b288-caa4-4308-8f7b-427e87d5d813"}
+[2018-07-29 17:00:49,491] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:00:49,492] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/76a9b288-caa4-4308-8f7b-427e87d5d813/element {"value": "\u623f\u6001", "using": "name", "sessionId": "76a9b288-caa4-4308-8f7b-427e87d5d813"}
+[2018-07-29 17:00:49,655] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:00:49,655] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/76a9b288-caa4-4308-8f7b-427e87d5d813/element {"value": "\u623f\u6001", "using": "name", "sessionId": "76a9b288-caa4-4308-8f7b-427e87d5d813"}
+[2018-07-29 17:00:49,902] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:00:49,902] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/76a9b288-caa4-4308-8f7b-427e87d5d813/element/3/click {"sessionId": "76a9b288-caa4-4308-8f7b-427e87d5d813", "id": "3"}
+[2018-07-29 17:00:50,121] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:00:50,122] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/76a9b288-caa4-4308-8f7b-427e87d5d813/touch/perform {"sessionId": "76a9b288-caa4-4308-8f7b-427e87d5d813", "actions": [{"action": "longPress", "options": {"duration": 2, "y": 300, "x": 256}}, {"action": "release", "options": {}}]}
+[2018-07-29 17:00:50,327] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:00:50,328] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/76a9b288-caa4-4308-8f7b-427e87d5d813/element {"value": "\u8bf7\u8f93\u5165\u59d3\u540d", "using": "name", "sessionId": "76a9b288-caa4-4308-8f7b-427e87d5d813"}
+[2018-07-29 17:00:52,084] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:00:53,085] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/76a9b288-caa4-4308-8f7b-427e87d5d813/element {"value": "\u8bf7\u8f93\u5165\u59d3\u540d", "using": "name", "sessionId": "76a9b288-caa4-4308-8f7b-427e87d5d813"}
+[2018-07-29 17:00:53,354] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:00:54,356] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/76a9b288-caa4-4308-8f7b-427e87d5d813/element {"value": "\u8bf7\u8f93\u5165\u59d3\u540d", "using": "name", "sessionId": "76a9b288-caa4-4308-8f7b-427e87d5d813"}
+[2018-07-29 17:00:54,722] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:00:55,723] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/76a9b288-caa4-4308-8f7b-427e87d5d813/element {"value": "\u8bf7\u8f93\u5165\u59d3\u540d", "using": "name", "sessionId": "76a9b288-caa4-4308-8f7b-427e87d5d813"}
+[2018-07-29 17:00:56,003] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:00:57,005] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/76a9b288-caa4-4308-8f7b-427e87d5d813/element {"value": "\u8bf7\u8f93\u5165\u59d3\u540d", "using": "name", "sessionId": "76a9b288-caa4-4308-8f7b-427e87d5d813"}
+[2018-07-29 17:00:57,444] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:00:58,446] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/76a9b288-caa4-4308-8f7b-427e87d5d813/element {"value": "\u8bf7\u8f93\u5165\u59d3\u540d", "using": "name", "sessionId": "76a9b288-caa4-4308-8f7b-427e87d5d813"}
+[2018-07-29 17:00:58,661] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:00:59,662] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/76a9b288-caa4-4308-8f7b-427e87d5d813/element {"value": "\u8bf7\u8f93\u5165\u59d3\u540d", "using": "name", "sessionId": "76a9b288-caa4-4308-8f7b-427e87d5d813"}
+[2018-07-29 17:01:00,197] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:01:01,199] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/76a9b288-caa4-4308-8f7b-427e87d5d813/element {"value": "\u8bf7\u8f93\u5165\u59d3\u540d", "using": "name", "sessionId": "76a9b288-caa4-4308-8f7b-427e87d5d813"}
+[2018-07-29 17:01:01,846] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:01:02,848] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/76a9b288-caa4-4308-8f7b-427e87d5d813/element {"value": "\u8bf7\u8f93\u5165\u59d3\u540d", "using": "name", "sessionId": "76a9b288-caa4-4308-8f7b-427e87d5d813"}
+[2018-07-29 17:01:03,284] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:01:04,285] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/76a9b288-caa4-4308-8f7b-427e87d5d813/element {"value": "\u8bf7\u8f93\u5165\u59d3\u540d", "using": "name", "sessionId": "76a9b288-caa4-4308-8f7b-427e87d5d813"}
+[2018-07-29 17:01:04,744] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:01:05,747] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/76a9b288-caa4-4308-8f7b-427e87d5d813/element {"value": "\u8bf7\u8f93\u5165\u59d3\u540d", "using": "name", "sessionId": "76a9b288-caa4-4308-8f7b-427e87d5d813"}
+[2018-07-29 17:01:06,139] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:01:07,141] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/76a9b288-caa4-4308-8f7b-427e87d5d813/element {"value": "\u8bf7\u8f93\u5165\u59d3\u540d", "using": "name", "sessionId": "76a9b288-caa4-4308-8f7b-427e87d5d813"}
+[2018-07-29 17:01:07,658] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:01:08,660] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/76a9b288-caa4-4308-8f7b-427e87d5d813/element {"value": "\u8bf7\u8f93\u5165\u59d3\u540d", "using": "name", "sessionId": "76a9b288-caa4-4308-8f7b-427e87d5d813"}
+[2018-07-29 17:01:09,180] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:01:10,181] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/76a9b288-caa4-4308-8f7b-427e87d5d813/element {"value": "\u8bf7\u8f93\u5165\u59d3\u540d", "using": "name", "sessionId": "76a9b288-caa4-4308-8f7b-427e87d5d813"}
+[2018-07-29 17:01:10,654] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:01:11,655] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/76a9b288-caa4-4308-8f7b-427e87d5d813/element {"value": "\u8bf7\u8f93\u5165\u59d3\u540d", "using": "name", "sessionId": "76a9b288-caa4-4308-8f7b-427e87d5d813"}
+[2018-07-29 17:01:12,022] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:01:13,024] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/76a9b288-caa4-4308-8f7b-427e87d5d813/element {"value": "\u8bf7\u8f93\u5165\u59d3\u540d", "using": "name", "sessionId": "76a9b288-caa4-4308-8f7b-427e87d5d813"}
+[2018-07-29 17:01:13,559] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:01:14,561] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/76a9b288-caa4-4308-8f7b-427e87d5d813/element {"value": "\u8bf7\u8f93\u5165\u59d3\u540d", "using": "name", "sessionId": "76a9b288-caa4-4308-8f7b-427e87d5d813"}
+[2018-07-29 17:01:15,017] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:01:16,017] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/76a9b288-caa4-4308-8f7b-427e87d5d813/element {"value": "\u8bf7\u8f93\u5165\u59d3\u540d", "using": "name", "sessionId": "76a9b288-caa4-4308-8f7b-427e87d5d813"}
+[2018-07-29 17:01:16,347] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:01:17,348] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/76a9b288-caa4-4308-8f7b-427e87d5d813/element {"value": "\u8bf7\u8f93\u5165\u59d3\u540d", "using": "name", "sessionId": "76a9b288-caa4-4308-8f7b-427e87d5d813"}
+[2018-07-29 17:01:17,637] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:01:18,639] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/76a9b288-caa4-4308-8f7b-427e87d5d813/element {"value": "\u8bf7\u8f93\u5165\u59d3\u540d", "using": "name", "sessionId": "76a9b288-caa4-4308-8f7b-427e87d5d813"}
+[2018-07-29 17:01:19,065] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:01:20,066] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/76a9b288-caa4-4308-8f7b-427e87d5d813/element {"value": "\u8bf7\u8f93\u5165\u59d3\u540d", "using": "name", "sessionId": "76a9b288-caa4-4308-8f7b-427e87d5d813"}
+[2018-07-29 17:01:20,507] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:01:21,510] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/76a9b288-caa4-4308-8f7b-427e87d5d813/element {"value": "\u8bf7\u8f93\u5165\u59d3\u540d", "using": "name", "sessionId": "76a9b288-caa4-4308-8f7b-427e87d5d813"}
+[2018-07-29 17:01:21,835] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:01:22,836] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/76a9b288-caa4-4308-8f7b-427e87d5d813/element {"value": "\u8bf7\u8f93\u5165\u59d3\u540d", "using": "name", "sessionId": "76a9b288-caa4-4308-8f7b-427e87d5d813"}
+[2018-07-29 17:01:23,212] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:01:24,213] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/76a9b288-caa4-4308-8f7b-427e87d5d813/element {"value": "\u8bf7\u8f93\u5165\u59d3\u540d", "using": "name", "sessionId": "76a9b288-caa4-4308-8f7b-427e87d5d813"}
+[2018-07-29 17:01:24,443] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:01:25,444] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/76a9b288-caa4-4308-8f7b-427e87d5d813/element {"value": "\u8bf7\u8f93\u5165\u59d3\u540d", "using": "name", "sessionId": "76a9b288-caa4-4308-8f7b-427e87d5d813"}
+[2018-07-29 17:01:25,708] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:01:26,709] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/76a9b288-caa4-4308-8f7b-427e87d5d813/element {"value": "\u8bf7\u8f93\u5165\u59d3\u540d", "using": "name", "sessionId": "76a9b288-caa4-4308-8f7b-427e87d5d813"}
+[2018-07-29 17:01:27,139] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:03:28,315] [DEBUG] [appController.py:kill_server:35] 执行[KILL SERVER]操作:错误: 没有找到进程 "node.exe"。
+[2018-07-29 17:03:28,395] [DEBUG] [appController.py:kill_server:36] 重启ADB服务！
+[2018-07-29 17:03:28,395] [DEBUG] [appController.py:server:53] 每个手机的信息：{'log_path': 'E:\\Test_framework_APP\\log\\三星手机.log', 'deviceName': 'android Emulator', 'ip': '127.0.0.1', 'platformVersion': '5.1.1', 'port': 4723, 'name': '三星手机', 'platformName': 'Android', 'udid': '5e25d38e'}
+[2018-07-29 17:03:28,396] [DEBUG] [appController.py:server_command:43] 启动服务执行的命令：appium -a 127.0.0.1 -p 4723 -U 5e25d38e -g E:\Test_framework_APP\log\三星手机.log
+[2018-07-29 17:03:28,510] [DEBUG] [appController.py:test_server:75] 端口 【4723】 服务启动失败5秒钟后尝试
+[2018-07-29 17:03:33,629] [DEBUG] [appController.py:test_server:72] 检验服务启动：  TCP    127.0.0.1:4723         0.0.0.0:0              LISTENING       14932
+[2018-07-29 17:03:33,629] [DEBUG] [appController.py:test_server:79] 全部服务启动成功！
+[2018-07-29 17:03:33,630] [DEBUG] [appController.py:driver_command:88] 启动的Url：http://127.0.0.1:4723/wd/hub
+[2018-07-29 17:03:33,636] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"unicodeKeyboard": true, "resetKeyboard": true, "platformVersion": "5.1.1", "port": 4723, "name": "\u4e09\u661f\u624b\u673a", "appActivity": "com.sankuai.pms.WelcomeActivity", "log_path": "E:\\Test_framework_APP\\log\\\u4e09\u661f\u624b\u673a.log", "deviceName": "android Emulator", "ip": "127.0.0.1", "appPackage": "com.sankuai.pms", "noReset": false, "platformName": "Android", "udid": "5e25d38e"}}
+[2018-07-29 17:03:45,545] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:03:45,546] [INFO] [main.py:run:45] 开始执行CASE！当前启动【1】个DRIVER！
+[2018-07-29 17:03:45,547] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/7ef349ec-c5c4-4e00-b97a-a48c9917c8e5/element {"sessionId": "7ef349ec-c5c4-4e00-b97a-a48c9917c8e5", "using": "name", "value": "\u623f\u6001"}
+[2018-07-29 17:03:47,146] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:03:48,148] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/7ef349ec-c5c4-4e00-b97a-a48c9917c8e5/element {"sessionId": "7ef349ec-c5c4-4e00-b97a-a48c9917c8e5", "using": "name", "value": "\u623f\u6001"}
+[2018-07-29 17:03:48,199] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:03:49,200] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/7ef349ec-c5c4-4e00-b97a-a48c9917c8e5/element {"sessionId": "7ef349ec-c5c4-4e00-b97a-a48c9917c8e5", "using": "name", "value": "\u623f\u6001"}
+[2018-07-29 17:03:49,954] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:03:49,954] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/7ef349ec-c5c4-4e00-b97a-a48c9917c8e5/element {"sessionId": "7ef349ec-c5c4-4e00-b97a-a48c9917c8e5", "using": "name", "value": "\u623f\u6001"}
+[2018-07-29 17:03:50,054] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:03:50,054] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/7ef349ec-c5c4-4e00-b97a-a48c9917c8e5/element {"sessionId": "7ef349ec-c5c4-4e00-b97a-a48c9917c8e5", "using": "name", "value": "\u623f\u6001"}
+[2018-07-29 17:03:50,185] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:03:50,185] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/7ef349ec-c5c4-4e00-b97a-a48c9917c8e5/element/3/click {"sessionId": "7ef349ec-c5c4-4e00-b97a-a48c9917c8e5", "id": "3"}
+[2018-07-29 17:03:50,397] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:03:50,398] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/7ef349ec-c5c4-4e00-b97a-a48c9917c8e5/touch/perform {"sessionId": "7ef349ec-c5c4-4e00-b97a-a48c9917c8e5", "actions": [{"options": {"y": 300, "duration": 2, "x": 256}, "action": "longPress"}, {"options": {}, "action": "release"}]}
+[2018-07-29 17:03:50,517] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:03:50,518] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/7ef349ec-c5c4-4e00-b97a-a48c9917c8e5/element {"sessionId": "7ef349ec-c5c4-4e00-b97a-a48c9917c8e5", "using": "name", "value": "\u8bf7\u8f93\u5165\u59d3\u540d"}
+[2018-07-29 17:03:52,455] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:03:53,457] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/7ef349ec-c5c4-4e00-b97a-a48c9917c8e5/element {"sessionId": "7ef349ec-c5c4-4e00-b97a-a48c9917c8e5", "using": "name", "value": "\u8bf7\u8f93\u5165\u59d3\u540d"}
+[2018-07-29 17:03:53,932] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:03:54,934] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/7ef349ec-c5c4-4e00-b97a-a48c9917c8e5/element {"sessionId": "7ef349ec-c5c4-4e00-b97a-a48c9917c8e5", "using": "name", "value": "\u8bf7\u8f93\u5165\u59d3\u540d"}
+[2018-07-29 17:03:55,490] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:03:56,491] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/7ef349ec-c5c4-4e00-b97a-a48c9917c8e5/element {"sessionId": "7ef349ec-c5c4-4e00-b97a-a48c9917c8e5", "using": "name", "value": "\u8bf7\u8f93\u5165\u59d3\u540d"}
+[2018-07-29 17:03:56,809] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:03:57,810] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/7ef349ec-c5c4-4e00-b97a-a48c9917c8e5/element {"sessionId": "7ef349ec-c5c4-4e00-b97a-a48c9917c8e5", "using": "name", "value": "\u8bf7\u8f93\u5165\u59d3\u540d"}
+[2018-07-29 17:03:58,295] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:03:59,296] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/7ef349ec-c5c4-4e00-b97a-a48c9917c8e5/element {"sessionId": "7ef349ec-c5c4-4e00-b97a-a48c9917c8e5", "using": "name", "value": "\u8bf7\u8f93\u5165\u59d3\u540d"}
+[2018-07-29 17:03:59,645] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:04:00,646] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/7ef349ec-c5c4-4e00-b97a-a48c9917c8e5/element {"sessionId": "7ef349ec-c5c4-4e00-b97a-a48c9917c8e5", "using": "name", "value": "\u8bf7\u8f93\u5165\u59d3\u540d"}
+[2018-07-29 17:04:01,137] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:04:02,138] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/7ef349ec-c5c4-4e00-b97a-a48c9917c8e5/element {"sessionId": "7ef349ec-c5c4-4e00-b97a-a48c9917c8e5", "using": "name", "value": "\u8bf7\u8f93\u5165\u59d3\u540d"}
+[2018-07-29 17:04:02,585] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:04:03,586] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/7ef349ec-c5c4-4e00-b97a-a48c9917c8e5/element {"sessionId": "7ef349ec-c5c4-4e00-b97a-a48c9917c8e5", "using": "name", "value": "\u8bf7\u8f93\u5165\u59d3\u540d"}
+[2018-07-29 17:04:03,922] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:07:55,219] [DEBUG] [appController.py:kill_server:35] 执行[KILL SERVER]操作:成功: 已终止 PID 18072 (属于 PID 13484 子进程)的进程。
+成功: 已终止 PID 19348 (属于 PID 13484 子进程)的进程。
+成功: 已终止 PID 13460 (属于 PID 13484 子进程)的进程。
+成功: 已终止 PID 13484 (属于 PID 1968 子进程)的进程。
+[2018-07-29 17:07:55,300] [DEBUG] [appController.py:kill_server:36] 重启ADB服务！
+[2018-07-29 17:07:55,300] [DEBUG] [appController.py:server:53] 每个手机的信息：{'port': 4723, 'deviceName': 'android Emulator', 'ip': '127.0.0.1', 'udid': '5e25d38e', 'platformVersion': '5.1.1', 'name': '三星手机', 'log_path': 'E:\\Test_framework_APP\\log\\三星手机.log', 'platformName': 'Android'}
+[2018-07-29 17:07:55,301] [DEBUG] [appController.py:server_command:43] 启动服务执行的命令：appium -a 127.0.0.1 -p 4723 -U 5e25d38e -g E:\Test_framework_APP\log\三星手机.log
+[2018-07-29 17:07:55,410] [DEBUG] [appController.py:test_server:75] 端口 【4723】 服务启动失败5秒钟后尝试
+[2018-07-29 17:08:00,537] [DEBUG] [appController.py:test_server:72] 检验服务启动：  TCP    127.0.0.1:4723         0.0.0.0:0              LISTENING       1792
+[2018-07-29 17:08:00,538] [DEBUG] [appController.py:test_server:79] 全部服务启动成功！
+[2018-07-29 17:08:00,538] [DEBUG] [appController.py:driver_command:88] 启动的Url：http://127.0.0.1:4723/wd/hub
+[2018-07-29 17:08:00,556] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"alwaysMatch": {"platformName": "Android"}, "firstMatch": [{}]}, "desiredCapabilities": {"appActivity": "com.sankuai.pms.WelcomeActivity", "port": 4723, "ip": "127.0.0.1", "udid": "5e25d38e", "name": "\u4e09\u661f\u624b\u673a", "log_path": "E:\\Test_framework_APP\\log\\\u4e09\u661f\u624b\u673a.log", "deviceName": "android Emulator", "appPackage": "com.sankuai.pms", "resetKeyboard": true, "unicodeKeyboard": true, "platformVersion": "5.1.1", "noReset": false, "platformName": "Android"}}
+[2018-07-29 17:08:12,540] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:08:12,541] [INFO] [main.py:run:45] 开始执行CASE！当前启动【1】个DRIVER！
+[2018-07-29 17:08:12,542] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/733a4a71-835d-49fb-9ab6-7bebc59f04a5/element {"value": "\u623f\u6001", "using": "name", "sessionId": "733a4a71-835d-49fb-9ab6-7bebc59f04a5"}
+[2018-07-29 17:08:14,299] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:08:15,300] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/733a4a71-835d-49fb-9ab6-7bebc59f04a5/element {"value": "\u623f\u6001", "using": "name", "sessionId": "733a4a71-835d-49fb-9ab6-7bebc59f04a5"}
+[2018-07-29 17:08:15,381] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:08:16,383] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/733a4a71-835d-49fb-9ab6-7bebc59f04a5/element {"value": "\u623f\u6001", "using": "name", "sessionId": "733a4a71-835d-49fb-9ab6-7bebc59f04a5"}
+[2018-07-29 17:08:17,710] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:08:17,711] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/733a4a71-835d-49fb-9ab6-7bebc59f04a5/element {"value": "\u623f\u6001", "using": "name", "sessionId": "733a4a71-835d-49fb-9ab6-7bebc59f04a5"}
+[2018-07-29 17:08:17,885] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:08:17,886] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/733a4a71-835d-49fb-9ab6-7bebc59f04a5/element {"value": "\u623f\u6001", "using": "name", "sessionId": "733a4a71-835d-49fb-9ab6-7bebc59f04a5"}
+[2018-07-29 17:08:18,035] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:08:18,035] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/733a4a71-835d-49fb-9ab6-7bebc59f04a5/element/3/click {"sessionId": "733a4a71-835d-49fb-9ab6-7bebc59f04a5", "id": "3"}
+[2018-07-29 17:08:18,392] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:08:18,393] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/733a4a71-835d-49fb-9ab6-7bebc59f04a5/touch/perform {"actions": [{"options": {"x": 256, "y": 300, "duration": 2}, "action": "longPress"}, {"options": {}, "action": "release"}], "sessionId": "733a4a71-835d-49fb-9ab6-7bebc59f04a5"}
+[2018-07-29 17:08:18,522] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:08:21,524] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/733a4a71-835d-49fb-9ab6-7bebc59f04a5/element {"value": "\u8bf7\u8f93\u5165\u59d3\u540d", "using": "name", "sessionId": "733a4a71-835d-49fb-9ab6-7bebc59f04a5"}
+[2018-07-29 17:08:21,813] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:08:22,815] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/733a4a71-835d-49fb-9ab6-7bebc59f04a5/element {"value": "\u8bf7\u8f93\u5165\u59d3\u540d", "using": "name", "sessionId": "733a4a71-835d-49fb-9ab6-7bebc59f04a5"}
+[2018-07-29 17:08:23,268] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:08:24,270] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/733a4a71-835d-49fb-9ab6-7bebc59f04a5/element {"value": "\u8bf7\u8f93\u5165\u59d3\u540d", "using": "name", "sessionId": "733a4a71-835d-49fb-9ab6-7bebc59f04a5"}
+[2018-07-29 17:08:24,746] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:08:25,747] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/733a4a71-835d-49fb-9ab6-7bebc59f04a5/element {"value": "\u8bf7\u8f93\u5165\u59d3\u540d", "using": "name", "sessionId": "733a4a71-835d-49fb-9ab6-7bebc59f04a5"}
+[2018-07-29 17:08:26,201] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:08:27,203] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/733a4a71-835d-49fb-9ab6-7bebc59f04a5/element {"value": "\u8bf7\u8f93\u5165\u59d3\u540d", "using": "name", "sessionId": "733a4a71-835d-49fb-9ab6-7bebc59f04a5"}
+[2018-07-29 17:08:27,690] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:08:28,691] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/733a4a71-835d-49fb-9ab6-7bebc59f04a5/element {"value": "\u8bf7\u8f93\u5165\u59d3\u540d", "using": "name", "sessionId": "733a4a71-835d-49fb-9ab6-7bebc59f04a5"}
+[2018-07-29 17:08:29,116] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:08:30,117] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/733a4a71-835d-49fb-9ab6-7bebc59f04a5/element {"value": "\u8bf7\u8f93\u5165\u59d3\u540d", "using": "name", "sessionId": "733a4a71-835d-49fb-9ab6-7bebc59f04a5"}
+[2018-07-29 17:08:30,400] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:08:42,864] [DEBUG] [appController.py:kill_server:35] 执行[KILL SERVER]操作:错误: 没有找到进程 "node.exe"。
+[2018-07-29 17:08:42,943] [DEBUG] [appController.py:kill_server:36] 重启ADB服务！
+[2018-07-29 17:08:42,944] [DEBUG] [appController.py:server:53] 每个手机的信息：{'platformName': 'Android', 'udid': '5e25d38e', 'platformVersion': '5.1.1', 'port': 4723, 'deviceName': 'android Emulator', 'ip': '127.0.0.1', 'log_path': 'E:\\Test_framework_APP\\log\\三星手机.log', 'name': '三星手机'}
+[2018-07-29 17:08:42,945] [DEBUG] [appController.py:server_command:43] 启动服务执行的命令：appium -a 127.0.0.1 -p 4723 -U 5e25d38e -g E:\Test_framework_APP\log\三星手机.log
+[2018-07-29 17:08:43,059] [DEBUG] [appController.py:test_server:72] 检验服务启动：  TCP    127.0.0.1:4723         127.0.0.1:14018        TIME_WAIT       0
+  TCP    127.0.0.1:4723         127.0.0.1:14019        TIME_WAIT       0
+  TCP    127.0.0.1:4723         127.0.0.1:14020        TIME_WAIT       0
+  TCP    127.0.0.1:4723         127.0.0.1:14021        TIME_WAIT       0
+  TCP    127.0.0.1:4723         127.0.0.1:14039        TIME_WAIT       0
+  TCP    127.0.0.1:4723         127.0.0.1:14051        TIME_WAIT       0
+  TCP    127.0.0.1:4723         127.0.0.1:14069        TIME_WAIT       0
+  TCP    127.0.0.1:4723         127.0.0.1:14090        TIME_WAIT       0
+  TCP    127.0.0.1:4723         127.0.0.1:14102        TIME_WAIT       0
+  TCP    127.0.0.1:4723         127.0.0.1:14116        TIME_WAIT       0
+  TCP    127.0.0.1:13979        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:13998        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:14006        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:14057        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:14090        127.0.0.1:4723         TIME_WAIT       0
+[2018-07-29 17:08:43,059] [DEBUG] [appController.py:test_server:79] 全部服务启动成功！
+[2018-07-29 17:08:43,059] [DEBUG] [appController.py:driver_command:88] 启动的Url：http://127.0.0.1:4723/wd/hub
+[2018-07-29 17:08:44,066] [INFO] [remote_connection.py:__init__:206] Could not connect to port 4723 on host 127.0.0.1
+[2018-07-29 17:08:44,066] [INFO] [remote_connection.py:__init__:226] Could not get IP address for host: 127.0.0.1
+[2018-07-29 17:08:44,067] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session {"desiredCapabilities": {"platformName": "Android", "udid": "5e25d38e", "appPackage": "com.sankuai.pms", "port": 4723, "deviceName": "android Emulator", "unicodeKeyboard": true, "log_path": "E:\\Test_framework_APP\\log\\\u4e09\u661f\u624b\u673a.log", "name": "\u4e09\u661f\u624b\u673a", "noReset": false, "platformVersion": "5.1.1", "appActivity": "com.sankuai.pms.WelcomeActivity", "ip": "127.0.0.1", "resetKeyboard": true}, "capabilities": {"alwaysMatch": {"platformName": "Android"}, "firstMatch": [{}]}}
+[2018-07-29 17:08:45,074] [INFO] [main.py:run:45] 开始执行CASE！当前启动【0】个DRIVER！
+[2018-07-29 17:08:48,481] [DEBUG] [appController.py:kill_server:35] 执行[KILL SERVER]操作:成功: 已终止 PID 18036 (属于 PID 12772 子进程)的进程。
+[2018-07-29 17:08:49,576] [DEBUG] [appController.py:kill_server:36] 重启ADB服务！
+[2018-07-29 17:08:49,577] [DEBUG] [appController.py:server:53] 每个手机的信息：{'port': 4723, 'ip': '127.0.0.1', 'deviceName': 'android Emulator', 'udid': '5e25d38e', 'log_path': 'E:\\Test_framework_APP\\log\\三星手机.log', 'name': '三星手机', 'platformName': 'Android', 'platformVersion': '5.1.1'}
+[2018-07-29 17:08:49,579] [DEBUG] [appController.py:server_command:43] 启动服务执行的命令：appium -a 127.0.0.1 -p 4723 -U 5e25d38e -g E:\Test_framework_APP\log\三星手机.log
+[2018-07-29 17:08:49,745] [DEBUG] [appController.py:test_server:72] 检验服务启动：  TCP    127.0.0.1:4723         127.0.0.1:14039        TIME_WAIT       0
+  TCP    127.0.0.1:4723         127.0.0.1:14051        TIME_WAIT       0
+  TCP    127.0.0.1:4723         127.0.0.1:14069        TIME_WAIT       0
+  TCP    127.0.0.1:4723         127.0.0.1:14090        TIME_WAIT       0
+  TCP    127.0.0.1:4723         127.0.0.1:14102        TIME_WAIT       0
+  TCP    127.0.0.1:4723         127.0.0.1:14116        TIME_WAIT       0
+  TCP    127.0.0.1:14057        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:14090        127.0.0.1:4723         TIME_WAIT       0
+[2018-07-29 17:08:49,745] [DEBUG] [appController.py:test_server:79] 全部服务启动成功！
+[2018-07-29 17:08:49,745] [DEBUG] [appController.py:driver_command:88] 启动的Url：http://127.0.0.1:4723/wd/hub
+[2018-07-29 17:08:50,752] [INFO] [remote_connection.py:__init__:206] Could not connect to port 4723 on host 127.0.0.1
+[2018-07-29 17:08:50,752] [INFO] [remote_connection.py:__init__:226] Could not get IP address for host: 127.0.0.1
+[2018-07-29 17:08:50,753] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session {"desiredCapabilities": {"appPackage": "com.sankuai.pms", "unicodeKeyboard": true, "deviceName": "android Emulator", "udid": "5e25d38e", "noReset": false, "appActivity": "com.sankuai.pms.WelcomeActivity", "port": 4723, "ip": "127.0.0.1", "resetKeyboard": true, "log_path": "E:\\Test_framework_APP\\log\\\u4e09\u661f\u624b\u673a.log", "name": "\u4e09\u661f\u624b\u673a", "platformName": "Android", "platformVersion": "5.1.1"}, "capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}}
+[2018-07-29 17:08:51,761] [INFO] [main.py:run:45] 开始执行CASE！当前启动【0】个DRIVER！
+[2018-07-29 17:08:54,342] [DEBUG] [appController.py:kill_server:35] 执行[KILL SERVER]操作:成功: 已终止 PID 16904 (属于 PID 5564 子进程)的进程。
+[2018-07-29 17:08:55,424] [DEBUG] [appController.py:kill_server:36] 重启ADB服务！
+[2018-07-29 17:08:55,425] [DEBUG] [appController.py:server:53] 每个手机的信息：{'port': 4723, 'platformName': 'Android', 'ip': '127.0.0.1', 'log_path': 'E:\\Test_framework_APP\\log\\三星手机.log', 'udid': '5e25d38e', 'name': '三星手机', 'platformVersion': '5.1.1', 'deviceName': 'android Emulator'}
+[2018-07-29 17:08:55,426] [DEBUG] [appController.py:server_command:43] 启动服务执行的命令：appium -a 127.0.0.1 -p 4723 -U 5e25d38e -g E:\Test_framework_APP\log\三星手机.log
+[2018-07-29 17:08:55,547] [DEBUG] [appController.py:test_server:72] 检验服务启动：  TCP    127.0.0.1:4723         127.0.0.1:14090        TIME_WAIT       0
+  TCP    127.0.0.1:4723         127.0.0.1:14102        TIME_WAIT       0
+  TCP    127.0.0.1:4723         127.0.0.1:14116        TIME_WAIT       0
+  TCP    127.0.0.1:14090        127.0.0.1:4723         TIME_WAIT       0
+[2018-07-29 17:08:55,547] [DEBUG] [appController.py:test_server:79] 全部服务启动成功！
+[2018-07-29 17:08:55,547] [DEBUG] [appController.py:driver_command:88] 启动的Url：http://127.0.0.1:4723/wd/hub
+[2018-07-29 17:08:56,553] [INFO] [remote_connection.py:__init__:206] Could not connect to port 4723 on host 127.0.0.1
+[2018-07-29 17:08:56,553] [INFO] [remote_connection.py:__init__:226] Could not get IP address for host: 127.0.0.1
+[2018-07-29 17:08:56,554] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session {"desiredCapabilities": {"port": 4723, "platformName": "Android", "ip": "127.0.0.1", "name": "\u4e09\u661f\u624b\u673a", "platformVersion": "5.1.1", "log_path": "E:\\Test_framework_APP\\log\\\u4e09\u661f\u624b\u673a.log", "appPackage": "com.sankuai.pms", "udid": "5e25d38e", "resetKeyboard": true, "deviceName": "android Emulator", "appActivity": "com.sankuai.pms.WelcomeActivity", "unicodeKeyboard": true, "noReset": false}, "capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}}
+[2018-07-29 17:08:57,563] [INFO] [main.py:run:45] 开始执行CASE！当前启动【0】个DRIVER！
+[2018-07-29 17:09:07,935] [DEBUG] [appController.py:kill_server:35] 执行[KILL SERVER]操作:成功: 已终止 PID 13904 (属于 PID 11784 子进程)的进程。
+[2018-07-29 17:09:09,024] [DEBUG] [appController.py:kill_server:36] 重启ADB服务！
+[2018-07-29 17:09:09,024] [DEBUG] [appController.py:server:53] 每个手机的信息：{'deviceName': 'android Emulator', 'ip': '127.0.0.1', 'log_path': 'E:\\Test_framework_APP\\log\\三星手机.log', 'udid': '5e25d38e', 'port': 4724, 'platformName': 'Android', 'platformVersion': '5.1.1', 'name': '三星手机'}
+[2018-07-29 17:09:09,025] [DEBUG] [appController.py:server_command:43] 启动服务执行的命令：appium -a 127.0.0.1 -p 4724 -U 5e25d38e -g E:\Test_framework_APP\log\三星手机.log
+[2018-07-29 17:09:09,143] [DEBUG] [appController.py:test_server:75] 端口 【4724】 服务启动失败5秒钟后尝试
+[2018-07-29 17:09:14,277] [DEBUG] [appController.py:test_server:72] 检验服务启动：  TCP    127.0.0.1:4724         0.0.0.0:0              LISTENING       9132
+[2018-07-29 17:09:14,277] [DEBUG] [appController.py:test_server:79] 全部服务启动成功！
+[2018-07-29 17:09:14,278] [DEBUG] [appController.py:driver_command:88] 启动的Url：http://127.0.0.1:4724/wd/hub
+[2018-07-29 17:09:14,294] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4724/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"noReset": false, "deviceName": "android Emulator", "resetKeyboard": true, "log_path": "E:\\Test_framework_APP\\log\\\u4e09\u661f\u624b\u673a.log", "platformName": "Android", "platformVersion": "5.1.1", "name": "\u4e09\u661f\u624b\u673a", "appActivity": "com.sankuai.pms.WelcomeActivity", "ip": "127.0.0.1", "udid": "5e25d38e", "port": 4724, "unicodeKeyboard": true, "appPackage": "com.sankuai.pms"}}
+[2018-07-29 17:09:26,200] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:09:26,205] [INFO] [main.py:run:45] 开始执行CASE！当前启动【0】个DRIVER！
+[2018-07-29 17:09:36,629] [DEBUG] [appController.py:kill_server:35] 执行[KILL SERVER]操作:成功: 已终止 PID 9132 (属于 PID 13556 子进程)的进程。
+[2018-07-29 17:09:36,704] [DEBUG] [appController.py:kill_server:36] 重启ADB服务！
+[2018-07-29 17:09:36,704] [DEBUG] [appController.py:server:53] 每个手机的信息：{'port': 4728, 'name': '三星手机', 'ip': '127.0.0.1', 'platformVersion': '5.1.1', 'udid': '5e25d38e', 'log_path': 'E:\\Test_framework_APP\\log\\三星手机.log', 'platformName': 'Android', 'deviceName': 'android Emulator'}
+[2018-07-29 17:09:36,705] [DEBUG] [appController.py:server_command:43] 启动服务执行的命令：appium -a 127.0.0.1 -p 4728 -U 5e25d38e -g E:\Test_framework_APP\log\三星手机.log
+[2018-07-29 17:09:36,805] [DEBUG] [appController.py:test_server:75] 端口 【4728】 服务启动失败5秒钟后尝试
+[2018-07-29 17:09:41,894] [DEBUG] [appController.py:test_server:72] 检验服务启动：  TCP    127.0.0.1:4728         0.0.0.0:0              LISTENING       6756
+[2018-07-29 17:09:41,895] [DEBUG] [appController.py:test_server:79] 全部服务启动成功！
+[2018-07-29 17:09:41,895] [DEBUG] [appController.py:driver_command:88] 启动的Url：http://127.0.0.1:4728/wd/hub
+[2018-07-29 17:09:41,911] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4728/wd/hub/session {"desiredCapabilities": {"port": 4728, "name": "\u4e09\u661f\u624b\u673a", "deviceName": "android Emulator", "resetKeyboard": true, "unicodeKeyboard": true, "log_path": "E:\\Test_framework_APP\\log\\\u4e09\u661f\u624b\u673a.log", "noReset": false, "ip": "127.0.0.1", "appActivity": "com.sankuai.pms.WelcomeActivity", "appPackage": "com.sankuai.pms", "platformVersion": "5.1.1", "udid": "5e25d38e", "platformName": "Android"}, "capabilities": {"alwaysMatch": {"platformName": "Android"}, "firstMatch": [{}]}}
+[2018-07-29 17:09:53,851] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:09:53,852] [INFO] [main.py:run:45] 开始执行CASE！当前启动【1】个DRIVER！
+[2018-07-29 17:09:53,853] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4728/wd/hub/session/ef0a2755-cea1-4d7d-811d-84b5b766fadc/element {"using": "name", "sessionId": "ef0a2755-cea1-4d7d-811d-84b5b766fadc", "value": "\u623f\u6001"}
+[2018-07-29 17:09:55,556] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:09:56,558] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4728/wd/hub/session/ef0a2755-cea1-4d7d-811d-84b5b766fadc/element {"using": "name", "sessionId": "ef0a2755-cea1-4d7d-811d-84b5b766fadc", "value": "\u623f\u6001"}
+[2018-07-29 17:09:56,648] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:09:57,650] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4728/wd/hub/session/ef0a2755-cea1-4d7d-811d-84b5b766fadc/element {"using": "name", "sessionId": "ef0a2755-cea1-4d7d-811d-84b5b766fadc", "value": "\u623f\u6001"}
+[2018-07-29 17:09:58,988] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:09:58,989] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4728/wd/hub/session/ef0a2755-cea1-4d7d-811d-84b5b766fadc/element {"using": "name", "sessionId": "ef0a2755-cea1-4d7d-811d-84b5b766fadc", "value": "\u623f\u6001"}
+[2018-07-29 17:09:59,077] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:09:59,078] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4728/wd/hub/session/ef0a2755-cea1-4d7d-811d-84b5b766fadc/element {"using": "name", "sessionId": "ef0a2755-cea1-4d7d-811d-84b5b766fadc", "value": "\u623f\u6001"}
+[2018-07-29 17:09:59,212] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:09:59,212] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4728/wd/hub/session/ef0a2755-cea1-4d7d-811d-84b5b766fadc/element/3/click {"sessionId": "ef0a2755-cea1-4d7d-811d-84b5b766fadc", "id": "3"}
+[2018-07-29 17:09:59,464] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:10:02,466] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4728/wd/hub/session/ef0a2755-cea1-4d7d-811d-84b5b766fadc/touch/perform {"sessionId": "ef0a2755-cea1-4d7d-811d-84b5b766fadc", "actions": [{"options": {"y": 300, "duration": 2, "x": 256}, "action": "longPress"}, {"options": {}, "action": "release"}]}
+[2018-07-29 17:10:02,509] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:10:05,510] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4728/wd/hub/session/ef0a2755-cea1-4d7d-811d-84b5b766fadc/element {"using": "name", "sessionId": "ef0a2755-cea1-4d7d-811d-84b5b766fadc", "value": "\u8bf7\u8f93\u5165\u59d3\u540d"}
+[2018-07-29 17:10:05,567] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:10:05,568] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4728/wd/hub/session/ef0a2755-cea1-4d7d-811d-84b5b766fadc/element {"using": "name", "sessionId": "ef0a2755-cea1-4d7d-811d-84b5b766fadc", "value": "\u8bf7\u8f93\u5165\u59d3\u540d"}
+[2018-07-29 17:10:05,640] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:10:05,641] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4728/wd/hub/session/ef0a2755-cea1-4d7d-811d-84b5b766fadc/element {"using": "name", "sessionId": "ef0a2755-cea1-4d7d-811d-84b5b766fadc", "value": "\u8bf7\u8f93\u5165\u59d3\u540d"}
+[2018-07-29 17:10:05,802] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:10:05,802] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4728/wd/hub/session/ef0a2755-cea1-4d7d-811d-84b5b766fadc/element/6/value {"sessionId": "ef0a2755-cea1-4d7d-811d-84b5b766fadc", "value": ["\u6c88", "\u52c7"], "text": "\u6c88\u52c7", "id": "6"}
+[2018-07-29 17:10:11,070] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:10:11,071] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4728/wd/hub/session/ef0a2755-cea1-4d7d-811d-84b5b766fadc/element {"using": "name", "sessionId": "ef0a2755-cea1-4d7d-811d-84b5b766fadc", "value": "\u8bf7\u8f93\u5165\u8bc1\u4ef6\u53f7"}
+[2018-07-29 17:10:11,616] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:10:11,617] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4728/wd/hub/session/ef0a2755-cea1-4d7d-811d-84b5b766fadc/element {"using": "name", "sessionId": "ef0a2755-cea1-4d7d-811d-84b5b766fadc", "value": "\u8bf7\u8f93\u5165\u8bc1\u4ef6\u53f7"}
+[2018-07-29 17:10:11,693] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:10:11,694] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4728/wd/hub/session/ef0a2755-cea1-4d7d-811d-84b5b766fadc/element {"using": "name", "sessionId": "ef0a2755-cea1-4d7d-811d-84b5b766fadc", "value": "\u8bf7\u8f93\u5165\u8bc1\u4ef6\u53f7"}
+[2018-07-29 17:10:11,926] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:10:11,927] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4728/wd/hub/session/ef0a2755-cea1-4d7d-811d-84b5b766fadc/element/9/value {"sessionId": "ef0a2755-cea1-4d7d-811d-84b5b766fadc", "value": ["4", "3", "0", "5", "2", "7", "1", "9", "9", "2", "0", "6", "1", "6", "8", "1", "1", "5"], "text": "430527199206168115", "id": "9"}
+[2018-07-29 17:10:17,497] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:10:17,497] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4728/wd/hub/session/ef0a2755-cea1-4d7d-811d-84b5b766fadc/element {"using": "name", "sessionId": "ef0a2755-cea1-4d7d-811d-84b5b766fadc", "value": "\u8bf7\u8f93\u5165\u624b\u673a\u53f7"}
+[2018-07-29 17:10:18,355] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:10:18,355] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4728/wd/hub/session/ef0a2755-cea1-4d7d-811d-84b5b766fadc/element {"using": "name", "sessionId": "ef0a2755-cea1-4d7d-811d-84b5b766fadc", "value": "\u8bf7\u8f93\u5165\u624b\u673a\u53f7"}
+[2018-07-29 17:10:18,436] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:10:18,437] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4728/wd/hub/session/ef0a2755-cea1-4d7d-811d-84b5b766fadc/element {"using": "name", "sessionId": "ef0a2755-cea1-4d7d-811d-84b5b766fadc", "value": "\u8bf7\u8f93\u5165\u624b\u673a\u53f7"}
+[2018-07-29 17:10:18,672] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:10:18,673] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4728/wd/hub/session/ef0a2755-cea1-4d7d-811d-84b5b766fadc/element/12/value {"sessionId": "ef0a2755-cea1-4d7d-811d-84b5b766fadc", "value": ["1", "8", "2", "2", "1", "2", "9", "3", "9", "4", "2"], "text": "18221293942", "id": "12"}
+[2018-07-29 17:10:24,215] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:10:24,216] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4728/wd/hub/session/ef0a2755-cea1-4d7d-811d-84b5b766fadc/element {"using": "name", "sessionId": "ef0a2755-cea1-4d7d-811d-84b5b766fadc", "value": "\u529e\u7406\u5165\u4f4f"}
+[2018-07-29 17:10:25,006] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:10:25,007] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4728/wd/hub/session/ef0a2755-cea1-4d7d-811d-84b5b766fadc/element {"using": "name", "sessionId": "ef0a2755-cea1-4d7d-811d-84b5b766fadc", "value": "\u529e\u7406\u5165\u4f4f"}
+[2018-07-29 17:10:25,144] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:10:25,145] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4728/wd/hub/session/ef0a2755-cea1-4d7d-811d-84b5b766fadc/element {"using": "name", "sessionId": "ef0a2755-cea1-4d7d-811d-84b5b766fadc", "value": "\u529e\u7406\u5165\u4f4f"}
+[2018-07-29 17:10:25,278] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:10:25,279] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4728/wd/hub/session/ef0a2755-cea1-4d7d-811d-84b5b766fadc/element/15/click {"sessionId": "ef0a2755-cea1-4d7d-811d-84b5b766fadc", "id": "15"}
+[2018-07-29 17:10:25,612] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:10:25,613] [DEBUG] [main.py:case:28] 当前线程的的名字：三星手机
+[2018-07-29 17:10:25,615] [DEBUG] [HTMLTestAppRunner.py:_generate_report:751] []
+[2018-07-29 17:14:48,010] [DEBUG] [appController.py:kill_server:35] 执行[KILL SERVER]操作:成功: 已终止 PID 6756 (属于 PID 16720 子进程)的进程。
+[2018-07-29 17:14:48,086] [DEBUG] [appController.py:kill_server:36] 重启ADB服务！
+[2018-07-29 17:14:48,086] [DEBUG] [appController.py:server:53] 每个手机的信息：{'name': '三星手机', 'platformName': 'Android', 'port': 4728, 'platformVersion': '5.1.1', 'log_path': 'E:\\Test_framework_APP\\log\\三星手机.log', 'ip': '127.0.0.1', 'udid': '5e25d38e', 'deviceName': 'android Emulator'}
+[2018-07-29 17:14:48,087] [DEBUG] [appController.py:server_command:43] 启动服务执行的命令：appium -a 127.0.0.1 -p 4728 -U 5e25d38e -g E:\Test_framework_APP\log\三星手机.log
+[2018-07-29 17:14:48,194] [DEBUG] [appController.py:test_server:75] 端口 【4728】 服务启动失败5秒钟后尝试
+[2018-07-29 17:14:53,326] [DEBUG] [appController.py:test_server:72] 检验服务启动：  TCP    127.0.0.1:4728         0.0.0.0:0              LISTENING       11632
+[2018-07-29 17:14:53,326] [DEBUG] [appController.py:test_server:79] 全部服务启动成功！
+[2018-07-29 17:14:53,328] [DEBUG] [appController.py:driver_command:88] 启动的Url：http://127.0.0.1:4728/wd/hub
+[2018-07-29 17:14:53,336] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4728/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"name": "\u4e09\u661f\u624b\u673a", "platformName": "Android", "port": 4728, "platformVersion": "5.1.1", "appActivity": "com.sankuai.pms.WelcomeActivity", "resetKeyboard": true, "udid": "5e25d38e", "ip": "127.0.0.1", "unicodeKeyboard": true, "log_path": "E:\\Test_framework_APP\\log\\\u4e09\u661f\u624b\u673a.log", "noReset": false, "deviceName": "android Emulator", "appPackage": "com.sankuai.pms"}}
+[2018-07-29 17:15:05,300] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:15:05,301] [INFO] [main.py:run:45] 开始执行CASE！当前启动【1】个DRIVER！
+[2018-07-29 17:15:05,302] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4728/wd/hub/session/ed7d024f-3634-4d8a-aad6-75494b2e6280/element {"sessionId": "ed7d024f-3634-4d8a-aad6-75494b2e6280", "using": "name", "value": "\u623f\u6001"}
+[2018-07-29 17:15:06,938] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:15:07,940] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4728/wd/hub/session/ed7d024f-3634-4d8a-aad6-75494b2e6280/element {"sessionId": "ed7d024f-3634-4d8a-aad6-75494b2e6280", "using": "name", "value": "\u623f\u6001"}
+[2018-07-29 17:15:08,002] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:15:09,004] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4728/wd/hub/session/ed7d024f-3634-4d8a-aad6-75494b2e6280/element {"sessionId": "ed7d024f-3634-4d8a-aad6-75494b2e6280", "using": "name", "value": "\u623f\u6001"}
+[2018-07-29 17:15:09,832] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:15:09,832] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4728/wd/hub/session/ed7d024f-3634-4d8a-aad6-75494b2e6280/element {"sessionId": "ed7d024f-3634-4d8a-aad6-75494b2e6280", "using": "name", "value": "\u623f\u6001"}
+[2018-07-29 17:15:09,928] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:15:09,928] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4728/wd/hub/session/ed7d024f-3634-4d8a-aad6-75494b2e6280/element {"sessionId": "ed7d024f-3634-4d8a-aad6-75494b2e6280", "using": "name", "value": "\u623f\u6001"}
+[2018-07-29 17:15:10,028] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:15:10,028] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4728/wd/hub/session/ed7d024f-3634-4d8a-aad6-75494b2e6280/element/3/click {"sessionId": "ed7d024f-3634-4d8a-aad6-75494b2e6280", "id": "3"}
+[2018-07-29 17:15:11,234] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:15:14,235] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4728/wd/hub/session/ed7d024f-3634-4d8a-aad6-75494b2e6280/touch/perform {"actions": [{"options": {"duration": 2, "x": 256, "y": 300}, "action": "longPress"}, {"options": {}, "action": "release"}], "sessionId": "ed7d024f-3634-4d8a-aad6-75494b2e6280"}
+[2018-07-29 17:15:14,277] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:15:15,278] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4728/wd/hub/session/ed7d024f-3634-4d8a-aad6-75494b2e6280/element {"sessionId": "ed7d024f-3634-4d8a-aad6-75494b2e6280", "using": "name", "value": "\u8bf7\u8f93\u5165\u59d3\u540d"}
+[2018-07-29 17:15:16,131] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:15:16,131] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4728/wd/hub/session/ed7d024f-3634-4d8a-aad6-75494b2e6280/element {"sessionId": "ed7d024f-3634-4d8a-aad6-75494b2e6280", "using": "name", "value": "\u8bf7\u8f93\u5165\u59d3\u540d"}
+[2018-07-29 17:15:16,203] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:15:16,204] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4728/wd/hub/session/ed7d024f-3634-4d8a-aad6-75494b2e6280/element {"sessionId": "ed7d024f-3634-4d8a-aad6-75494b2e6280", "using": "name", "value": "\u8bf7\u8f93\u5165\u59d3\u540d"}
+[2018-07-29 17:15:16,262] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:15:16,262] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4728/wd/hub/session/ed7d024f-3634-4d8a-aad6-75494b2e6280/element/6/value {"text": "\u6c88\u52c7", "id": "6", "value": ["\u6c88", "\u52c7"], "sessionId": "ed7d024f-3634-4d8a-aad6-75494b2e6280"}
+[2018-07-29 17:15:22,055] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:15:22,055] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4728/wd/hub/session/ed7d024f-3634-4d8a-aad6-75494b2e6280/element {"sessionId": "ed7d024f-3634-4d8a-aad6-75494b2e6280", "using": "name", "value": "\u8bf7\u8f93\u5165\u8bc1\u4ef6\u53f7"}
+[2018-07-29 17:15:22,613] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:15:22,613] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4728/wd/hub/session/ed7d024f-3634-4d8a-aad6-75494b2e6280/element {"sessionId": "ed7d024f-3634-4d8a-aad6-75494b2e6280", "using": "name", "value": "\u8bf7\u8f93\u5165\u8bc1\u4ef6\u53f7"}
+[2018-07-29 17:15:22,751] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:15:22,751] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4728/wd/hub/session/ed7d024f-3634-4d8a-aad6-75494b2e6280/element {"sessionId": "ed7d024f-3634-4d8a-aad6-75494b2e6280", "using": "name", "value": "\u8bf7\u8f93\u5165\u8bc1\u4ef6\u53f7"}
+[2018-07-29 17:15:22,874] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:15:22,874] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4728/wd/hub/session/ed7d024f-3634-4d8a-aad6-75494b2e6280/element/9/value {"text": "430527199206168115", "id": "9", "value": ["4", "3", "0", "5", "2", "7", "1", "9", "9", "2", "0", "6", "1", "6", "8", "1", "1", "5"], "sessionId": "ed7d024f-3634-4d8a-aad6-75494b2e6280"}
+[2018-07-29 17:15:28,505] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:15:28,506] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4728/wd/hub/session/ed7d024f-3634-4d8a-aad6-75494b2e6280/element {"sessionId": "ed7d024f-3634-4d8a-aad6-75494b2e6280", "using": "name", "value": "\u8bf7\u8f93\u5165\u624b\u673a\u53f7"}
+[2018-07-29 17:15:29,164] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:15:29,165] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4728/wd/hub/session/ed7d024f-3634-4d8a-aad6-75494b2e6280/element {"sessionId": "ed7d024f-3634-4d8a-aad6-75494b2e6280", "using": "name", "value": "\u8bf7\u8f93\u5165\u624b\u673a\u53f7"}
+[2018-07-29 17:15:29,329] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:15:29,330] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4728/wd/hub/session/ed7d024f-3634-4d8a-aad6-75494b2e6280/element {"sessionId": "ed7d024f-3634-4d8a-aad6-75494b2e6280", "using": "name", "value": "\u8bf7\u8f93\u5165\u624b\u673a\u53f7"}
+[2018-07-29 17:15:29,467] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:15:29,468] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4728/wd/hub/session/ed7d024f-3634-4d8a-aad6-75494b2e6280/element/12/value {"text": "18221293942", "id": "12", "value": ["1", "8", "2", "2", "1", "2", "9", "3", "9", "4", "2"], "sessionId": "ed7d024f-3634-4d8a-aad6-75494b2e6280"}
+[2018-07-29 17:15:35,380] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:15:35,381] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4728/wd/hub/session/ed7d024f-3634-4d8a-aad6-75494b2e6280/element {"sessionId": "ed7d024f-3634-4d8a-aad6-75494b2e6280", "using": "name", "value": "\u529e\u7406\u5165\u4f4f"}
+[2018-07-29 17:15:35,999] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:15:35,999] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4728/wd/hub/session/ed7d024f-3634-4d8a-aad6-75494b2e6280/element {"sessionId": "ed7d024f-3634-4d8a-aad6-75494b2e6280", "using": "name", "value": "\u529e\u7406\u5165\u4f4f"}
+[2018-07-29 17:15:36,257] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:15:36,258] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4728/wd/hub/session/ed7d024f-3634-4d8a-aad6-75494b2e6280/element {"sessionId": "ed7d024f-3634-4d8a-aad6-75494b2e6280", "using": "name", "value": "\u529e\u7406\u5165\u4f4f"}
+[2018-07-29 17:15:36,473] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:15:36,474] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4728/wd/hub/session/ed7d024f-3634-4d8a-aad6-75494b2e6280/element/15/click {"sessionId": "ed7d024f-3634-4d8a-aad6-75494b2e6280", "id": "15"}
+[2018-07-29 17:15:36,838] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:15:36,838] [DEBUG] [main.py:case:28] 当前线程的的名字：三星手机
+[2018-07-29 17:15:36,842] [DEBUG] [HTMLTestAppRunner.py:_generate_report:751] []
+[2018-07-29 17:16:03,417] [DEBUG] [appController.py:kill_server:35] 执行[KILL SERVER]操作:成功: 已终止 PID 12332 (属于 PID 11632 子进程)的进程。
+成功: 已终止 PID 13976 (属于 PID 11632 子进程)的进程。
+成功: 已终止 PID 11632 (属于 PID 12376 子进程)的进程。
+[2018-07-29 17:16:03,502] [DEBUG] [appController.py:kill_server:36] 重启ADB服务！
+[2018-07-29 17:16:03,502] [DEBUG] [appController.py:server:53] 每个手机的信息：{'udid': '5e25d38e', 'log_path': 'E:\\Test_framework_APP\\log\\三星手机.log', 'ip': '127.0.0.1', 'name': '三星手机', 'deviceName': 'android Emulator', 'platformName': 'Android', 'platformVersion': '5.1.1', 'port': 4728}
+[2018-07-29 17:16:03,503] [DEBUG] [appController.py:server_command:43] 启动服务执行的命令：appium -a 127.0.0.1 -p 4728 -U 5e25d38e -g E:\Test_framework_APP\log\三星手机.log
+[2018-07-29 17:16:03,603] [DEBUG] [appController.py:test_server:72] 检验服务启动：  TCP    127.0.0.1:4728         127.0.0.1:18205        TIME_WAIT       0
+  TCP    127.0.0.1:4728         127.0.0.1:18261        TIME_WAIT       0
+  TCP    127.0.0.1:18205        127.0.0.1:4728         TIME_WAIT       0
+  TCP    127.0.0.1:18253        127.0.0.1:4728         TIME_WAIT       0
+  TCP    127.0.0.1:18254        127.0.0.1:4728         TIME_WAIT       0
+  TCP    127.0.0.1:18255        127.0.0.1:4728         TIME_WAIT       0
+[2018-07-29 17:16:03,603] [DEBUG] [appController.py:test_server:79] 全部服务启动成功！
+[2018-07-29 17:16:03,604] [DEBUG] [appController.py:driver_command:88] 启动的Url：http://127.0.0.1:4728/wd/hub
+[2018-07-29 17:16:04,612] [INFO] [remote_connection.py:__init__:206] Could not connect to port 4728 on host 127.0.0.1
+[2018-07-29 17:16:04,612] [INFO] [remote_connection.py:__init__:226] Could not get IP address for host: 127.0.0.1
+[2018-07-29 17:16:04,612] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4728/wd/hub/session {"capabilities": {"alwaysMatch": {"platformName": "Android"}, "firstMatch": [{}]}, "desiredCapabilities": {"log_path": "E:\\Test_framework_APP\\log\\\u4e09\u661f\u624b\u673a.log", "noReset": false, "platformVersion": "5.1.1", "udid": "5e25d38e", "ip": "127.0.0.1", "name": "\u4e09\u661f\u624b\u673a", "unicodeKeyboard": true, "deviceName": "android Emulator", "platformName": "Android", "resetKeyboard": true, "appPackage": "com.sankuai.pms", "port": 4728, "appActivity": "com.sankuai.pms.WelcomeActivity"}}
+[2018-07-29 17:16:05,620] [INFO] [main.py:run:45] 开始执行CASE！当前启动【0】个DRIVER！
+[2018-07-29 17:17:54,712] [DEBUG] [appController.py:kill_server:35] 执行[KILL SERVER]操作:成功: 已终止 PID 12064 (属于 PID 12044 子进程)的进程。
+[2018-07-29 17:17:54,794] [DEBUG] [appController.py:kill_server:36] 重启ADB服务！
+[2018-07-29 17:17:54,794] [DEBUG] [appController.py:server:53] 每个手机的信息：{'udid': '5e25d38e', 'port': 4727, 'platformName': 'Android', 'log_path': 'E:\\Test_framework_APP\\log\\三星手机.log', 'ip': '127.0.0.1', 'platformVersion': '5.1.1', 'deviceName': 'android Emulator', 'name': '三星手机'}
+[2018-07-29 17:17:54,795] [DEBUG] [appController.py:server_command:43] 启动服务执行的命令：appium -a 127.0.0.1 -p 4727 -U 5e25d38e -g E:\Test_framework_APP\log\三星手机.log
+[2018-07-29 17:17:54,795] [DEBUG] [appController.py:server:53] 每个手机的信息：{'udid': 'emulator-5554', 'port': 4723, 'platformName': 'Android', 'log_path': 'E:\\Test_framework_APP\\log\\雷电模拟器.log', 'ip': '127.0.0.1', 'platformVersion': '5.1.1', 'deviceName': 'emulator-5554', 'name': '雷电模拟器'}
+[2018-07-29 17:17:54,796] [DEBUG] [appController.py:server_command:43] 启动服务执行的命令：appium -a 127.0.0.1 -p 4723 -U emulator-5554 -g E:\Test_framework_APP\log\雷电模拟器.log
+[2018-07-29 17:17:54,906] [DEBUG] [appController.py:test_server:75] 端口 【4727】 服务启动失败5秒钟后尝试
+[2018-07-29 17:17:55,000] [DEBUG] [appController.py:test_server:75] 端口 【4723】 服务启动失败5秒钟后尝试
+[2018-07-29 17:18:00,168] [DEBUG] [appController.py:test_server:72] 检验服务启动：  TCP    127.0.0.1:4727         0.0.0.0:0              LISTENING       20056
+[2018-07-29 17:18:05,296] [DEBUG] [appController.py:test_server:72] 检验服务启动：  TCP    127.0.0.1:4723         0.0.0.0:0              LISTENING       22300
+[2018-07-29 17:18:05,296] [DEBUG] [appController.py:test_server:79] 全部服务启动成功！
+[2018-07-29 17:18:05,297] [DEBUG] [appController.py:driver_command:88] 启动的Url：http://127.0.0.1:4727/wd/hub
+[2018-07-29 17:18:05,297] [DEBUG] [appController.py:driver_command:88] 启动的Url：http://127.0.0.1:4723/wd/hub
+[2018-07-29 17:18:05,303] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4727/wd/hub/session {"desiredCapabilities": {"platformName": "Android", "noReset": false, "log_path": "E:\\Test_framework_APP\\log\\\u4e09\u661f\u624b\u673a.log", "ip": "127.0.0.1", "deviceName": "android Emulator", "name": "\u4e09\u661f\u624b\u673a", "udid": "5e25d38e", "port": 4727, "unicodeKeyboard": true, "appPackage": "com.sankuai.pms", "platformVersion": "5.1.1", "appActivity": "com.sankuai.pms.WelcomeActivity", "resetKeyboard": true}, "capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}}
+[2018-07-29 17:18:05,304] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session {"desiredCapabilities": {"platformName": "Android", "noReset": false, "log_path": "E:\\Test_framework_APP\\log\\\u96f7\u7535\u6a21\u62df\u5668.log", "ip": "127.0.0.1", "deviceName": "emulator-5554", "name": "\u96f7\u7535\u6a21\u62df\u5668", "udid": "emulator-5554", "port": 4723, "unicodeKeyboard": true, "appPackage": "com.sankuai.pms", "platformVersion": "5.1.1", "appActivity": "com.sankuai.pms.WelcomeActivity", "resetKeyboard": true}, "capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}}
+[2018-07-29 17:18:19,754] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:19:15,521] [DEBUG] [appController.py:kill_server:35] 执行[KILL SERVER]操作:错误: 没有找到进程 "node.exe"。
+[2018-07-29 17:19:15,619] [DEBUG] [appController.py:kill_server:36] 重启ADB服务！
+[2018-07-29 17:19:15,619] [DEBUG] [appController.py:server:53] 每个手机的信息：{'port': 4723, 'deviceName': 'emulator-5554', 'platformVersion': '5.1.1', 'platformName': 'Android', 'ip': '127.0.0.1', 'name': '雷电模拟器', 'udid': 'emulator-5554', 'log_path': 'E:\\Test_framework_APP\\log\\雷电模拟器.log'}
+[2018-07-29 17:19:15,619] [DEBUG] [appController.py:server_command:43] 启动服务执行的命令：appium -a 127.0.0.1 -p 4723 -U emulator-5554 -g E:\Test_framework_APP\log\雷电模拟器.log
+[2018-07-29 17:19:15,726] [DEBUG] [appController.py:test_server:75] 端口 【4723】 服务启动失败5秒钟后尝试
+[2018-07-29 17:19:20,803] [DEBUG] [appController.py:test_server:72] 检验服务启动：  TCP    127.0.0.1:4723         0.0.0.0:0              LISTENING       14028
+[2018-07-29 17:19:20,803] [DEBUG] [appController.py:test_server:79] 全部服务启动成功！
+[2018-07-29 17:19:20,804] [DEBUG] [appController.py:driver_command:88] 启动的Url：http://127.0.0.1:4723/wd/hub
+[2018-07-29 17:19:20,820] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session {"desiredCapabilities": {"deviceName": "emulator-5554", "ip": "127.0.0.1", "resetKeyboard": true, "noReset": false, "name": "\u96f7\u7535\u6a21\u62df\u5668", "udid": "emulator-5554", "log_path": "E:\\Test_framework_APP\\log\\\u96f7\u7535\u6a21\u62df\u5668.log", "port": 4723, "appActivity": "com.sankuai.pms.WelcomeActivity", "unicodeKeyboard": true, "appPackage": "com.sankuai.pms", "platformVersion": "5.1.1", "platformName": "Android"}, "capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}}
+[2018-07-29 17:19:29,034] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:19:29,035] [INFO] [main.py:run:45] 开始执行CASE！当前启动【1】个DRIVER！
+[2018-07-29 17:19:29,037] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/50272185-80ea-479d-9728-2bbe48561ff3/element {"using": "name", "value": "\u623f\u6001", "sessionId": "50272185-80ea-479d-9728-2bbe48561ff3"}
+[2018-07-29 17:19:30,205] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:19:31,207] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/50272185-80ea-479d-9728-2bbe48561ff3/element {"using": "name", "value": "\u623f\u6001", "sessionId": "50272185-80ea-479d-9728-2bbe48561ff3"}
+[2018-07-29 17:19:31,238] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:19:32,239] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/50272185-80ea-479d-9728-2bbe48561ff3/element {"using": "name", "value": "\u623f\u6001", "sessionId": "50272185-80ea-479d-9728-2bbe48561ff3"}
+[2018-07-29 17:19:33,205] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:19:33,205] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/50272185-80ea-479d-9728-2bbe48561ff3/element {"using": "name", "value": "\u623f\u6001", "sessionId": "50272185-80ea-479d-9728-2bbe48561ff3"}
+[2018-07-29 17:19:33,218] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:19:33,219] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/50272185-80ea-479d-9728-2bbe48561ff3/element {"using": "name", "value": "\u623f\u6001", "sessionId": "50272185-80ea-479d-9728-2bbe48561ff3"}
+[2018-07-29 17:19:33,283] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:19:33,284] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/50272185-80ea-479d-9728-2bbe48561ff3/element/3/click {"id": "3", "sessionId": "50272185-80ea-479d-9728-2bbe48561ff3"}
+[2018-07-29 17:19:33,454] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:19:36,455] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/50272185-80ea-479d-9728-2bbe48561ff3/touch/perform {"actions": [{"options": {"x": 256, "y": 300, "duration": 2}, "action": "longPress"}, {"options": {}, "action": "release"}], "sessionId": "50272185-80ea-479d-9728-2bbe48561ff3"}
+[2018-07-29 17:19:36,498] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:19:37,499] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/50272185-80ea-479d-9728-2bbe48561ff3/element {"using": "name", "value": "\u8bf7\u8f93\u5165\u59d3\u540d", "sessionId": "50272185-80ea-479d-9728-2bbe48561ff3"}
+[2018-07-29 17:19:37,595] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:19:38,596] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/50272185-80ea-479d-9728-2bbe48561ff3/element {"using": "name", "value": "\u8bf7\u8f93\u5165\u59d3\u540d", "sessionId": "50272185-80ea-479d-9728-2bbe48561ff3"}
+[2018-07-29 17:19:38,703] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:19:39,705] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/50272185-80ea-479d-9728-2bbe48561ff3/element {"using": "name", "value": "\u8bf7\u8f93\u5165\u59d3\u540d", "sessionId": "50272185-80ea-479d-9728-2bbe48561ff3"}
+[2018-07-29 17:19:39,757] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:19:40,758] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/50272185-80ea-479d-9728-2bbe48561ff3/element {"using": "name", "value": "\u8bf7\u8f93\u5165\u59d3\u540d", "sessionId": "50272185-80ea-479d-9728-2bbe48561ff3"}
+[2018-07-29 17:19:40,845] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:19:41,847] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/50272185-80ea-479d-9728-2bbe48561ff3/element {"using": "name", "value": "\u8bf7\u8f93\u5165\u59d3\u540d", "sessionId": "50272185-80ea-479d-9728-2bbe48561ff3"}
+[2018-07-29 17:19:41,968] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:19:42,969] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/50272185-80ea-479d-9728-2bbe48561ff3/element {"using": "name", "value": "\u8bf7\u8f93\u5165\u59d3\u540d", "sessionId": "50272185-80ea-479d-9728-2bbe48561ff3"}
+[2018-07-29 17:19:43,026] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:19:44,027] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/50272185-80ea-479d-9728-2bbe48561ff3/element {"using": "name", "value": "\u8bf7\u8f93\u5165\u59d3\u540d", "sessionId": "50272185-80ea-479d-9728-2bbe48561ff3"}
+[2018-07-29 17:19:44,113] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:19:45,114] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/50272185-80ea-479d-9728-2bbe48561ff3/element {"using": "name", "value": "\u8bf7\u8f93\u5165\u59d3\u540d", "sessionId": "50272185-80ea-479d-9728-2bbe48561ff3"}
+[2018-07-29 17:19:45,242] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:19:46,244] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/50272185-80ea-479d-9728-2bbe48561ff3/element {"using": "name", "value": "\u8bf7\u8f93\u5165\u59d3\u540d", "sessionId": "50272185-80ea-479d-9728-2bbe48561ff3"}
+[2018-07-29 17:19:46,322] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:19:47,323] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/50272185-80ea-479d-9728-2bbe48561ff3/element {"using": "name", "value": "\u8bf7\u8f93\u5165\u59d3\u540d", "sessionId": "50272185-80ea-479d-9728-2bbe48561ff3"}
+[2018-07-29 17:19:47,447] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:19:48,449] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/50272185-80ea-479d-9728-2bbe48561ff3/element {"using": "name", "value": "\u8bf7\u8f93\u5165\u59d3\u540d", "sessionId": "50272185-80ea-479d-9728-2bbe48561ff3"}
+[2018-07-29 17:19:48,552] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:19:49,553] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/50272185-80ea-479d-9728-2bbe48561ff3/element {"using": "name", "value": "\u8bf7\u8f93\u5165\u59d3\u540d", "sessionId": "50272185-80ea-479d-9728-2bbe48561ff3"}
+[2018-07-29 17:19:49,651] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:23:46,063] [DEBUG] [appController.py:kill_server:35] 执行[KILL SERVER]操作:错误: 没有找到进程 "node.exe"。
+[2018-07-29 17:23:46,138] [DEBUG] [appController.py:kill_server:36] 重启ADB服务！
+[2018-07-29 17:23:46,138] [DEBUG] [appController.py:server:53] 每个手机的信息：{'platformVersion': '5.1.1', 'port': 4727, 'log_path': 'E:\\Test_framework_APP\\log\\三星手机.log', 'platformName': 'Android', 'udid': '5e25d38e', 'name': '三星手机', 'ip': '127.0.0.1', 'deviceName': 'android Emulator'}
+[2018-07-29 17:23:46,139] [DEBUG] [appController.py:server_command:43] 启动服务执行的命令：appium -a 127.0.0.1 -p 4727 -U 5e25d38e -g E:\Test_framework_APP\log\三星手机.log
+[2018-07-29 17:23:46,139] [DEBUG] [appController.py:server:53] 每个手机的信息：{'platformVersion': '5.1.1', 'port': 4723, 'log_path': 'E:\\Test_framework_APP\\log\\雷电模拟器.log', 'platformName': 'Android', 'udid': 'emulator-5554', 'name': '雷电模拟器', 'ip': '127.0.0.1', 'deviceName': 'emulator-5554'}
+[2018-07-29 17:23:46,140] [DEBUG] [appController.py:server_command:43] 启动服务执行的命令：appium -a 127.0.0.1 -p 4723 -U emulator-5554 -g E:\Test_framework_APP\log\雷电模拟器.log
+[2018-07-29 17:23:46,252] [DEBUG] [appController.py:test_server:75] 端口 【4727】 服务启动失败5秒钟后尝试
+[2018-07-29 17:23:46,358] [DEBUG] [appController.py:test_server:75] 端口 【4723】 服务启动失败5秒钟后尝试
+[2018-07-29 17:23:51,482] [DEBUG] [appController.py:test_server:72] 检验服务启动：  TCP    127.0.0.1:4727         0.0.0.0:0              LISTENING       11904
+[2018-07-29 17:23:56,618] [DEBUG] [appController.py:test_server:72] 检验服务启动：  TCP    127.0.0.1:4723         0.0.0.0:0              LISTENING       18888
+[2018-07-29 17:23:56,618] [DEBUG] [appController.py:test_server:79] 全部服务启动成功！
+[2018-07-29 17:23:56,619] [DEBUG] [appController.py:driver_command:88] 启动的Url：http://127.0.0.1:4727/wd/hub
+[2018-07-29 17:23:56,619] [DEBUG] [appController.py:driver_command:88] 启动的Url：http://127.0.0.1:4723/wd/hub
+[2018-07-29 17:23:56,640] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4727/wd/hub/session {"desiredCapabilities": {"platformVersion": "5.1.1", "port": 4727, "log_path": "E:\\Test_framework_APP\\log\\\u4e09\u661f\u624b\u673a.log", "platformName": "Android", "resetKeyboard": true, "name": "\u4e09\u661f\u624b\u673a", "appPackage": "com.sankuai.pms", "ip": "127.0.0.1", "noReset": false, "appActivity": "com.sankuai.pms.WelcomeActivity", "unicodeKeyboard": true, "deviceName": "android Emulator", "udid": "5e25d38e"}, "capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}}
+[2018-07-29 17:23:56,643] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session {"desiredCapabilities": {"platformVersion": "5.1.1", "port": 4723, "log_path": "E:\\Test_framework_APP\\log\\\u96f7\u7535\u6a21\u62df\u5668.log", "platformName": "Android", "resetKeyboard": true, "name": "\u96f7\u7535\u6a21\u62df\u5668", "appPackage": "com.sankuai.pms", "ip": "127.0.0.1", "noReset": false, "appActivity": "com.sankuai.pms.WelcomeActivity", "unicodeKeyboard": true, "deviceName": "emulator-5554", "udid": "emulator-5554"}, "capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}}
+[2018-07-29 17:24:07,241] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:27:04,130] [DEBUG] [appController.py:__init__:23] 手机信息：{'android': [{'platformVersion': '5.1.1', 'udid': '5e25d38e', 'deviceName': 'android Emulator', 'ip': '127.0.0.1', 'name': '三星手机', 'platformName': 'Android', 'port': 4727}, {'platformVersion': '5.1.1', 'udid': 'emulator-5554', 'deviceName': 'emulator-5554', 'ip': '127.0.0.1', 'name': '雷电模拟器', 'platformName': 'Android', 'port': 4723}]}
+[2018-07-29 17:28:02,550] [DEBUG] [appController.py:kill_server:35] 执行[KILL SERVER]操作:错误: 没有找到进程 "node.exe"。
+[2018-07-29 17:28:02,635] [DEBUG] [appController.py:kill_server:36] 重启ADB服务！
+[2018-07-29 17:28:02,636] [DEBUG] [appController.py:server:53] 每个手机的信息：{'udid': '5e25d38e', 'platformVersion': '5.1.1', 'log_path': 'E:\\Test_framework_APP\\log\\三星手机.log', 'platformName': 'Android', 'ip': '127.0.0.1', 'port': 4727, 'deviceName': 'android Emulator', 'name': '三星手机'}
+[2018-07-29 17:28:02,636] [DEBUG] [appController.py:server_command:43] 启动服务执行的命令：appium -a 127.0.0.1 -p 4727 -U 5e25d38e -g E:\Test_framework_APP\log\三星手机.log
+[2018-07-29 17:28:02,636] [DEBUG] [appController.py:server:53] 每个手机的信息：{'udid': 'emulator-5554', 'platformVersion': '5.1.1', 'log_path': 'E:\\Test_framework_APP\\log\\雷电模拟器.log', 'platformName': 'Android', 'ip': '127.0.0.1', 'port': 4723, 'deviceName': 'emulator-5554', 'name': '雷电模拟器'}
+[2018-07-29 17:28:02,637] [DEBUG] [appController.py:server_command:43] 启动服务执行的命令：appium -a 127.0.0.1 -p 4723 -U emulator-5554 -g E:\Test_framework_APP\log\雷电模拟器.log
+[2018-07-29 17:29:59,595] [DEBUG] [appController.py:kill_server:35] 执行[KILL SERVER]操作:错误: 没有找到进程 "node.exe"。
+[2018-07-29 17:30:00,691] [DEBUG] [appController.py:kill_server:36] 重启ADB服务！
+[2018-07-29 17:30:00,692] [DEBUG] [appController.py:server:53] 每个手机的信息：{'log_path': 'E:\\Test_framework_APP\\log\\三星手机.log', 'platformVersion': '5.1.1', 'platformName': 'Android', 'port': 4727, 'deviceName': 'android Emulator', 'ip': '127.0.0.1', 'udid': '5e25d38e', 'name': '三星手机'}
+[2018-07-29 17:30:00,694] [DEBUG] [appController.py:server_command:43] 启动服务执行的命令：appium -a 127.0.0.1 -p 4727 -U 5e25d38e -g E:\Test_framework_APP\log\三星手机.log
+[2018-07-29 17:30:00,694] [DEBUG] [appController.py:server:53] 每个手机的信息：{'log_path': 'E:\\Test_framework_APP\\log\\雷电模拟器.log', 'platformVersion': '5.1.1', 'platformName': 'Android', 'port': 4723, 'deviceName': 'emulator-5554', 'ip': '127.0.0.1', 'udid': 'emulator-5554', 'name': '雷电模拟器'}
+[2018-07-29 17:30:00,696] [DEBUG] [appController.py:server_command:43] 启动服务执行的命令：appium -a 127.0.0.1 -p 4723 -U emulator-5554 -g E:\Test_framework_APP\log\雷电模拟器.log
+[2018-07-29 17:30:12,033] [DEBUG] [appController.py:kill_server:35] 执行[KILL SERVER]操作:错误: 没有找到进程 "node.exe"。
+[2018-07-29 17:30:13,124] [DEBUG] [appController.py:kill_server:36] 重启ADB服务！
+[2018-07-29 17:30:13,125] [DEBUG] [appController.py:server:53] 每个手机的信息：{'ip': '127.0.0.1', 'udid': '5e25d38e', 'port': 4727, 'platformName': 'Android', 'platformVersion': '5.1.1', 'log_path': 'E:\\Test_framework_APP\\log\\三星手机.log', 'deviceName': 'android Emulator', 'name': '三星手机'}
+[2018-07-29 17:30:13,127] [DEBUG] [appController.py:server_command:43] 启动服务执行的命令：appium -a 127.0.0.1 -p 4727 -U 5e25d38e -g E:\Test_framework_APP\log\三星手机.log
+[2018-07-29 17:30:13,128] [DEBUG] [appController.py:server:53] 每个手机的信息：{'ip': '127.0.0.1', 'udid': 'emulator-5554', 'port': 4723, 'platformName': 'Android', 'platformVersion': '5.1.1', 'log_path': 'E:\\Test_framework_APP\\log\\雷电模拟器.log', 'deviceName': 'emulator-5554', 'name': '雷电模拟器'}
+[2018-07-29 17:30:13,129] [DEBUG] [appController.py:server_command:43] 启动服务执行的命令：appium -a 127.0.0.1 -p 4723 -U emulator-5554 -g E:\Test_framework_APP\log\雷电模拟器.log
+[2018-07-29 17:30:13,263] [DEBUG] [appController.py:test_server:75] 端口 【4727】 服务启动失败5秒钟后尝试
+[2018-07-29 17:30:13,373] [DEBUG] [appController.py:test_server:75] 端口 【4723】 服务启动失败5秒钟后尝试
+[2018-07-29 17:30:18,461] [DEBUG] [appController.py:test_server:72] 检验服务启动：  TCP    127.0.0.1:4727         0.0.0.0:0              LISTENING       18628
+[2018-07-29 17:30:23,630] [DEBUG] [appController.py:test_server:72] 检验服务启动：  TCP    127.0.0.1:4723         0.0.0.0:0              LISTENING       14436
+[2018-07-29 17:30:23,630] [DEBUG] [appController.py:test_server:79] 全部服务启动成功！
+[2018-07-29 17:30:23,630] [DEBUG] [appController.py:driver_command:88] 启动的Url：http://127.0.0.1:4727/wd/hub
+[2018-07-29 17:30:23,630] [DEBUG] [appController.py:driver_command:88] 启动的Url：http://127.0.0.1:4723/wd/hub
+[2018-07-29 17:30:23,637] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4727/wd/hub/session {"capabilities": {"alwaysMatch": {"platformName": "Android"}, "firstMatch": [{}]}, "desiredCapabilities": {"ip": "127.0.0.1", "noReset": false, "udid": "5e25d38e", "unicodeKeyboard": true, "appPackage": "com.sankuai.pms", "deviceName": "android Emulator", "name": "\u4e09\u661f\u624b\u673a", "resetKeyboard": true, "port": 4727, "appActivity": "com.sankuai.pms.WelcomeActivity", "platformVersion": "5.1.1", "log_path": "E:\\Test_framework_APP\\log\\\u4e09\u661f\u624b\u673a.log", "platformName": "Android"}}
+[2018-07-29 17:30:23,638] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"alwaysMatch": {"platformName": "Android"}, "firstMatch": [{}]}, "desiredCapabilities": {"ip": "127.0.0.1", "noReset": false, "udid": "emulator-5554", "unicodeKeyboard": true, "appPackage": "com.sankuai.pms", "deviceName": "emulator-5554", "name": "\u96f7\u7535\u6a21\u62df\u5668", "resetKeyboard": true, "port": 4723, "appActivity": "com.sankuai.pms.WelcomeActivity", "platformVersion": "5.1.1", "log_path": "E:\\Test_framework_APP\\log\\\u96f7\u7535\u6a21\u62df\u5668.log", "platformName": "Android"}}
+[2018-07-29 17:30:34,631] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:47:02,838] [DEBUG] [appController.py:kill_server:35] 执行[KILL SERVER]操作:错误: 没有找到进程 "node.exe"。
+[2018-07-29 17:47:02,929] [DEBUG] [appController.py:kill_server:36] 重启ADB服务！
+[2018-07-29 17:47:02,930] [DEBUG] [appController.py:server:53] 每个手机的信息：{'port': 4727, 'log_path': 'E:\\Test_framework_APP\\log\\三星手机.log', 'deviceName': 'android Emulator', 'name': '三星手机', 'ip': '127.0.0.1', 'udid': '5e25d38e', 'platformName': 'Android', 'platformVersion': '5.1.1'}
+[2018-07-29 17:47:02,931] [DEBUG] [appController.py:server_command:43] 启动服务执行的命令：appium -a 127.0.0.1 -p 4727 -U 5e25d38e -g E:\Test_framework_APP\log\三星手机.log
+[2018-07-29 17:47:02,931] [DEBUG] [appController.py:server:53] 每个手机的信息：{'port': 4723, 'log_path': 'E:\\Test_framework_APP\\log\\雷电模拟器.log', 'deviceName': 'emulator-5554', 'name': '雷电模拟器', 'ip': '127.0.0.1', 'udid': 'emulator-5554', 'platformName': 'Android', 'platformVersion': '5.1.1'}
+[2018-07-29 17:47:02,932] [DEBUG] [appController.py:server_command:43] 启动服务执行的命令：appium -a 127.0.0.1 -p 4723 -U emulator-5554 -g E:\Test_framework_APP\log\雷电模拟器.log
+[2018-07-29 17:47:03,043] [DEBUG] [appController.py:test_server:75] 端口 【4727】 服务启动失败5秒钟后尝试
+[2018-07-29 17:47:03,140] [DEBUG] [appController.py:test_server:75] 端口 【4723】 服务启动失败5秒钟后尝试
+[2018-07-29 17:47:08,232] [DEBUG] [appController.py:test_server:72] 检验服务启动：  TCP    127.0.0.1:4727         0.0.0.0:0              LISTENING       15656
+[2018-07-29 17:47:13,349] [DEBUG] [appController.py:test_server:72] 检验服务启动：  TCP    127.0.0.1:4723         0.0.0.0:0              LISTENING       2848
+[2018-07-29 17:47:13,349] [DEBUG] [appController.py:test_server:79] 全部服务启动成功！
+[2018-07-29 17:47:13,349] [DEBUG] [appController.py:driver_command:88] 启动的Url：http://127.0.0.1:4727/wd/hub
+[2018-07-29 17:47:13,350] [DEBUG] [appController.py:driver_command:88] 启动的Url：http://127.0.0.1:4723/wd/hub
+[2018-07-29 17:47:13,356] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4727/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"port": 4727, "noReset": false, "log_path": "E:\\Test_framework_APP\\log\\\u4e09\u661f\u624b\u673a.log", "ip": "127.0.0.1", "udid": "5e25d38e", "resetKeyboard": true, "unicodeKeyboard": true, "deviceName": "android Emulator", "appPackage": "com.sankuai.pms", "name": "\u4e09\u661f\u624b\u673a", "platformName": "Android", "appActivity": "com.sankuai.pms.WelcomeActivity", "platformVersion": "5.1.1"}}
+[2018-07-29 17:47:13,357] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"port": 4723, "noReset": false, "log_path": "E:\\Test_framework_APP\\log\\\u96f7\u7535\u6a21\u62df\u5668.log", "ip": "127.0.0.1", "udid": "emulator-5554", "resetKeyboard": true, "unicodeKeyboard": true, "deviceName": "emulator-5554", "appPackage": "com.sankuai.pms", "name": "\u96f7\u7535\u6a21\u62df\u5668", "platformName": "Android", "appActivity": "com.sankuai.pms.WelcomeActivity", "platformVersion": "5.1.1"}}
+[2018-07-29 17:47:27,745] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:48:40,201] [DEBUG] [appController.py:kill_server:35] 执行[KILL SERVER]操作:错误: 没有找到进程 "node.exe"。
+[2018-07-29 17:48:40,275] [DEBUG] [appController.py:kill_server:36] 重启ADB服务！
+[2018-07-29 17:48:40,276] [DEBUG] [appController.py:server:53] 每个手机的信息：{'log_path': 'E:\\Test_framework_APP\\log\\三星手机.log', 'ip': '127.0.0.1', 'platformName': 'Android', 'port': 4727, 'udid': '5e25d38e', 'platformVersion': '5.1.1', 'name': '三星手机', 'deviceName': 'android Emulator'}
+[2018-07-29 17:48:40,276] [DEBUG] [appController.py:server_command:43] 启动服务执行的命令：appium -a 127.0.0.1 -p 4727 -U 5e25d38e -g E:\Test_framework_APP\log\三星手机.log
+[2018-07-29 17:48:40,277] [DEBUG] [appController.py:server:53] 每个手机的信息：{'log_path': 'E:\\Test_framework_APP\\log\\雷电模拟器.log', 'ip': '127.0.0.1', 'platformName': 'Android', 'port': 4723, 'udid': 'emulator-5554', 'platformVersion': '5.1.1', 'name': '雷电模拟器', 'deviceName': 'emulator-5554'}
+[2018-07-29 17:48:40,278] [DEBUG] [appController.py:server_command:43] 启动服务执行的命令：appium -a 127.0.0.1 -p 4723 -U emulator-5554 -g E:\Test_framework_APP\log\雷电模拟器.log
+[2018-07-29 17:48:40,380] [DEBUG] [appController.py:test_server:75] 端口 【4727】 服务启动失败5秒钟后尝试
+[2018-07-29 17:48:40,496] [DEBUG] [appController.py:test_server:75] 端口 【4723】 服务启动失败5秒钟后尝试
+[2018-07-29 17:48:45,632] [DEBUG] [appController.py:test_server:72] 检验服务启动：  TCP    127.0.0.1:4727         0.0.0.0:0              LISTENING       8088
+[2018-07-29 17:48:50,794] [DEBUG] [appController.py:test_server:72] 检验服务启动：  TCP    127.0.0.1:4723         0.0.0.0:0              LISTENING       18136
+[2018-07-29 17:48:50,795] [DEBUG] [appController.py:test_server:79] 全部服务启动成功！
+[2018-07-29 17:48:50,795] [DEBUG] [appController.py:driver_command:88] 启动的Url：http://127.0.0.1:4727/wd/hub
+[2018-07-29 17:48:50,796] [DEBUG] [appController.py:driver_command:88] 启动的Url：http://127.0.0.1:4723/wd/hub
+[2018-07-29 17:48:50,807] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4727/wd/hub/session {"desiredCapabilities": {"deviceName": "android Emulator", "platformName": "Android", "port": 4727, "ip": "127.0.0.1", "udid": "5e25d38e", "resetKeyboard": true, "name": "\u4e09\u661f\u624b\u673a", "appActivity": "com.sankuai.pms.WelcomeActivity", "log_path": "E:\\Test_framework_APP\\log\\\u4e09\u661f\u624b\u673a.log", "noReset": false, "platformVersion": "5.1.1", "appPackage": "com.sankuai.pms", "unicodeKeyboard": true}, "capabilities": {"alwaysMatch": {"platformName": "Android"}, "firstMatch": [{}]}}
+[2018-07-29 17:48:50,810] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session {"desiredCapabilities": {"deviceName": "emulator-5554", "platformName": "Android", "port": 4723, "ip": "127.0.0.1", "udid": "emulator-5554", "resetKeyboard": true, "name": "\u96f7\u7535\u6a21\u62df\u5668", "appActivity": "com.sankuai.pms.WelcomeActivity", "log_path": "E:\\Test_framework_APP\\log\\\u96f7\u7535\u6a21\u62df\u5668.log", "noReset": false, "platformVersion": "5.1.1", "appPackage": "com.sankuai.pms", "unicodeKeyboard": true}, "capabilities": {"alwaysMatch": {"platformName": "Android"}, "firstMatch": [{}]}}
+[2018-07-29 17:49:01,520] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:50:24,866] [DEBUG] [appController.py:kill_server:35] 执行[KILL SERVER]操作:错误: 没有找到进程 "node.exe"。
+[2018-07-29 17:50:24,966] [DEBUG] [appController.py:kill_server:36] 重启ADB服务！
+[2018-07-29 17:50:24,966] [DEBUG] [appController.py:server:53] 每个手机的信息：{'deviceName': 'android Emulator', 'port': 4727, 'udid': '5e25d38e', 'log_path': 'E:\\Test_framework_APP\\log\\三星手机.log', 'platformVersion': '5.1.1', 'ip': '127.0.0.1', 'platformName': 'Android', 'name': '三星手机'}
+[2018-07-29 17:50:24,967] [DEBUG] [appController.py:server_command:43] 启动服务执行的命令：appium -a 127.0.0.1 -p 4727 -U 5e25d38e -g E:\Test_framework_APP\log\三星手机.log
+[2018-07-29 17:50:24,967] [DEBUG] [appController.py:server:53] 每个手机的信息：{'deviceName': 'emulator-5554', 'port': 4723, 'udid': 'emulator-5554', 'log_path': 'E:\\Test_framework_APP\\log\\雷电模拟器.log', 'platformVersion': '5.1.1', 'ip': '127.0.0.1', 'platformName': 'Android', 'name': '雷电模拟器'}
+[2018-07-29 17:50:24,968] [DEBUG] [appController.py:server_command:43] 启动服务执行的命令：appium -a 127.0.0.1 -p 4723 -U emulator-5554 -g E:\Test_framework_APP\log\雷电模拟器.log
+[2018-07-29 17:50:25,091] [DEBUG] [appController.py:test_server:75] 端口 【4727】 服务启动失败5秒钟后尝试
+[2018-07-29 17:50:25,194] [DEBUG] [appController.py:test_server:75] 端口 【4723】 服务启动失败5秒钟后尝试
+[2018-07-29 17:50:30,285] [DEBUG] [appController.py:test_server:72] 检验服务启动：  TCP    127.0.0.1:4727         0.0.0.0:0              LISTENING       10972
+[2018-07-29 17:50:35,375] [DEBUG] [appController.py:test_server:72] 检验服务启动：  TCP    127.0.0.1:4723         0.0.0.0:0              LISTENING       16684
+[2018-07-29 17:50:35,375] [DEBUG] [appController.py:test_server:79] 全部服务启动成功！
+[2018-07-29 17:50:35,376] [DEBUG] [appController.py:driver_command:88] 启动的Url：http://127.0.0.1:4727/wd/hub
+[2018-07-29 17:50:35,377] [DEBUG] [appController.py:driver_command:88] 启动的Url：http://127.0.0.1:4723/wd/hub
+[2018-07-29 17:50:35,394] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4727/wd/hub/session {"capabilities": {"alwaysMatch": {"platformName": "Android"}, "firstMatch": [{}]}, "desiredCapabilities": {"deviceName": "android Emulator", "port": 4727, "name": "\u4e09\u661f\u624b\u673a", "unicodeKeyboard": true, "platformVersion": "5.1.1", "appActivity": "com.sankuai.pms.WelcomeActivity", "ip": "127.0.0.1", "appPackage": "com.sankuai.pms", "platformName": "Android", "udid": "5e25d38e", "log_path": "E:\\Test_framework_APP\\log\\\u4e09\u661f\u624b\u673a.log", "noReset": false, "resetKeyboard": true}}
+[2018-07-29 17:50:35,394] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"alwaysMatch": {"platformName": "Android"}, "firstMatch": [{}]}, "desiredCapabilities": {"deviceName": "emulator-5554", "port": 4723, "name": "\u96f7\u7535\u6a21\u62df\u5668", "unicodeKeyboard": true, "platformVersion": "5.1.1", "appActivity": "com.sankuai.pms.WelcomeActivity", "ip": "127.0.0.1", "appPackage": "com.sankuai.pms", "platformName": "Android", "udid": "emulator-5554", "log_path": "E:\\Test_framework_APP\\log\\\u96f7\u7535\u6a21\u62df\u5668.log", "noReset": false, "resetKeyboard": true}}
+[2018-07-29 17:50:43,774] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:50:43,913] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:50:43,914] [DEBUG] [appController.py:driver:116] mq:<queue.Queue object at 0x00000194BE076DA0>
+[2018-07-29 17:50:43,914] [INFO] [main.py:run:45] 开始执行CASE！当前启动【1】个DRIVER！
+[2018-07-29 17:50:43,917] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/ac65fcd6-b6b8-4e04-87a0-3d55e44e42f9/element {"value": "\u623f\u6001", "sessionId": "ac65fcd6-b6b8-4e04-87a0-3d55e44e42f9", "using": "name"}
+[2018-07-29 17:50:45,291] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:50:46,292] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/ac65fcd6-b6b8-4e04-87a0-3d55e44e42f9/element {"value": "\u623f\u6001", "sessionId": "ac65fcd6-b6b8-4e04-87a0-3d55e44e42f9", "using": "name"}
+[2018-07-29 17:50:46,360] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:50:47,362] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/ac65fcd6-b6b8-4e04-87a0-3d55e44e42f9/element {"value": "\u623f\u6001", "sessionId": "ac65fcd6-b6b8-4e04-87a0-3d55e44e42f9", "using": "name"}
+[2018-07-29 17:50:48,189] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:50:48,189] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/ac65fcd6-b6b8-4e04-87a0-3d55e44e42f9/element {"value": "\u623f\u6001", "sessionId": "ac65fcd6-b6b8-4e04-87a0-3d55e44e42f9", "using": "name"}
+[2018-07-29 17:50:48,213] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:50:48,213] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/ac65fcd6-b6b8-4e04-87a0-3d55e44e42f9/element {"value": "\u623f\u6001", "sessionId": "ac65fcd6-b6b8-4e04-87a0-3d55e44e42f9", "using": "name"}
+[2018-07-29 17:50:48,234] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:50:48,235] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/ac65fcd6-b6b8-4e04-87a0-3d55e44e42f9/element/3/click {"sessionId": "ac65fcd6-b6b8-4e04-87a0-3d55e44e42f9", "id": "3"}
+[2018-07-29 17:50:48,403] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:50:51,404] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/ac65fcd6-b6b8-4e04-87a0-3d55e44e42f9/touch/perform {"actions": [{"options": {"duration": 2, "y": 300, "x": 256}, "action": "longPress"}, {"options": {}, "action": "release"}], "sessionId": "ac65fcd6-b6b8-4e04-87a0-3d55e44e42f9"}
+[2018-07-29 17:50:51,420] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:50:52,421] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/ac65fcd6-b6b8-4e04-87a0-3d55e44e42f9/element {"value": "\u8bf7\u8f93\u5165\u59d3\u540d", "sessionId": "ac65fcd6-b6b8-4e04-87a0-3d55e44e42f9", "using": "name"}
+[2018-07-29 17:50:52,548] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:50:53,549] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/ac65fcd6-b6b8-4e04-87a0-3d55e44e42f9/element {"value": "\u8bf7\u8f93\u5165\u59d3\u540d", "sessionId": "ac65fcd6-b6b8-4e04-87a0-3d55e44e42f9", "using": "name"}
+[2018-07-29 17:50:53,633] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:50:54,634] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/ac65fcd6-b6b8-4e04-87a0-3d55e44e42f9/element {"value": "\u8bf7\u8f93\u5165\u59d3\u540d", "sessionId": "ac65fcd6-b6b8-4e04-87a0-3d55e44e42f9", "using": "name"}
+[2018-07-29 17:50:54,790] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:50:55,791] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/ac65fcd6-b6b8-4e04-87a0-3d55e44e42f9/element {"value": "\u8bf7\u8f93\u5165\u59d3\u540d", "sessionId": "ac65fcd6-b6b8-4e04-87a0-3d55e44e42f9", "using": "name"}
+[2018-07-29 17:50:55,867] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:50:56,869] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/ac65fcd6-b6b8-4e04-87a0-3d55e44e42f9/element {"value": "\u8bf7\u8f93\u5165\u59d3\u540d", "sessionId": "ac65fcd6-b6b8-4e04-87a0-3d55e44e42f9", "using": "name"}
+[2018-07-29 17:50:56,966] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:50:57,967] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/ac65fcd6-b6b8-4e04-87a0-3d55e44e42f9/element {"value": "\u8bf7\u8f93\u5165\u59d3\u540d", "sessionId": "ac65fcd6-b6b8-4e04-87a0-3d55e44e42f9", "using": "name"}
+[2018-07-29 17:50:58,049] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:50:59,051] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/ac65fcd6-b6b8-4e04-87a0-3d55e44e42f9/element {"value": "\u8bf7\u8f93\u5165\u59d3\u540d", "sessionId": "ac65fcd6-b6b8-4e04-87a0-3d55e44e42f9", "using": "name"}
+[2018-07-29 17:50:59,133] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:51:00,134] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/ac65fcd6-b6b8-4e04-87a0-3d55e44e42f9/element {"value": "\u8bf7\u8f93\u5165\u59d3\u540d", "sessionId": "ac65fcd6-b6b8-4e04-87a0-3d55e44e42f9", "using": "name"}
+[2018-07-29 17:51:00,235] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:51:01,235] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/ac65fcd6-b6b8-4e04-87a0-3d55e44e42f9/element {"value": "\u8bf7\u8f93\u5165\u59d3\u540d", "sessionId": "ac65fcd6-b6b8-4e04-87a0-3d55e44e42f9", "using": "name"}
+[2018-07-29 17:51:01,343] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:51:02,344] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/ac65fcd6-b6b8-4e04-87a0-3d55e44e42f9/element {"value": "\u8bf7\u8f93\u5165\u59d3\u540d", "sessionId": "ac65fcd6-b6b8-4e04-87a0-3d55e44e42f9", "using": "name"}
+[2018-07-29 17:51:02,463] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:51:03,465] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/ac65fcd6-b6b8-4e04-87a0-3d55e44e42f9/element {"value": "\u8bf7\u8f93\u5165\u59d3\u540d", "sessionId": "ac65fcd6-b6b8-4e04-87a0-3d55e44e42f9", "using": "name"}
+[2018-07-29 17:51:03,543] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:51:04,544] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/ac65fcd6-b6b8-4e04-87a0-3d55e44e42f9/element {"value": "\u8bf7\u8f93\u5165\u59d3\u540d", "sessionId": "ac65fcd6-b6b8-4e04-87a0-3d55e44e42f9", "using": "name"}
+[2018-07-29 17:51:04,635] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:51:05,637] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/ac65fcd6-b6b8-4e04-87a0-3d55e44e42f9/element {"value": "\u8bf7\u8f93\u5165\u59d3\u540d", "sessionId": "ac65fcd6-b6b8-4e04-87a0-3d55e44e42f9", "using": "name"}
+[2018-07-29 17:51:05,778] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:51:06,780] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/ac65fcd6-b6b8-4e04-87a0-3d55e44e42f9/element {"value": "\u8bf7\u8f93\u5165\u59d3\u540d", "sessionId": "ac65fcd6-b6b8-4e04-87a0-3d55e44e42f9", "using": "name"}
+[2018-07-29 17:51:06,891] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:51:07,892] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/ac65fcd6-b6b8-4e04-87a0-3d55e44e42f9/element {"value": "\u8bf7\u8f93\u5165\u59d3\u540d", "sessionId": "ac65fcd6-b6b8-4e04-87a0-3d55e44e42f9", "using": "name"}
+[2018-07-29 17:51:07,976] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:51:08,977] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/ac65fcd6-b6b8-4e04-87a0-3d55e44e42f9/element {"value": "\u8bf7\u8f93\u5165\u59d3\u540d", "sessionId": "ac65fcd6-b6b8-4e04-87a0-3d55e44e42f9", "using": "name"}
+[2018-07-29 17:51:09,072] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:51:10,074] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/ac65fcd6-b6b8-4e04-87a0-3d55e44e42f9/element {"value": "\u8bf7\u8f93\u5165\u59d3\u540d", "sessionId": "ac65fcd6-b6b8-4e04-87a0-3d55e44e42f9", "using": "name"}
+[2018-07-29 17:51:10,145] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:51:11,146] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/ac65fcd6-b6b8-4e04-87a0-3d55e44e42f9/element {"value": "\u8bf7\u8f93\u5165\u59d3\u540d", "sessionId": "ac65fcd6-b6b8-4e04-87a0-3d55e44e42f9", "using": "name"}
+[2018-07-29 17:51:11,228] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:51:12,230] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/ac65fcd6-b6b8-4e04-87a0-3d55e44e42f9/element {"value": "\u8bf7\u8f93\u5165\u59d3\u540d", "sessionId": "ac65fcd6-b6b8-4e04-87a0-3d55e44e42f9", "using": "name"}
+[2018-07-29 17:52:18,403] [DEBUG] [appController.py:kill_server:35] 执行[KILL SERVER]操作:错误: 没有找到进程 "node.exe"。
+[2018-07-29 17:52:18,478] [DEBUG] [appController.py:kill_server:36] 重启ADB服务！
+[2018-07-29 17:52:18,478] [DEBUG] [appController.py:server:53] 每个手机的信息：{'name': '三星手机', 'platformName': 'Android', 'log_path': 'E:\\Test_framework_APP\\log\\三星手机.log', 'udid': '5e25d38e', 'ip': '127.0.0.1', 'port': 4727, 'deviceName': '5e25d38e', 'platformVersion': '5.1.1'}
+[2018-07-29 17:52:18,479] [DEBUG] [appController.py:server_command:43] 启动服务执行的命令：appium -a 127.0.0.1 -p 4727 -U 5e25d38e -g E:\Test_framework_APP\log\三星手机.log
+[2018-07-29 17:52:18,480] [DEBUG] [appController.py:server:53] 每个手机的信息：{'name': '雷电模拟器', 'platformName': 'Android', 'log_path': 'E:\\Test_framework_APP\\log\\雷电模拟器.log', 'udid': 'emulator-5554', 'ip': '127.0.0.2', 'port': 4723, 'deviceName': 'emulator-5554', 'platformVersion': '5.1.1'}
+[2018-07-29 17:52:18,481] [DEBUG] [appController.py:server_command:43] 启动服务执行的命令：appium -a 127.0.0.2 -p 4723 -U emulator-5554 -g E:\Test_framework_APP\log\雷电模拟器.log
+[2018-07-29 17:52:18,616] [DEBUG] [appController.py:test_server:75] 端口 【4727】 服务启动失败5秒钟后尝试
+[2018-07-29 17:52:18,713] [DEBUG] [appController.py:test_server:75] 端口 【4723】 服务启动失败5秒钟后尝试
+[2018-07-29 17:52:23,891] [DEBUG] [appController.py:test_server:72] 检验服务启动：  TCP    127.0.0.1:4727         0.0.0.0:0              LISTENING       16048
+[2018-07-29 17:52:29,034] [DEBUG] [appController.py:test_server:72] 检验服务启动：  TCP    127.0.0.2:4723         0.0.0.0:0              LISTENING       15144
+[2018-07-29 17:52:29,034] [DEBUG] [appController.py:test_server:79] 全部服务启动成功！
+[2018-07-29 17:52:29,035] [DEBUG] [appController.py:driver_command:88] 启动的Url：http://127.0.0.1:4727/wd/hub
+[2018-07-29 17:52:29,035] [DEBUG] [appController.py:driver_command:88] 启动的Url：http://127.0.0.2:4723/wd/hub
+[2018-07-29 17:52:29,042] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4727/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"name": "\u4e09\u661f\u624b\u673a", "appActivity": "com.sankuai.pms.WelcomeActivity", "appPackage": "com.sankuai.pms", "resetKeyboard": true, "platformName": "Android", "unicodeKeyboard": true, "udid": "5e25d38e", "deviceName": "5e25d38e", "platformVersion": "5.1.1", "port": 4727, "log_path": "E:\\Test_framework_APP\\log\\\u4e09\u661f\u624b\u673a.log", "ip": "127.0.0.1", "noReset": false}}
+[2018-07-29 17:52:29,042] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.2:4723/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"name": "\u96f7\u7535\u6a21\u62df\u5668", "appActivity": "com.sankuai.pms.WelcomeActivity", "appPackage": "com.sankuai.pms", "resetKeyboard": true, "platformName": "Android", "unicodeKeyboard": true, "udid": "emulator-5554", "deviceName": "emulator-5554", "platformVersion": "5.1.1", "port": 4723, "log_path": "E:\\Test_framework_APP\\log\\\u96f7\u7535\u6a21\u62df\u5668.log", "ip": "127.0.0.2", "noReset": false}}
+[2018-07-29 17:52:43,202] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:56:21,218] [DEBUG] [appController.py:kill_server:35] 执行[KILL SERVER]操作:错误: 没有找到进程 "node.exe"。
+[2018-07-29 17:56:21,297] [DEBUG] [appController.py:kill_server:36] 重启ADB服务！
+[2018-07-29 17:56:21,298] [DEBUG] [appController.py:server:53] 每个手机的信息：{'platformVersion': '5.1.1', 'name': '三星手机', 'port': 4727, 'ip': '127.0.0.1', 'platformName': 'Android', 'deviceName': '5e25d38e', 'log_path': 'E:\\Test_framework_APP\\log\\三星手机.log', 'udid': '5e25d38e'}
+[2018-07-29 17:56:21,299] [DEBUG] [appController.py:server_command:43] 启动服务执行的命令：appium -a 127.0.0.1 -p 4727 -U 5e25d38e -g E:\Test_framework_APP\log\三星手机.log
+[2018-07-29 17:56:21,299] [DEBUG] [appController.py:server:53] 每个手机的信息：{'platformVersion': '5.1.1', 'name': '雷电模拟器', 'port': 4723, 'ip': '127.0.0.2', 'platformName': 'Android', 'deviceName': 'emulator-5554', 'log_path': 'E:\\Test_framework_APP\\log\\雷电模拟器.log', 'udid': 'emulator-5554'}
+[2018-07-29 17:56:21,300] [DEBUG] [appController.py:server_command:43] 启动服务执行的命令：appium -a 127.0.0.2 -p 4723 -U emulator-5554 -g E:\Test_framework_APP\log\雷电模拟器.log
+[2018-07-29 17:56:21,424] [DEBUG] [appController.py:test_server:75] 端口 【4727】 服务启动失败5秒钟后尝试
+[2018-07-29 17:56:21,556] [DEBUG] [appController.py:test_server:75] 端口 【4723】 服务启动失败5秒钟后尝试
+[2018-07-29 17:56:26,667] [DEBUG] [appController.py:test_server:72] 检验服务启动：  TCP    127.0.0.1:4727         0.0.0.0:0              LISTENING       13744
+[2018-07-29 17:56:31,773] [DEBUG] [appController.py:test_server:72] 检验服务启动：  TCP    127.0.0.2:4723         0.0.0.0:0              LISTENING       20960
+[2018-07-29 17:56:31,774] [DEBUG] [appController.py:test_server:79] 全部服务启动成功！
+[2018-07-29 17:56:31,774] [DEBUG] [appController.py:driver_command:88] 启动的Url：http://127.0.0.1:4727/wd/hub
+[2018-07-29 17:56:31,774] [DEBUG] [appController.py:driver_command:88] 启动的Url：http://127.0.0.2:4723/wd/hub
+[2018-07-29 17:56:31,774] [DEBUG] [appController.py:driver:116] mq:<queue.Queue object at 0x0000023001A68470>
+[2018-07-29 17:56:31,775] [INFO] [main.py:run:45] 开始执行CASE！当前启动【0】个DRIVER！
+[2018-07-29 17:56:31,791] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4727/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"appPackage": "com.sankuai.pms", "platformVersion": "5.1.1", "port": 4727, "platformName": "Android", "unicodeKeyboard": true, "resetKeyboard": true, "log_path": "E:\\Test_framework_APP\\log\\\u4e09\u661f\u624b\u673a.log", "deviceName": "5e25d38e", "name": "\u4e09\u661f\u624b\u673a", "appActivity": "com.sankuai.pms.WelcomeActivity", "ip": "127.0.0.1", "noReset": false, "udid": "5e25d38e"}}
+[2018-07-29 17:56:31,791] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.2:4723/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"appPackage": "com.sankuai.pms", "platformVersion": "5.1.1", "port": 4723, "platformName": "Android", "unicodeKeyboard": true, "resetKeyboard": true, "log_path": "E:\\Test_framework_APP\\log\\\u96f7\u7535\u6a21\u62df\u5668.log", "deviceName": "emulator-5554", "name": "\u96f7\u7535\u6a21\u62df\u5668", "appActivity": "com.sankuai.pms.WelcomeActivity", "ip": "127.0.0.2", "noReset": false, "udid": "emulator-5554"}}
+[2018-07-29 17:56:46,040] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:57:25,218] [DEBUG] [appController.py:kill_server:35] 执行[KILL SERVER]操作:错误: 没有找到进程 "node.exe"。
+[2018-07-29 17:57:25,291] [DEBUG] [appController.py:kill_server:36] 重启ADB服务！
+[2018-07-29 17:57:25,291] [DEBUG] [appController.py:server:53] 每个手机的信息：{'port': 4727, 'name': '三星手机', 'udid': '5e25d38e', 'ip': '127.0.0.1', 'platformName': 'Android', 'platformVersion': '5.1.1', 'log_path': 'E:\\Test_framework_APP\\log\\三星手机.log', 'deviceName': '5e25d38e'}
+[2018-07-29 17:57:25,292] [DEBUG] [appController.py:server_command:43] 启动服务执行的命令：appium -a 127.0.0.1 -p 4727 -U 5e25d38e -g E:\Test_framework_APP\log\三星手机.log
+[2018-07-29 17:57:25,292] [DEBUG] [appController.py:server:53] 每个手机的信息：{'port': 4723, 'name': '雷电模拟器', 'udid': 'emulator-5554', 'ip': '127.0.0.2', 'platformName': 'Android', 'platformVersion': '5.1.1', 'log_path': 'E:\\Test_framework_APP\\log\\雷电模拟器.log', 'deviceName': 'emulator-5554'}
+[2018-07-29 17:57:25,293] [DEBUG] [appController.py:server_command:43] 启动服务执行的命令：appium -a 127.0.0.2 -p 4723 -U emulator-5554 -g E:\Test_framework_APP\log\雷电模拟器.log
+[2018-07-29 17:57:25,429] [DEBUG] [appController.py:test_server:75] 端口 【4727】 服务启动失败5秒钟后尝试
+[2018-07-29 17:57:25,521] [DEBUG] [appController.py:test_server:75] 端口 【4723】 服务启动失败5秒钟后尝试
+[2018-07-29 17:57:30,672] [DEBUG] [appController.py:test_server:72] 检验服务启动：  TCP    127.0.0.1:4727         0.0.0.0:0              LISTENING       672
+[2018-07-29 17:57:35,799] [DEBUG] [appController.py:test_server:72] 检验服务启动：  TCP    127.0.0.2:4723         0.0.0.0:0              LISTENING       15384
+[2018-07-29 17:57:35,799] [DEBUG] [appController.py:test_server:79] 全部服务启动成功！
+[2018-07-29 17:57:35,800] [DEBUG] [appController.py:driver_command:88] 启动的Url：http://127.0.0.1:4727/wd/hub
+[2018-07-29 17:57:35,800] [DEBUG] [appController.py:driver_command:88] 启动的Url：http://127.0.0.2:4723/wd/hub
+[2018-07-29 17:57:35,807] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.2:4723/wd/hub/session {"desiredCapabilities": {"appPackage": "com.sankuai.pms", "udid": "emulator-5554", "ip": "127.0.0.2", "platformName": "Android", "platformVersion": "5.1.1", "log_path": "E:\\Test_framework_APP\\log\\\u96f7\u7535\u6a21\u62df\u5668.log", "port": 4723, "unicodeKeyboard": true, "deviceName": "emulator-5554", "name": "\u96f7\u7535\u6a21\u62df\u5668", "resetKeyboard": true, "noReset": false, "appActivity": "com.sankuai.pms.WelcomeActivity"}, "capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}}
+[2018-07-29 17:57:35,817] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4727/wd/hub/session {"desiredCapabilities": {"appPackage": "com.sankuai.pms", "udid": "5e25d38e", "ip": "127.0.0.1", "platformName": "Android", "platformVersion": "5.1.1", "log_path": "E:\\Test_framework_APP\\log\\\u4e09\u661f\u624b\u673a.log", "port": 4727, "unicodeKeyboard": true, "deviceName": "5e25d38e", "name": "\u4e09\u661f\u624b\u673a", "resetKeyboard": true, "noReset": false, "appActivity": "com.sankuai.pms.WelcomeActivity"}, "capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}}
+[2018-07-29 17:57:49,932] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 17:57:49,933] [DEBUG] [appController.py:driver:116] mq:<appium.webdriver.webdriver.WebDriver (session="2712c070-5a85-4a55-ad31-2f53dee3d47b")>
+[2018-07-29 17:57:49,933] [INFO] [main.py:run:45] 开始执行CASE！当前启动【0】个DRIVER！
+[2018-07-29 17:58:53,226] [DEBUG] [appController.py:kill_server:35] 执行[KILL SERVER]操作:错误: 没有找到进程 "node.exe"。
+[2018-07-29 17:58:53,315] [DEBUG] [appController.py:kill_server:36] 重启ADB服务！
+[2018-07-29 17:58:53,315] [DEBUG] [appController.py:server:53] 每个手机的信息：{'udid': '5e25d38e', 'platformVersion': '5.1.1', 'log_path': 'E:\\Test_framework_APP\\log\\三星手机.log', 'port': 4727, 'ip': '127.0.0.1', 'platformName': 'Android', 'deviceName': '5e25d38e', 'name': '三星手机'}
+[2018-07-29 17:58:53,316] [DEBUG] [appController.py:server_command:43] 启动服务执行的命令：appium -a 127.0.0.1 -p 4727 -U 5e25d38e -g E:\Test_framework_APP\log\三星手机.log
+[2018-07-29 17:58:53,429] [DEBUG] [appController.py:test_server:75] 端口 【4727】 服务启动失败5秒钟后尝试
+[2018-07-29 17:58:58,567] [DEBUG] [appController.py:test_server:72] 检验服务启动：  TCP    127.0.0.1:4727         0.0.0.0:0              LISTENING       900
+[2018-07-29 17:58:58,568] [DEBUG] [appController.py:test_server:79] 全部服务启动成功！
+[2018-07-29 17:58:58,568] [DEBUG] [appController.py:driver_command:88] 启动的Url：http://127.0.0.1:4727/wd/hub
+[2018-07-29 17:58:58,579] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4727/wd/hub/session {"capabilities": {"alwaysMatch": {"platformName": "Android"}, "firstMatch": [{}]}, "desiredCapabilities": {"udid": "5e25d38e", "platformVersion": "5.1.1", "deviceName": "5e25d38e", "appActivity": "com.sankuai.pms.WelcomeActivity", "noReset": false, "appPackage": "com.sankuai.pms", "platformName": "Android", "resetKeyboard": true, "log_path": "E:\\Test_framework_APP\\log\\\u4e09\u661f\u624b\u673a.log", "port": 4727, "unicodeKeyboard": true, "name": "\u4e09\u661f\u624b\u673a", "ip": "127.0.0.1"}}
+[2018-07-29 17:59:54,949] [DEBUG] [appController.py:kill_server:35] 执行[KILL SERVER]操作:错误: 没有找到进程 "node.exe"。
+[2018-07-29 17:59:56,045] [DEBUG] [appController.py:kill_server:36] 重启ADB服务！
+[2018-07-29 17:59:56,045] [DEBUG] [appController.py:server:53] 每个手机的信息：{'platformName': 'Android', 'udid': '5e25d38e', 'name': '三星手机', 'ip': '127.0.0.1', 'log_path': 'E:\\Test_framework_APP\\log\\三星手机.log', 'platformVersion': '5.1.1', 'port': 4727, 'deviceName': '5e25d38e'}
+[2018-07-29 17:59:56,048] [DEBUG] [appController.py:server_command:43] 启动服务执行的命令：appium -a 127.0.0.1 -p 4727 -U 5e25d38e -g E:\Test_framework_APP\log\三星手机.log
+[2018-07-29 17:59:56,236] [DEBUG] [appController.py:test_server:75] 端口 【4727】 服务启动失败5秒钟后尝试
+[2018-07-29 18:00:01,347] [DEBUG] [appController.py:test_server:72] 检验服务启动：  TCP    127.0.0.1:4727         0.0.0.0:0              LISTENING       18160
+[2018-07-29 18:00:01,347] [DEBUG] [appController.py:test_server:79] 全部服务启动成功！
+[2018-07-29 18:00:01,347] [DEBUG] [appController.py:driver_command:88] 启动的Url：http://127.0.0.1:4727/wd/hub
+[2018-07-29 18:00:01,353] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4727/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"noReset": false, "unicodeKeyboard": true, "platformName": "Android", "platformVersion": "5.1.1", "log_path": "E:\\Test_framework_APP\\log\\\u4e09\u661f\u624b\u673a.log", "deviceName": "5e25d38e", "name": "\u4e09\u661f\u624b\u673a", "appPackage": "com.sankuai.pms", "ip": "127.0.0.1", "resetKeyboard": true, "udid": "5e25d38e", "appActivity": "com.sankuai.pms.WelcomeActivity", "port": 4727}}
